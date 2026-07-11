@@ -69,6 +69,10 @@ Temporary Items
 build/google-docs/
 *.docx
 
+# Data-pack starter files are committed artifacts (HANDOFF.md law),
+# exempt from the build-output docx rule above
+!assets/code/**/*.docx
+
 
 # Temporary files
 nul
