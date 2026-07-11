@@ -22,6 +22,7 @@ Rebuild:  python3 assets/code/_generators/generate_chapter06_data.py
 import hashlib
 import io
 import random
+import re
 import zipfile
 from datetime import datetime
 
@@ -186,7 +187,17 @@ def workbook_bytes(rows):
                                    date_time=(2026, 7, 11, 12, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.external_attr = item.external_attr
-            archive.writestr(info, source.read(item.filename))
+            payload = source.read(item.filename)
+            if item.filename == "docProps/core.xml":
+                # openpyxl restamps dcterms:modified at save time, so the
+                # pinned property never survives wb.save(). Pin it here,
+                # where every entry already gets a pinned zip timestamp.
+                payload = re.sub(
+                    rb"<dcterms:(created|modified)([^>]*)>[^<]*"
+                    rb"</dcterms:\1>",
+                    rb"<dcterms:\1\2>2026-07-11T12:00:00Z</dcterms:\1>",
+                    payload)
+            archive.writestr(info, payload)
     return normalized.getvalue()
 
 

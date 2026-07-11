@@ -228,7 +228,8 @@ Chapters 7-12 map to old 8-13).
 * Generators live in `assets/code/_generators/`. **Base seed: 105.**
   First generator: `generate_chapter06_data.py` rebuilds
   `assets/code/chapter-06/device-comparison.xlsx` byte-identically
-  (md5 c30b9bc358edc1c22362cf75e4c9e0e5), with asserts on every
+  (md5 df9cd5be75e7e7c8d03462cb8aa9e932, restamped 2026-07-11 when the
+  generators gained pinned core.xml timestamps), with asserts on every
   engineered property. Rebuild command, from the repo root:
 
   ```bash

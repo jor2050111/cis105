@@ -10,6 +10,8 @@ One script, one generated file. Base seed for this course: 105.
 | Script | Rebuilds | Properties |
 | ------ | -------- | ---------- |
 | `generate_chapter06_data.py` | `assets/code/chapter-06/device-comparison.xlsx` | 54 rows x 8 columns, 7 engineered blank battery cells, unique MIN/MAX prices, Chapter 5 cast devices included, byte-identical on rerun |
+| `generate_chapter07_data.py` | `assets/code/chapter-07/internet-plans.xlsx` | 54 rows x 10 columns, hand-designed plan market: sticker-versus-true-cost flip, 13 venue qualifiers with a unique winner, cap-only failure plan, GEO/LEO latency contrast, byte-identical on rerun |
+| `generate_chapter08_data.py` | `assets/code/chapter-08/security-audit.xlsx` | Two sheets: 25-item audit checklist plus 54 x 7 anonymized class results with engineered category ordering (Devices strongest, Backups weakest), byte-identical on rerun |
 
 The Word and RTF starter files in chapters 1-5 are committed artifacts
 authored via pandoc, not generated. Each chapter folder's README is the
@@ -17,6 +19,9 @@ data dictionary.
 
 ## Conventions
 
+* **Dependencies.** Generators run with system `python3` and need
+  `openpyxl` (`python3 -m pip install openpyxl`). The repo's `.venv`
+  holds Zensical only, so do not run generators with `.venv/bin/python3`.
 * **Seeded and reproducible.** Synthetic datasets use a fixed base seed
   (pick the course number) so reruns are byte-identical. Add asserts
   that verify the engineered properties each chapter depends on.

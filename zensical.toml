@@ -50,10 +50,10 @@ nav = [
     { "Chapter 5: Processors, Memory, and the AI PC" = "chapters/chapter-05.md" },
     { "Chapter 6: From Touchscreens to the Cloud: Devices and Storage" = "chapters/chapter-06.md" },
   ] },
-  # { "Part III: Connected and Protected" = [
-  #   { "Chapter 7: Networks Everywhere: From Wi-Fi to Satellite Internet" = "chapters/chapter-07.md" },
-  #   { "Chapter 8: Digital Self-Defense: Security, Privacy, and Ethics in the AI Era" = "chapters/chapter-08.md" },
-  # ] },
+  { "Part III: Connected and Protected" = [
+    { "Chapter 7: Networks Everywhere: From Wi-Fi to Satellite Internet" = "chapters/chapter-07.md" },
+    # { "Chapter 8: Digital Self-Defense: Security, Privacy, and Ethics in the AI Era" = "chapters/chapter-08.md" },
+  ] },
   # { "Part IV: Data, Decisions, and Automation" = [
   #   { "Chapter 9: How Organizations Turn Data into Decisions" = "chapters/chapter-09.md" },
   #   { "Chapter 10: Where Data Lives: Tables, Records, and Relationships" = "chapters/chapter-10.md" },
