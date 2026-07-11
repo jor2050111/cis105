@@ -60,10 +60,6 @@ See how organizations put it all together. You trace data from a sale to a dashb
 
 ## Getting Started
 
-<!-- Uncomment once chapter-01.md exists. A live link to a missing
-page fails the build.
-
 Start with [Chapter 1: People, Data, and Intelligent Machines](chapters/chapter-01.md).
--->
 
-The first chapters are in production. Check back soon.
+New chapters publish as they are finished.
