@@ -10,6 +10,10 @@ This glossary is the single source of truth for all technical terms used in the 
 
 ---
 
+## 0-9
+
+**3-2-1 rule:** The backup pattern professionals rely on: three copies of anything that matters, on two different kinds of storage, with one copy somewhere else entirely.
+
 ## A
 
 **administrator account:** A user account with the power to install software, change system settings, and create other accounts. Professionals save it for deliberate changes and do daily work in standard accounts.
@@ -38,7 +42,13 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **artificial intelligence (AI):** The broad family of software techniques that let computers perform tasks that normally require human judgment, such as recognizing a face or drafting a paragraph.
 
+**augmented reality (AR):** Output that layers digital information onto the world you still see, from repair diagrams floating on machinery to directions painted onto the street ahead.
+
 ## B
+
+**backup:** A separate copy of your data, made so that losing the original is an inconvenience instead of a loss. Sync is not backup: sync copies mistakes faithfully.
+
+**barcode:** Machine-readable stripes or squares that identify an item at a glance. The square version, the QR code, carries a whole web address. A scan cannot mistype.
 
 **boot:** The startup relay that brings a computer to life. Firmware wakes and checks the hardware, finds the operating system on storage, and hands over control.
 
@@ -50,6 +60,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 ## C
 
+**cell:** One box in a spreadsheet's grid, addressed by its column letter and row number, such as A1 or H55.
+
 **chatbot:** Any software you converse with in plain language. Answer engines and AI assistants are chatbots with specific jobs.
 
 **ChromeOS:** Google's browser-first desktop operating system, which runs on Chromebooks. Cheap to buy and simple to manage, and limited when a task needs an installed desktop app.
@@ -59,6 +71,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **cloud computing:** Using computing services, such as storage, software, and processing power, delivered over the Internet from remote data centers.
 
 **cloud desktop:** A complete operating system, apps and files included, that runs on a server in a data center and streams to whatever screen you sign in from.
+
+**cloud storage:** File space rented on a provider's servers and reached over the Internet, kept in step with your devices by sync. OneDrive is this course's example.
 
 **connectivity:** The communication links that move data between devices, from home Wi-Fi to the Internet itself. One of the six parts of an information system.
 
@@ -100,17 +114,29 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **end user:** The person a finished system or application exists to serve, as distinct from the people who build or maintain it.
 
+**ergonomics:** The practice of fitting the workspace to the person: screen at eye level, neutral wrists, supported back, deliberate lighting, and scheduled eye breaks.
+
+**Excel table:** A formatted, named block of worksheet data whose headers carry sort and filter arrows and stay locked to their columns. Created with Home > Format as Table.
+
 **expansion card:** A plug-in circuit board that adds a capability to a desktop, such as serious graphics power. It fits the long slots on the system board.
+
+**external drive:** A full SSD or HDD in a pocket case, connected over USB. The workhorse of backups and project archives.
 
 ## F
 
 **file extension:** The short code after the dot in a file name, such as `.docx` or `.xlsx`, that tells the computer (and you) what kind of file it is.
+
+**filter:** Hiding every table row that fails a test, so only the rows you asked about remain. The data does not change, only your view of it.
 
 **Find and Replace:** The Word tool that changes every occurrence of a phrase at once. Opened with Ctrl+H on Windows or Edit > Find > Replace on a Mac.
 
 **firmware:** A small program stored permanently on a chip in the computer, which runs the instant power arrives. It checks the hardware and hands control to the operating system.
 
 **flash memory:** Chips that keep their contents without power yet can be rewritten. The technology inside phones, memory cards, USB drives, and SSDs.
+
+**formula:** An instruction typed into a spreadsheet cell, starting with =, that computes its answer from other cells and recalculates when they change.
+
+**function:** A named spreadsheet operation that works on a whole range at once, such as SUM, AVERAGE, MIN, MAX, and COUNT.
 
 ## G
 
@@ -128,6 +154,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **hallucination:** A confident, fluent statement from generative AI that happens to be false. The tone does not change when the facts do.
 
+**hard disk drive (HDD):** Storage that records data magnetically on spinning platters. Slower and mechanical, and still the cheapest way to buy a terabyte.
+
 **hardware:** The physical equipment in an information system: phones, laptops, servers, screens, and payment readers. One of the six parts of an information system.
 
 **HTML (Hypertext Markup Language):** The language web pages are written in. Its tags label each piece of content so the browser knows what it is and how to present it.
@@ -139,6 +167,10 @@ This glossary is the single source of truth for all technical terms used in the 
 **information:** Data that has been organized or processed into something meaningful enough to support a decision.
 
 **information system:** The combination of six parts working together to turn data into useful work: people, procedures, software, hardware, data, and connectivity.
+
+**inkjet printer:** A printer that sprays liquid ink: cheap to buy, strong at color and photos, and costly per page, with cartridges that clog when idle.
+
+**input device:** Any hardware that gets data into the machine, from keyboards and touchscreens to cameras, microphones, scanners, and sensors.
 
 **installed application:** Software set up on the device itself: every feature, works offline, and handles big files best. Some deep features, such as Excel macros, live only here.
 
@@ -154,6 +186,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **large language model (LLM):** An AI system trained on enormous amounts of text that generates fluent language by predicting, word by word, what should come next. The technology behind answer engines and AI assistants.
 
+**laser printer:** A printer that fuses powdered toner: costlier up front, fast, crisp on text, and cheap per page in volume.
+
 **lateral reading:** The fact-checker's verification method: leave the page you are judging, open new tabs, and see what unrelated credible sources say about the claim and its source.
 
 **Linux:** The free, open-source operating system that runs most of the Internet's servers, most supercomputers, and (under a layer users never see) every Android phone. A small but devoted world on the desktop.
@@ -163,6 +197,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **macOS:** Apple's desktop operating system, which runs only on Apple computers. A new version ships every fall, named by year (the 2025 release is macOS Tahoe, version 26).
 
 **memo:** A short internal document that puts findings, decisions, or recommendations on the record, with a rigid header (TO, FROM, DATE, RE) and the bottom line up front.
+
+**memory card:** Flash memory in a fingernail-sized wafer that slots into cameras, drones, and consoles.
 
 **messaging:** Quick, informal, back-and-forth communication through chat apps such as Teams, Slack, or texts.
 
@@ -180,6 +216,10 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **operating system:** The central piece of system software: the program that starts the machine, manages its hardware, and launches everything else. Windows, macOS, iOS, and Android are operating systems. OS after first mention.
 
+**optical character recognition (OCR):** Software that turns photographed or scanned text into editable, searchable text, so a picture of words becomes words.
+
+**output device:** Any hardware that carries results from the machine to people: displays, printers, speakers, and AR and VR headsets.
+
 ## P
 
 **patch:** An update that fixes a security hole. The day a patch ships, the hole it fixes becomes public knowledge, which makes unpatched machines the easy targets.
@@ -189,6 +229,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **PDF:** A file format that locks a document's layout so it looks the same on every device. The standard format for delivering finished documents.
 
 **pitch deck:** A short presentation built to sell an idea: a business, a project, or a budget request.
+
+**pixel:** One tiny dot of color in a display or image. Resolution counts them.
 
 **platform:** An operating system plus the hardware it runs on, taken together as the base that apps are built for. Developers build an app for a platform, not for "computers."
 
@@ -208,9 +250,15 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **RAM (random access memory):** The machine's working memory: fast, temporary space holding every open app and the OS while they run. Cleared when power stops. The desk, where storage is the filing cabinet.
 
+**range:** A rectangular block of spreadsheet cells, written as its corners, such as A2:A55.
+
 **raster image:** An image stored as a grid of colored pixels, which is what cameras produce and photo editors edit. Blurs when scaled up.
 
+**refresh rate:** How many times per second a display redraws, measured in hertz (Hz). Higher rates make motion smoother.
+
 **refurbished:** A used device that has been tested, repaired where needed, wiped, and resold with a warranty, usually at a steep discount.
+
+**resolution:** A display's pixel count, written as width by height, such as 1920 x 1080. More pixels mean a sharper picture at the same size.
 
 **ribbon:** The strip of tabs and buttons across the top of the Word window (and other Microsoft 365 apps) that organizes the program's tools by task.
 
@@ -222,6 +270,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **search engine:** Software that builds a searchable index of the web and ranks matching pages for each query. It hands you a list of pages and leaves the judging to you.
 
+**sensor:** Hardware that measures something physical (light, motion, temperature, location, heart rate) and feeds it to software without anyone typing.
+
 **server:** A computer that provides data or services to other computers over a network. Servers run around the clock in data centers.
 
 **slide layout:** A named arrangement of placeholders for one slide's job, such as Title Slide, Title and Content, or Section Header. Applied from Home > Layout in PowerPoint.
@@ -231,6 +281,10 @@ This glossary is the single source of truth for all technical terms used in the 
 **software:** The instructions that tell a computer what to do. Programs. One of the six parts of an information system.
 
 **software suite:** A set of applications sold together and built to work together, with shared formats and one sign-in. Microsoft 365 is this course's suite.
+
+**solid-state drive (SSD):** Flash memory in drive form: no moving parts, fast, silent, and shock-resistant. The standard drive in current laptops and phones.
+
+**sort:** Reordering a table's rows by one column, with each row traveling as a unit so no value gets separated from its record.
 
 **speaker notes:** The pane below each PowerPoint slide where the speaker's script lives. The audience never sees it, and Presenter View shows it to the speaker alone.
 
@@ -244,7 +298,11 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **style:** A named set of formatting (Heading 1, Title, Normal) applied to a paragraph in one click. Styles label a document's structure, which lets Word build tables of contents and update every heading at once.
 
+**stylus:** A pen-shaped pointer that gives artists and note-takers pixel-level precision plus pressure on a touchscreen or drawing tablet.
+
 **subscription:** Software billed monthly or yearly instead of purchased once: continuous updates and cloud storage in exchange for an ongoing fee.
+
+**sync:** Keeping a folder on your device and a folder in the cloud identical automatically. Availability, not safety: deletions and mistakes sync too.
 
 **system board:** The large circuit board every other part plugs into, also called the motherboard. Its sockets, slots, and buses decide where everything lives and how data flows.
 
@@ -268,11 +326,15 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **TOPS:** Trillions of operations per second, the measure of NPU performance. Microsoft's Copilot+ PC label requires an NPU of 40 TOPS or more.
 
+**touchscreen:** A display that is also an input device. Rules phones, tablets, kiosks, and dashboards, and loses to the keyboard when text gets long.
+
 ## U
 
 **unified memory:** One pool of fast memory shared by the CPU, GPU, and NPU, led by Apple's M-series chips. Fixed at purchase, because it is part of the chip package.
 
 **URL:** The complete address of one page on the web: the rules for the trip, the site's name, and the page within the site.
+
+**USB flash drive:** Flash memory on a keychain: the fastest way to hand a file to the person next to you, and never a backup plan by itself.
 
 **USB-C:** The small, oval, reversible connector that now carries charging, data, and displays on most devices. A shape, not a speed. Abilities vary port by port.
 
@@ -287,6 +349,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **video call:** A live meeting held over the Internet with camera and microphone, used when people cannot share a room.
 
 **virtual machine:** A complete pretend computer created by virtualization software, inside which a second operating system boots and runs, windowed like any app.
+
+**virtual reality (VR):** Output that replaces your view entirely through a headset. Gaming leads the headlines, and training, design, and therapy do the quiet work.
 
 **virtualization:** Software pretending to be hardware: carving out a slice of one machine and presenting it as a complete computer of its own. The mechanism behind virtual machines and much of cloud computing.
 
@@ -305,6 +369,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **Windows:** Microsoft's desktop operating system, now at version 11. The default of office life, running on hardware from many manufacturers at every price.
 
 **word processor:** The general-purpose application that builds documents: text that flows in paragraphs and pages, with styles and structure. Word is this course's word processor.
+
+**workbook:** The Excel file itself (`.xlsx`), holding one or more worksheets on tabs along the bottom edge.
 
 **worksheet:** A grid of rows and columns holding numbers, formulas, and charts, created with spreadsheet software such as Excel.
 

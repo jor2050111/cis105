@@ -3,6 +3,18 @@
 Scripts in this folder rebuild every derived file in the course data
 pack. Follow the pattern the existing textbooks use:
 
+## Current inventory
+
+One script, one generated file. Base seed for this course: 105.
+
+| Script | Rebuilds | Properties |
+| ------ | -------- | ---------- |
+| `generate_chapter06_data.py` | `assets/code/chapter-06/device-comparison.xlsx` | 54 rows x 8 columns, 7 engineered blank battery cells, unique MIN/MAX prices, Chapter 5 cast devices included, byte-identical on rerun |
+
+The Word and RTF starter files in chapters 1-5 are committed artifacts
+authored via pandoc, not generated. Each chapter folder's README is the
+data dictionary.
+
 ## Conventions
 
 * **Seeded and reproducible.** Synthetic datasets use a fixed base seed
