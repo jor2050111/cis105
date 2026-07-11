@@ -32,6 +32,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **AI assistant:** Software that responds to plain-language requests: it can draft text, summarize a document, suggest a formula, or answer a question in full sentences. AI assistants are now built into everyday programs such as Word and browsers.
 
+**AI coding assistant:** An AI tool that writes, explains, and edits code from plain-language requests. It drafts fast and inherits the hallucination problem, so its output is verified, not trusted.
+
 **AI copilot:** An AI assistant built into an application and aware of the document, worksheet, or deck you are working on. It drafts inside your work. Copilot, capitalized, is Microsoft's product name.
 
 **AI PC:** A personal computer that adds an NPU (neural processing unit) alongside its processor and graphics chip, so AI features can run directly on the device instead of on a distant server.
@@ -53,6 +55,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **application software:** Software that does the user's tasks, such as writing a letter, building a worksheet, or placing an order. Word, Excel, PowerPoint, and browsers are application software.
 
 **artificial intelligence (AI):** The broad family of software techniques that let computers perform tasks that normally require human judgment, such as recognizing a face or drafting a paragraph.
+
+**assembly language:** The first step up from machine language: short human-readable abbreviations that map closely onto a processor's own instructions.
 
 **audit:** A scheduled check that a live system still matches its own rules, such as who has access and whether the data is clean and the backups restore.
 
@@ -118,6 +122,10 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **column chart:** The chart that compares amounts across categories with vertical bars. Its value axis starts at zero, because the bars argue by length.
 
+**comment:** A note written inside code for humans, which the computer skips. VBA comments start with an apostrophe, and the ones worth writing explain WHY.
+
+**compiler:** A translator that converts a whole program into machine-runnable form before the program runs. Modern languages usually blend compiling and interpreting.
+
 **connectivity:** The communication links that move data between devices, from home Wi-Fi to the Internet itself. One of the six parts of an information system.
 
 **continuous improvement:** Keeping a system healthy with many small, tested changes over time instead of one giant rewrite every few years.
@@ -161,6 +169,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **database management system (DBMS):** The software that stores a database, enforces its field types and keys, controls who may see it, and answers questions about it. Airtable and Microsoft Access are DBMS tools.
 
 **database manager:** The general-purpose application that builds and queries databases. Airtable is this course's database manager.
+
+**debugging:** The craft of finding and fixing errors in code, starting from a known answer: know what the result should be before trusting what it is.
 
 **decision support system (DSS):** Software that combines data with models so a decision maker can try what-if scenarios before spending money. A skilled spreadsheet is the everyday example.
 
@@ -246,6 +256,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **flash memory:** Chips that keep their contents without power yet can be rewritten. The technology inside phones, memory cards, USB drives, and SSDs.
 
+**flowchart:** A program plan drawn as a diagram, with boxes for actions and diamonds for decisions, so every path through the logic is visible.
+
 **foreign key:** A field in one table that holds the key of a record in another table, creating a link. It lets a booking point to a customer instead of copying the customer's details.
 
 **form (Airtable):** An Airtable view that lets an outsider submit one record through a screen, exposing only the fields you choose and none of the table behind it.
@@ -310,9 +322,15 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **Internet of Things (IoT):** The growing collection of everyday objects, such as doorbells, thermostats, and delivery trucks, fitted with sensors and network connections so they can send data over the Internet.
 
+**interpreter:** A translator that converts code into machine-runnable form while the program runs. Modern languages usually blend interpreting and compiling.
+
 **iOS:** Apple's mobile operating system, which runs only on iPhones, with apps arriving through one curated store.
 
 **IP address:** The numeric address every device on the Internet has, which routers use to deliver packets.
+
+## J
+
+**JavaScript:** The scripting language web browsers run, shipped inside pages with the `<script>` tag. It gives structure-only HTML its behavior, and it long ago spread beyond the browser.
 
 ## K
 
@@ -340,6 +358,10 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **Linux:** The free, open-source operating system that runs most of the Internet's servers, most supercomputers, and (under a layer users never see) every Android phone. A small but devoted world on the desktop.
 
+**logic error:** A mistake that breaks no grammar rules, so the program runs to the end and produces a wrong answer without complaint. The quiet, dangerous kind.
+
+**logic structure:** One of the three patterns every program arranges its steps with: sequence (run in order), selection (choose by a test), and repetition (repeat until a condition says stop).
+
 **logical test:** The comparison inside an IF function, such as F2>=20, that comes out true or false for each row.
 
 **logical view:** Data organized the way a person thinks about it, the friendly grid of records and fields you work in. The database shows you this and hides the physical storage.
@@ -350,7 +372,15 @@ This glossary is the single source of truth for all technical terms used in the 
 
 ## M
 
+**machine language:** The processor's native instruction set, written as patterns of ones and zeros. Every program ends up here before it runs.
+
 **macOS:** Apple's desktop operating system, which runs only on Apple computers. A new version ships every fall, named by year (the 2025 release is macOS Tahoe, version 26).
+
+**macro:** A recorded or written set of instructions that replays a task inside an Office app, turning minutes of identical clicks into one run.
+
+**macro-enabled workbook:** The Excel format (.xlsm) that stores macros with the file. A regular .xlsx cannot hold them, and Excel warns before a save would strip them.
+
+**macro recorder:** The Excel feature that watches the commands you perform and writes each one down as VBA, exactly as performed. It captures commands and selections, not mouse travel.
 
 **maintenance:** The longest phase of a system's life: fixing what breaks, running audits, and adding improvements. New requests here start the life cycle over.
 
@@ -373,6 +403,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **mobile app:** An application built for phones and tablets: touch first, camera and sensors built in, notifications on your body. Wins for capture and quick action.
 
 **modem:** The box that translates a provider's signal (light, coaxial, phone line, or radio) into standard networking data. Often combined with the router in one unit.
+
+**module:** A container page for code in the Visual Basic Editor, where recorded and written procedures live.
 
 **multifactor authentication (MFA):** Requiring a second proof (an app code, a prompt, a key) after the password, so a stolen password alone fails. MFA after first mention.
 
@@ -446,13 +478,21 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **primary source:** The original document, dataset, or firsthand account a claim is built on, as opposed to summaries and retellings of it.
 
+**procedure:** A named block of VBA that starts with Sub and ends with End Sub. Running a macro means running its procedure.
+
 **procedures:** The rules and steps people follow when they work with a system. One of the six parts of an information system.
+
+**program:** A set of instructions a computer follows to do a task. All software is made of programs.
+
+**programming language:** A formal language for writing instructions, with a strict grammar. Python, JavaScript, and VBA are high-level examples.
 
 **prompt:** The plain-language request you type or speak to an AI assistant.
 
 **protocol:** A shared rulebook that lets devices from different makers communicate. The Internet's core protocols are known together as TCP/IP.
 
 **prototype:** A rough draft of a system built to be shown and thrown away, so a team learns what is wrong while fixing it is still cheap.
+
+**pseudocode:** A plain-language draft of a program's steps, written for humans to check the logic before any code exists.
 
 ## Q
 
@@ -499,6 +539,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **scareware:** A fake alert (counting your "critical errors") that sells fake repairs. The pop-up's payload is panic, and the "cleaner" it offers is the infection.
 
 **screen reader:** An operating system accessibility feature that speaks the interface aloud, so a computer or phone can be run entirely by ear. Narrator, VoiceOver, and TalkBack are the built-in screen readers.
+
+**scripting language:** A programming language embedded inside a host so the host can run it: JavaScript inside a web page, VBA inside a workbook.
 
 **search engine:** Software that builds a searchable index of the web and ranks matching pages for each query. It hands you a list of pages and leaves the judging to you.
 
@@ -551,6 +593,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **symmetric:** Upload speed equal to download speed. Fiber's signature trait, and the one livestreams and video calls care about most.
 
 **sync:** Keeping a folder on your device and a folder in the cloud identical automatically. Availability, not safety: deletions and mistakes sync too.
+
+**syntax error:** A mistake that breaks a language's grammar rules, so the code will not run at all. Loud, immediate, and cheap to fix.
 
 **system:** A set of parts working together toward a goal. An information system's six parts are people, procedures, software, hardware, data, and connectivity.
 
@@ -608,6 +652,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 ## V
 
+**variable:** A named storage box a program fills and reads while it runs, declared in VBA with Dim. It lets code ask the sheet where the data ends instead of assuming.
+
 **vector image:** An image built from shapes and math, so it scales to any size without blurring. The right format for logos and icons.
 
 **video call:** A live meeting held over the Internet with camera and microphone, used when people cannot share a room.
@@ -623,6 +669,10 @@ This glossary is the single source of truth for all technical terms used in the 
 **virus:** Malware that attaches to files and spreads when they do.
 
 **vishing:** Phishing that rides voice calls, increasingly with AI-cloned voices.
+
+**Visual Basic Editor:** The window that shows and edits the VBA living in a workbook, opened from the Developer tab. Code lives there in modules.
+
+**Visual Basic for Applications (VBA):** The programming language built into the major Microsoft 365 desktop apps such as Word and Excel. The macro recorder writes it, and Excel runs it.
 
 **voice cloning:** AI reproduction of a specific person's voice from seconds of source audio. The audio form of a deepfake.
 

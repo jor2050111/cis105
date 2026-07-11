@@ -1,10 +1,171 @@
 # CIS105 Textbook: Session Handoff
 
-**Last updated:** 2026-07-11 (Part IV session: chapters 10-11)
+**Last updated:** 2026-07-11 (Chapter 12 capstone session: THE BOOK IS COMPLETE)
 **Repo:** https://github.com/jor2050111/cis105
 **Live site:** https://jor2050111.github.io/cis105/
 **Task list:** CLAUDE_CODE_TASK_LIST_ID=cis105 (pinned in
 `/Users/vega/Documents/code/textbooks/cis105/.claude/settings.json`)
+
+## What Was Done (2026-07-11 Chapter 12 capstone session)
+
+* Drafted, adversarially reviewed, QA-gated, and committed Chapter 12,
+  the Part IV closer and course capstone:
+    * Chapter 12: Automate Your Work: Macros, VBA, and AI Coding
+      Assistants (`book/chapters/chapter-12.md`, 7,7xx words). All 12
+      chapters now exist: the book is content-complete.
+* **Codex-in-the-loop protocol (new this session, via the
+  codex@openai-codex plugin):** the chapter DESIGN went to a Codex
+  adversarial task (xhigh, 9 minutes) BEFORE drafting and came back
+  with 33 findings. About 20 were adopted at outline cost instead of
+  rewrite cost: click-level lab precision (active-sheet recovery after
+  sheet duplication, This Workbook, blank shortcut key, whole-column
+  Currency selection), cross-platform macro-security wording (Windows
+  Mark-of-the-Web hard block versus Mac ask-first), accuracy hedges
+  (recorder-output variance, assembly mapping, compiler/interpreter
+  blend, JavaScript beyond the browser, survivorship framing instead
+  of "quiet errors cost more"), MLO single-verb discipline, CLO XIII
+  inclusion, a student-designed IMPROVEMENT step to earn the Create
+  tag, TIY 12.1 branch coverage, and the four-number evidence block.
+  Declined with reasons: dropping the language-history or design-tools
+  sections (district outline section V mandates both) and removing the
+  September-label breadcrumb (intentional scaffold). A second Codex
+  read-only review ran on the final working-tree diff before commit.
+* **Adversarial reviewer agent (the Part III/IV protocol):** a
+  dedicated agent instructed to REFUTE the chapter across five attacks
+  (numbers vs the shipped workbook, desktop Excel + VBA realism on
+  Windows and macOS, domain accuracy, style law + pedagogy, continuity
+  + links). Attack 1 recomputed every cited figure independently from
+  the shipped xlsx with zero mismatches. Findings: 2 REQUIRED (a
+  self-contradicting "below the data (try L10)" ground-truth
+  instruction that could poison the lastRow repair if a student put
+  the scratch SUM in column A, and "the owner's desk" contradicting
+  Darnell's established general-manager title), plus 5 adopted
+  JUDGMENT items (Move or Copy rename gap, Trusted-Documents reopen
+  nuance, "most laptops" -> "most common laptop processor family",
+  VBA-in-all-desktop-apps overbreadth softened in chapter AND
+  glossary, live/solo wording wobble). All fixed before scoring.
+* **Data pack (`assets/code/chapter-12/`):** `booking-export.xlsx`
+  (October 2026, 63 bookings x 10 columns, sheet `OctoberExport`,
+  date-sorted, no cancellations, no contact columns) plus
+  `ai-macro-draft.txt` (Renee's September prompt and the assistant's
+  drafted `SummarizeExport`, hardcoded to rows 2-61 because HER PROMPT
+  said so: the stale assumption is earned, not a strawman). Generator
+  `generate_chapter12_data.py` (seed 105) IMPORTS the Chapter 10
+  generator so the pricing model, org cast, and the four inherited
+  October bookings (SH-1016/1017/1040/1041, verbatim to the base) can
+  never drift. Byte-identical on rerun, asserts pin every cited
+  number, and the draft's exact expressions were also executed in real
+  desktop Excel against the shipped workbook via the Excel MCP
+  (=SUM(J2:J64)=83,910; =SUM(J2:J61)=78,510; =COUNTA(A2:A61)=60;
+  =COUNTA(A2:A64)=63), with the file closed unsaved (md5 unchanged).
+* **Retro-edit to Chapter 11 (one sentence, line ~223):** "Chapter 12
+  will have you do exactly that" promised drafting an Airtable formula
+  or reminder script; the shipped Chapter 12 has students VERIFY an
+  AI-drafted Excel macro instead. The sentence now reads "Chapter 12
+  hands you code drafted exactly this way, then asks whether to trust
+  it," which the Codex design review flagged and the chapter pays
+  exactly.
+* Glossary grew 300 to 324 headwords (+24, including a new `## J`
+  section for JavaScript). Every Key Terms entry resolves (all 24,
+  verified by script). CLO block carries four CLOs (VII primary + IV,
+  IX, XIII): part-structure lists VII/IV/IX and the CLO mapping
+  threads XIII through the Chapter 12 lab, so the block is the
+  superset, matching how chapters 10-11 added their thread CLO.
+* QA gates all passed: zero em dashes, zero prose semicolons, zero
+  banned vocabulary (the sweeps caught "very" and a "rather than"
+  during drafting), asterisk bullets, `check_sentence_length.py` zero
+  flags (446 sentences, avg 16.0, longest 34; 18 overlong sentences
+  split during drafting), Flesch 66.3 on the session estimator
+  (calibrated band 62.0-67.1, leaning top), title blocklist clean (the
+  old module 13 "Step N: Program..." / "Syntax error" / "Logic error"
+  headings all avoided: those concepts are taught inline), `zensical
+  build --clean` clean, chapter in nav and search.
+* Further Reading verified live in a browser at draft time (Microsoft
+  quick-start macro page, Microsoft Learn getting-started-with-VBA and
+  internet-macros-blocked, BLS Software Developers OOH, MDN What is
+  JavaScript). Two labels corrected after loading: the macro-block
+  page is Microsoft Learn (not Support), and the BLS page's real title
+  is "Software Developers, Quality Assurance Analysts, and Testers."
+* Try It Yourself 12.2 claims the course site itself ships JavaScript:
+  verified against the built page (6 `<script>` tags in
+  `site/chapters/chapter-12/index.html`).
+* Data-pack zip rebuilt (52 files) with chapter 12. Chapter 12 nav
+  line uncommented in `zensical.toml`. Generator inventory table
+  updated.
+* **Whole-book evaluation:**
+  `evaluations/cis105-2026-07-11-ch12-and-whole-book-scored-rubric.md`
+  (workspace root) scores Chapter 12 and stamps the completed book.
+
+## Instructor Answer Key (Chapter 12)
+
+* **Ground truth on `booking-export.xlsx`:** 63 bookings, total quoted
+  revenue $83,910. Status-bar count of column A reads 64 (header + 63).
+  Data occupies A2:J64.
+* **What the shipped AI draft reports when run on October:** 60
+  bookings and $78,510, labeled "September Summary," written to L1:M3.
+  It runs with no error message. The miss is $5,400 (6.4 percent of
+  the month): the last three rows, which the hardcoded J2:J61 range
+  cannot see.
+* **The three missed bookings (sheet rows 62-64):** SH-1071 (Oct 30,
+  Main Hall, Central Library Friends fundraiser, $2,750), SH-1081
+  (Oct 31, Main Hall, Las Artes Folklórico concert, $1,500), SH-1085
+  (Oct 31, Courtyard, Phoenix Pride Alliance fundraiser, $1,150).
+* **Root cause students should state:** Renee's September prompt said
+  "the data runs from row 2 to row 61," true for September's 60
+  bookings, false for October's 63. The draft did what it was told,
+  and what it was told went stale. Logic error (nothing crashed).
+* **The durable repair:** `lastRow = Cells(Rows.Count,
+  "A").End(xlUp).Row` with both ranges rebuilt via `& lastRow` and a
+  month-free label. The full repaired skeleton is printed in lab step
+  Part 3.5. After repair: 63 and $83,910, matching ground truth, and
+  a second run leaves one summary (fixed cells L1:M3).
+* **TIY 12.1 answers:** zero of October's 63 rows flag (the venue
+  books within capacity after Chapter 10's overflows); the hypothetical
+  175-in-Courtyard flags (capacity 150). "Nothing flagged" is the
+  program succeeding, echoing Chapter 11's audit line.
+* **TIY 12.2:** the built course pages carry `<script>` tags (search,
+  instant navigation, the palette toggle are script behaviors).
+* **Part 2 deliberate break:** removing the closing quote raises a
+  loud compile/syntax complaint (possibly the moment the student
+  leaves the line, if Auto Syntax Check is on) and NOTHING runs.
+  Contrast with Part 3's silent wrong number is the point of Q&A 1.
+* **Q&A 2 has no single right answer:** grade the application of the
+  three-part automation test, the named verifier, and the cost of a
+  quiet wrong answer in the student's own field.
+* **Grading note:** students submit `.xlsm`. Canvas downloads carry
+  Mark of the Web on Windows, so expect the security banner when
+  opening submissions; the VBA project is still readable in the VBE
+  without enabling anything, which is all grading needs.
+
+## Key Design Decisions (Chapter 12 session)
+
+* **The capstone integrates the term instead of adding a new domain:**
+  the lab automates the exact ritual the Part IV story produced (the
+  monthly export of the Chapter 10 base, whose rollout Chapter 11
+  tracked), with ground-truth habits from Chapters 6 and 9 (status-bar
+  count, SUM check) as the verification tools, and the Chapter 1
+  "tools draft, you decide" loop closed explicitly in 12.4 and the lab.
+* **Two-defect pedagogy, one artifact:** students BUILD the loud error
+  themselves (Part 2's deliberate broken quote) and DISCOVER the quiet
+  one in code they did not write (Part 3). Syntax versus logic errors
+  are taught by survivorship (a crash interrupts you; a wrong answer
+  interrupts nobody), never as a universal cost ranking.
+* **The AI draft ships as plain text** so nothing in the pack is a
+  runnable macro, no student enables foreign code, and every student
+  verifies the same artifact (course AI-tool convention: no AI account
+  required).
+* **Summary block lives in L1:M3** (fixed cells, columns L:M) so the
+  buggy and repaired macros are both idempotent and the column-A
+  lastRow pattern can never be contaminated by the macro's own output.
+* **Looking Ahead is the course send-off** (the cis360/cis133 capstone
+  pattern): no next chapter to preview, so it closes the Chapter 1
+  loop and hands students the habit ("your field is full of
+  twenty-minute rituals nobody has questioned yet").
+* **Timeline:** the base went live after the parallel run Chapter 11's
+  lab recommended; October 2026 is its first full month solo; Renee's
+  September export (60 bookings) existed inside the parallel period.
+  The Chapter 10 base's four October advance bookings appear in the
+  export verbatim, and the other 59 IDs continue from SH-1061.
 
 ## What Was Done (2026-07-11 Part IV drafting session: chapters 10-11)
 

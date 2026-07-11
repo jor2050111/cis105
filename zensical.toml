@@ -58,7 +58,7 @@ nav = [
     { "Chapter 9: How Organizations Turn Data into Decisions" = "chapters/chapter-09.md" },
     { "Chapter 10: Where Data Lives: Tables, Records, and Relationships" = "chapters/chapter-10.md" },
     { "Chapter 11: From Idea to Rollout: Planning Technology Solutions" = "chapters/chapter-11.md" },
-    # { "Chapter 12: Automate Your Work: Macros, VBA, and AI Coding Assistants" = "chapters/chapter-12.md" },
+    { "Chapter 12: Automate Your Work: Macros, VBA, and AI Coding Assistants" = "chapters/chapter-12.md" },
   ] },
   { "Glossary" = "glossary.md" },
   { "Skills Lab Rubric" = "skills-lab-rubric.md" },

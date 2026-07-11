@@ -1,0 +1,31 @@
+Saguaro Hall: AI-drafted summary macro (for Skills Lab 12A, Part 3)
+===================================================================
+
+On September 30, 2026, with September's booking export open beside
+her (60 bookings, rows 2 through 61), Renee Salazar asked an AI
+assistant for help. Her prompt, word for word:
+
+    Write an Excel VBA macro for my monthly booking export worksheet.
+    Row 1 is headers. Booking IDs are in column A and quoted prices
+    are in column J. The data runs from row 2 to row 61. Add a summary
+    to the right of the data with the number of bookings and the total
+    quoted revenue for the month.
+
+The assistant's draft, unchanged:
+
+Sub SummarizeExport()
+    ' Adds a monthly summary block beside the booking export.
+    Dim bookingCount As Long
+    Dim totalRevenue As Double
+
+    bookingCount = Application.WorksheetFunction.CountA(Range("A2:A61"))
+    totalRevenue = Application.WorksheetFunction.Sum(Range("J2:J61"))
+
+    Range("L1").Value = "September Summary"
+    Range("L2").Value = "Bookings"
+    Range("M2").Value = bookingCount
+    Range("L3").Value = "Total quoted revenue"
+    Range("M3").Value = totalRevenue
+    Range("M3").NumberFormat = "$#,##0.00"
+    Columns("L:M").AutoFit
+End Sub
