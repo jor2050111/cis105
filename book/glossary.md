@@ -24,6 +24,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **Activity Monitor:** macOS's built-in gauge for running programs, found in Applications > Utilities. It shows every running program and what each one costs in processor time and memory.
 
+**AI agent:** Software built on a large language model, connected to an organization's data and tools, that answers questions and carries out multi-step tasks in plain language. Its answers are drafts to verify.
+
 **AI assistant:** Software that responds to plain-language requests: it can draft text, summarize a document, suggest a formula, or answer a question in full sentences. AI assistants are now built into everyday programs such as Word and browsers.
 
 **AI copilot:** An AI assistant built into an application and aware of the document, worksheet, or deck you are working on. It drafts inside your work. Copilot, capitalized, is Microsoft's product name.
@@ -38,7 +40,7 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **answer engine:** AI software that composes a direct, conversational answer to a question instead of returning a list of pages. Answer engines are powered by large language models and can hallucinate.
 
-**antivirus:** Software that detects and removes malware. Modern operating systems ship one (Windows Defender runs by default), and leaving it on matters more than buying another.
+**antivirus:** Software that detects and removes malware. Modern operating systems ship one (Microsoft Defender is on by default in Windows), and leaving it on matters more than buying another.
 
 **app:** The everyday name for an application program, first popularized on phones and tablets and now used for software on every screen.
 
@@ -71,6 +73,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **browser:** The program that requests web pages from servers and displays them: Chrome, Edge, Safari, and Firefox are the big four.
 
 **bus:** The shared wiring on the system board that carries data between the processor, memory, and every connected device.
+
+**business intelligence:** The umbrella practice of turning an organization's data into decisions: the systems, summaries, dashboards, and analysis between a transaction and a choice. BI after first mention.
 
 **byte:** The basic unit of digital size, roughly one typed character. Spec sheets count in megabytes (about a million bytes), gigabytes (about a thousand megabytes), and terabytes (about a thousand gigabytes).
 
@@ -114,7 +118,11 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **credit freeze:** A free block, set at each credit bureau, that stops new credit accounts from being opened in your name until you lift it.
 
+**cyberbullying:** Harassment, pile-ons, and impersonation carried out through screens: the same acts they are offline, with better reach and worse permanence.
+
 ## D
+
+**dashboard:** A live screen of charts and numbers summarizing an operation right now, fed by the systems ladder beneath it and readable at every management level.
 
 **data:** Raw, unorganized facts: numbers, words, images, and sounds. Data becomes information when it is organized into something meaningful.
 
@@ -127,6 +135,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **database:** An organized collection of related data, built for searching and connecting records. This course builds databases in Airtable.
 
 **database manager:** The general-purpose application that builds and queries databases. Airtable is this course's database manager.
+
+**decision support system (DSS):** Software that combines data with models so a decision maker can try what-if scenarios before spending money. A skilled spreadsheet is the everyday example.
 
 **deepfake:** AI-fabricated audio, video, or imagery of a real person, convincing enough to defeat inspection. The defense is verifying through a channel you already trusted.
 
@@ -143,6 +153,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **DNS (Domain Name System):** The Internet's phone book: the service that translates a name like phoenixcollege.edu into the IP address behind it.
 
 **document:** A file of formatted text, such as a letter, memo, report, or flyer, created with a word processor such as Word.
+
+**drill down:** Moving from a summary to the detail beneath it, level by level, until the individual transactions appear. In a pivot table, a double-click on any number.
 
 **DSL:** Internet service delivered over telephone wiring. Available nearly everywhere phones reached, and slow by modern standards.
 
@@ -166,11 +178,13 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **Ethernet:** The wired networking standard inside buildings: a cheap cable that gives a desk, printer, or console a fast, steady connection with nothing shared over the air.
 
-**e-waste:** Discarded electronics, the fastest-growing waste stream on Earth. Retired devices belong with certified recyclers, wiped first, not in drawers or landfills.
+**e-waste:** Discarded electronics, the world's fastest-growing household waste stream. Retired devices belong with certified recyclers, wiped first, not in drawers or landfills.
 
 **Excel table:** A formatted, named block of worksheet data whose headers carry sort and filter arrows and stay locked to their columns. Created with Home > Format as Table.
 
 **expansion card:** A plug-in circuit board that adds a capability to a desktop, such as serious graphics power. It fits the long slots on the system board.
+
+**expert system:** 1980s-era AI that captured a specialist's judgment as hand-written if-then rules. Still running narrow jobs, and its brittleness taught the industry what rules alone cannot do.
 
 **external drive:** A full SSD or HDD in a pocket case, connected over USB. The workhorse of backups and project archives.
 
@@ -264,6 +278,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **keylogger:** Spyware that records what you type, passwords included.
 
+**knowledge worker:** A person whose work is mostly gathering, judging, and communicating information: analysts, planners, coordinators, and a growing share of every professional role.
+
 ## L
 
 **LAN (local area network):** A network covering one building or campus under one owner, such as a home's router and everything on it.
@@ -294,6 +310,10 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **MAN (metropolitan area network):** A network spanning a city, the scale between one campus and a wide-area network.
 
+**management information system (MIS):** The systems rung that turns transaction detail into routine summaries for running the business: sales by store by week, hours worked against hours scheduled.
+
+**management levels:** The altitudes of decision making: supervisors run the day on detail, middle managers run the month on summaries, and top management runs the years on trends.
+
 **Mbps (megabits per second):** The unit connection speeds are sold in. Eight bits make a byte, so a 100 Mbps connection moves about 12.5 megabytes per second.
 
 **memo:** A short internal document that puts findings, decisions, or recommendations on the record, with a rigid header (TO, FROM, DATE, RE) and the bottom line up front.
@@ -307,6 +327,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **modem:** The box that translates a provider's signal (light, coaxial, phone line, or radio) into standard networking data. Often combined with the router in one unit.
 
 **multifactor authentication (MFA):** Requiring a second proof (an app code, a prompt, a key) after the password, so a stolen password alone fails. MFA after first mention.
+
+**multi-level sort:** Sorting by one column and then breaking ties with another, set in the Data > Sort dialog: by location, then by amount within each location.
 
 **multitasking:** The operating system's trick of switching the processor between running programs so fast that everything appears to run at once.
 
@@ -349,6 +371,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **pie chart:** The chart that shows parts of one whole. Honest only with a few slices, because readers compare angles poorly.
 
 **pitch deck:** A short presentation built to sell an idea: a business, a project, or a budget request.
+
+**pivot table:** A summary table the spreadsheet assembles for you: drag fields into Rows, Columns, Values, and Filters, and it groups and totals every row in seconds. A view of the data, refreshed on request. Excel spells it PivotTable.
 
 **pixel:** One tiny dot of color in a display or image. Resolution counts them.
 
@@ -475,6 +499,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **TOPS:** Trillions of operations per second, the measure of NPU performance. Microsoft's Copilot+ PC label requires an NPU of 40 TOPS or more.
 
 **touchscreen:** A display that is also an input device. Rules phones, tablets, kiosks, and dashboards, and loses to the keyboard when text gets long.
+
+**transaction processing system (TPS):** The system that records a business's events one at a time, completely and immediately: every sale, payment, and booking. The bottom rung of the systems ladder, where data quality is won or lost.
 
 **trojan:** Malware that poses as something you want, such as a free app or a fake cleaner, and does its work after you invite it in.
 
