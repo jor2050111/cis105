@@ -1,6 +1,6 @@
 # CIS105 - Survey of Computer Information Systems
 
-**A survey of computer technology and its role in business and society: hardware, software, networks, security, ethics, and productivity tools you use every day.**
+**A survey of computer technology and its role in business and society: hardware, software, networks, security, ethics, data, and the AI tools now reshaping every career.**
 
 ## Project Overview
 
@@ -18,6 +18,7 @@ Checks, and a Skills Lab with a locked 16-point rubric in every chapter.
 ### Key Technologies Covered
 
 * Microsoft Word, Excel (including macros and VBA basics), PowerPoint, Airtable, and a modern web browser
+* AI-era concepts throughout: assistants and copilots in everyday apps, answer engines, AI PCs and NPUs, deepfake-aware security, and AI coding assistants (no paid AI subscription required for any lab)
 
 ### Course Learning Outcomes (CLOs)
 

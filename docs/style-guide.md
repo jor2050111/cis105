@@ -83,8 +83,18 @@ Language and tool rules the core delegates to the course guide.
 
 * **Example domains:** small-business scenarios students recognize:
   a Phoenix-area coffee shop, a campus bookstore, a mobile device
-  repair shop, and a community event venue. Reuse these businesses
-  across chapters so context carries forward.
+  repair shop, a community event venue, and a neighborhood health
+  clinic (added 2026-07-11 so Nursing, Health Sciences, and
+  Biosciences majors see their world in the examples). Reuse these
+  businesses across chapters so context carries forward.
+* **AI-tool convention (2026-07-11):** chapters teach AI assistants,
+  answer engines, and AI coding tools conceptually, and labs may ask
+  students to evaluate AI output. No lab step may require a paid AI
+  subscription or a new account. When a lab critiques AI-generated
+  text or code, ship that sample in the data pack so every student
+  examines the same artifact. Chapters name capabilities generically
+  ("an AI assistant") and mention products only when the concept
+  needs a concrete anchor.
 * **Provided files:** every lab file ships in the course data pack
   under `assets/code/chapter-NN/`. Students download one zip from
   Canvas, extract it, and work at the `cis105` root. Excel and Word

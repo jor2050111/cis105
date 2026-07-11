@@ -12,7 +12,7 @@
 
 [project]
 site_name = "CIS105: Survey of Computer Information Systems"
-site_description = "A survey of computer technology and its role in business and society: hardware, software, networks, security, ethics, and productivity tools you use every day."
+site_description = "A survey of computer technology and its role in business and society: hardware, software, networks, security, ethics, data, and the AI tools now reshaping every career."
 site_author = "Jorge Vega, Phoenix College"
 site_url = "https://jor2050111.github.io/cis105/"
 
@@ -40,25 +40,25 @@ extra_css = ["stylesheets/colors.css", "stylesheets/brand.css"]
 # missing file.
 nav = [
   { "Home" = "index.md" },
-  # { "Part I: Digital Foundations" = [
-  #   { "Chapter 1: Information Technology, the Internet, and You" = "chapters/chapter-01.md" },
-  #   { "Chapter 2: The Internet, the Web, and E-commerce" = "chapters/chapter-02.md" },
-  #   { "Chapter 3: Application Software" = "chapters/chapter-03.md" },
+  # { "Part I: Your Digital Toolkit" = [
+  #   { "Chapter 1: People, Data, and Intelligent Machines" = "chapters/chapter-01.md" },
+  #   { "Chapter 2: The Web at Work: Search, Communication, and E-commerce" = "chapters/chapter-02.md" },
+  #   { "Chapter 3: Apps and AI Copilots: Choosing the Right Tool" = "chapters/chapter-03.md" },
   # ] },
-  # { "Part II: Inside the System" = [
-  #   { "Chapter 4: System Software" = "chapters/chapter-04.md" },
-  #   { "Chapter 5: The System Unit" = "chapters/chapter-05.md" },
-  #   { "Chapter 6: Input, Output, and Storage" = "chapters/chapter-06.md" },
+  # { "Part II: Under the Hood" = [
+  #   { "Chapter 4: What Makes Your Device Run: Operating Systems and Utilities" = "chapters/chapter-04.md" },
+  #   { "Chapter 5: Processors, Memory, and the AI PC" = "chapters/chapter-05.md" },
+  #   { "Chapter 6: From Touchscreens to the Cloud: Devices and Storage" = "chapters/chapter-06.md" },
   # ] },
-  # { "Part III: Networks and Security" = [
-  #   { "Chapter 7: Communications and Networks" = "chapters/chapter-07.md" },
-  #   { "Chapter 8: Privacy, Security, and Ethics" = "chapters/chapter-08.md" },
+  # { "Part III: Connected and Protected" = [
+  #   { "Chapter 7: Networks Everywhere: From Wi-Fi to Satellite Internet" = "chapters/chapter-07.md" },
+  #   { "Chapter 8: Digital Self-Defense: Security, Privacy, and Ethics in the AI Era" = "chapters/chapter-08.md" },
   # ] },
-  # { "Part IV: Technology at Work" = [
-  #   { "Chapter 9: Information Systems" = "chapters/chapter-09.md" },
-  #   { "Chapter 10: Databases" = "chapters/chapter-10.md" },
-  #   { "Chapter 11: Systems Analysis and Design" = "chapters/chapter-11.md" },
-  #   { "Chapter 12: Programming and Languages" = "chapters/chapter-12.md" },
+  # { "Part IV: Data, Decisions, and Automation" = [
+  #   { "Chapter 9: How Organizations Turn Data into Decisions" = "chapters/chapter-09.md" },
+  #   { "Chapter 10: Where Data Lives: Tables, Records, and Relationships" = "chapters/chapter-10.md" },
+  #   { "Chapter 11: From Idea to Rollout: Planning Technology Solutions" = "chapters/chapter-11.md" },
+  #   { "Chapter 12: Automate Your Work: Macros, VBA, and AI Coding Assistants" = "chapters/chapter-12.md" },
   # ] },
   { "Glossary" = "glossary.md" },
   { "Skills Lab Rubric" = "skills-lab-rubric.md" },

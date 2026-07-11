@@ -6,6 +6,29 @@
 **Task list:** CLAUDE_CODE_TASK_LIST_ID=cis105 (pinned in
 `/Users/vega/Documents/code/textbooks/cis105/.claude/settings.json`)
 
+## What Was Done (2026-07-11 retitle session, later the same day)
+
+* Executed Mr. Vega's directive: no title or heading may match the old
+  Computing Essentials build, and the book should teach the district
+  outline through a 2026 lens (AI reshaping every major's work).
+* Extracted every bold heading from the 13 old-notes docx files and
+  the old SIMnet assignment titles into
+  `docs/legacy-title-blocklist.md` (banned list + grep check).
+* Rewrote `docs/part-structure.md`: new part names (Your Digital
+  Toolkit, Under the Hood, Connected and Protected, Data, Decisions,
+  and Automation), 12 fresh chapter titles, refreshed content bullets
+  with 2026 threads (AI copilots, answer engines, NPUs and AI PCs,
+  passkeys, deepfakes, AI agents in business, AI coding assistants),
+  and a named Skills Lab title for each chapter. Chapter ORDER and
+  all coverage matrices are unchanged.
+* Updated `book/index.md`, `zensical.toml` (nav + description),
+  `README.md`, and `CLAUDE.md` (purpose, audience note, Tech in Your
+  Field admonition, Title Freshness Rule, AI terminology, checklist).
+* Added to `docs/style-guide.md`: a neighborhood health clinic example
+  domain and the AI-tool convention (no paid AI subscription in labs,
+  AI samples ship in the data pack).
+* Verified the site build (`zensical build --clean`).
+
 ## What Was Done (2026-07-11 scaffold session)
 
 * Instantiated this repo from
@@ -28,6 +51,17 @@
 
 ## Key Design Decisions
 
+* **Title freshness rule (2026-07-11):** no part, chapter, section,
+  or assignment title reproduces a heading from the old build. Banned
+  list and grep check: `docs/legacy-title-blocklist.md`. Concepts
+  stay, names change.
+* **2026 reframe (2026-07-11):** every chapter carries an AI-era
+  thread, and every chapter includes one "Tech in Your Field"
+  admonition connecting the topic to the majors enrolled in the course
+  (about half Business and Entrepreneurship, a quarter BAS-IT, the
+  rest across health, science, arts, and public-service majors).
+  Through-line: roles are changing, not disappearing, and judgment
+  stays with the student.
 * **12 chapters in 4 Parts** (family standard). Old modules 6
   (Input/Output) and 7 (Secondary Storage) merged into Chapter 6.
   Every other module from the previous 13-module Computing Essentials
@@ -61,10 +95,13 @@
 
 ## Next Steps
 
-1. Draft Chapter 1 (Information Technology, the Internet, and You)
-   from `templates/chapter-template.md` and the Chapter 1 block in
-   `docs/part-structure.md`. Old lecture notes:
+1. Draft Chapter 1 (People, Data, and Intelligent Machines) from
+   `templates/chapter-template.md` and the Chapter 1 block in
+   `docs/part-structure.md`. Old lecture notes are concept reference
+   only, never title reference:
    `/Users/vega/Documents/code/textbooks/cis105-old-reference-docs/chapter-01-old-notes.docx`.
+   Before commit, run the heading check in
+   `docs/legacy-title-blocklist.md`.
 2. Build the Chapter 1 data pack folder (`assets/code/chapter-01/`)
    with the Word starter file and a README data dictionary.
 3. Uncomment the Chapter 1 nav line in `zensical.toml` and the

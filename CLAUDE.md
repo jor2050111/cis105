@@ -1,7 +1,8 @@
 # CIS105 Textbook Development - Claude Code Project Context
 
 **Project Name:** CIS105 - Survey of Computer Information Systems Textbook
-**Purpose:** A survey of computer technology and its role in business and society: hardware, software, networks, security, ethics, and productivity tools you use every day.
+**Purpose:** A survey of computer technology and its role in business and society: hardware, software, networks, security, ethics, data, and the AI tools now reshaping every career.
+**Audience note:** CIS105 serves every major (roughly half Business and Entrepreneurship, a quarter BAS-IT, the rest across Biosciences, Communication, Counseling, Health Sciences, Liberal Arts, Mathematics, Nursing, Public Safety and Law, and Visual and Performing Arts). Frame examples for that whole room, never for IT majors alone.
 **Target Audience:** community college students in their first computing course
 **Prerequisites:** None (chapters teach from zero)
 **Primary Tools:** Microsoft Word, Excel (including macros and VBA basics), PowerPoint, Airtable, and a modern web browser
@@ -186,6 +187,7 @@ Every chapter MUST follow this structure:
 5. **Main Content Sections** - 4-5 numbered sections (N.1, N.2, etc.) with:
    - **Try It Yourself** exercises (Predict-Run-Explain pattern)
    - **Quick Checks** (2-3 retrieval questions after each major section)
+   - **Tech in Your Field** admonition (exactly one per chapter, inside the most fitting main section)
 6. **Summary and Retrieval** - Key concepts + Key Terms list + Retrieval Practice prompts
 7. **Skills Lab** - Single multi-part project with the shared 16-point rubric
 8. **Review Questions** - 4 questions at varying cognitive levels
@@ -198,6 +200,24 @@ Every chapter MUST follow this structure:
 - **Predict-Run-Explain:** Active learning pattern forcing predictions before answers
 - **Quick Checks:** Spaced retrieval practice throughout chapter (not just at end)
 - **Skills Lab:** Authentic assessment with the locked rubric, not isolated exercises
+- **Tech in Your Field:** one admonition per chapter connecting the topic to at least three majors enrolled in CIS105 (see Audience note). Format:
+
+```markdown
+!!! tip "Tech in Your Field"
+    [3-5 sentences showing how this chapter's topic changes daily work
+    in at least three of the enrolled majors. Roles are changing, not
+    disappearing. Never use "preparation for" framing.]
+```
+
+### Title Freshness Rule (REQUIRED)
+
+No part name, chapter title, section heading (H1-H3), Skills Lab
+title, or assignment title may exactly reproduce a heading from the
+previous Computing Essentials build. The banned list and a grep check
+live in `docs/legacy-title-blocklist.md`. Run the check before every
+chapter commit. New titles may share common words (software, hardware,
+networks) with old headings, but never match one exactly. Chapter
+titles come from `docs/part-structure.md` and are already cleared.
 
 ### Decimal Section Numbering
 
@@ -531,8 +551,13 @@ versions.
 - email (no hyphen), e-commerce (lowercase, hyphen), Wi-Fi
 - URL, HTTP, HTTPS, HTML, CSS, IP address, DNS
 - LAN, WAN, RAM, ROM, CPU, GPU, USB, SSD, HDD, IoT
+- NPU (neural processing unit on first mention), AI PC
 - operating system (lowercase, OS after first mention)
 - cloud computing, cloud storage (lowercase)
+- AI (no need to expand artificial intelligence unless the sentence teaches it)
+- generative AI (lowercase g), AI assistant, AI copilot (generic, lowercase c), Copilot (only for the Microsoft product)
+- large language model (LLM after first mention), chatbot (one word)
+- passkey, multifactor authentication (MFA after first mention), deepfake (one word)
 
 **Always:**
 
@@ -631,6 +656,7 @@ colors do not transfer, and list numbering can restart after code blocks.
 - `/docs/blooms-taxonomy-reference.md` - Learning objective guidance
 - `/docs/part-structure.md` - 12-chapter organization into 4 Parts
 - `/docs/CIS105_CLOs.md` - Authoritative course reference (CLOs, district competencies, course outline, chapter mapping)
+- `/docs/legacy-title-blocklist.md` - Banned titles and headings from the previous build, with the grep check
 
 ## Quality Checklist
 
@@ -658,6 +684,7 @@ Before considering a chapter complete, verify:
 - [ ] "Try It Yourself" exercises embedded in sections (1-2 per major section)
 - [ ] All "Try It Yourself" use Predict-Run-Explain pattern
 - [ ] Quick Checks after each major section (2-3 questions each)
+- [ ] Exactly one "Tech in Your Field" admonition, covering at least three enrolled majors
 - [ ] Skills Lab with 3 parts (Foundation/Application/Extension)
 - [ ] Rubric follows the single-source pattern (chapter 1 transcludes, chapters 2-12 link)
 - [ ] Questions & Analysis (2 questions) after Part 3, before Submission
@@ -673,6 +700,7 @@ Before considering a chapter complete, verify:
 - [ ] Prerequisite content referenced, not repeated
 - [ ] Terminology matches glossary
 - [ ] Zero em dashes and zero banned vocabulary (grep before commit)
+- [ ] No heading or lab title matches docs/legacy-title-blocklist.md (run the grep check there)
 
 **Summary & Assessment:**
 
