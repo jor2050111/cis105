@@ -24,6 +24,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **algorithm:** A step-by-step procedure software follows to do a job, such as scoring and ranking search results or ordering a social feed.
 
+**alt text:** The short written description attached to an image, icon, or chart, which a screen reader speaks aloud. Write it as if reading the visual to someone who cannot see it.
+
 **Android:** Google's mobile operating system, which runs on phones from many manufacturers at every price. Updates reach each phone through its maker, so timing varies by brand.
 
 **answer engine:** AI software that composes a direct, conversational answer to a question instead of returning a list of pages. Answer engines are powered by large language models and can hallucinate.
@@ -42,17 +44,27 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **browser:** The program that requests web pages from servers and displays them: Chrome, Edge, Safari, and Firefox are the big four.
 
+**bus:** The shared wiring on the system board that carries data between the processor, memory, and every connected device.
+
+**byte:** The basic unit of digital size, roughly one typed character. Spec sheets count in megabytes (about a million bytes), gigabytes (about a thousand megabytes), and terabytes (about a thousand gigabytes).
+
 ## C
 
 **chatbot:** Any software you converse with in plain language. Answer engines and AI assistants are chatbots with specific jobs.
 
 **ChromeOS:** Google's browser-first desktop operating system, which runs on Chromebooks. Cheap to buy and simple to manage, and limited when a task needs an installed desktop app.
 
+**clock speed:** How many billions of work cycles a processor core runs per second, measured in gigahertz (GHz). Comparable only within the same chip generation.
+
 **cloud computing:** Using computing services, such as storage, software, and processing power, delivered over the Internet from remote data centers.
 
 **cloud desktop:** A complete operating system, apps and files included, that runs on a server in a data center and streams to whatever screen you sign in from.
 
 **connectivity:** The communication links that move data between devices, from home Wi-Fi to the Internet itself. One of the six parts of an information system.
+
+**core:** One independent worker inside a processor, able to run its own stream of instructions.
+
+**CPU (central processing unit):** The machine's general-purpose processor: a few strong cores that run the operating system, your apps, and whatever logic the day brings.
 
 **creator economy:** People earning income by publishing directly to audiences through online platforms: video, audio, writing, and art distributed by ranking algorithms.
 
@@ -70,6 +82,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **digital wallet:** A phone app (Apple Pay, Google Pay, and their kin) that stores payment cards and pays with a one-time code, so the seller never sees the card number.
 
+**discrete GPU:** A separate graphics chip with its own dedicated memory, sold as a desktop expansion card and built into higher-end laptops for gaming, editing, and 3D work.
+
 **document:** A file of formatted text, such as a letter, memo, report, or flyer, created with a word processor such as Word.
 
 ## E
@@ -86,6 +100,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **end user:** The person a finished system or application exists to serve, as distinct from the people who build or maintain it.
 
+**expansion card:** A plug-in circuit board that adds a capability to a desktop, such as serious graphics power. It fits the long slots on the system board.
+
 ## F
 
 **file extension:** The short code after the dot in a file name, such as `.docx` or `.xlsx`, that tells the computer (and you) what kind of file it is.
@@ -94,6 +110,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **firmware:** A small program stored permanently on a chip in the computer, which runs the instant power arrives. It checks the hardware and hands control to the operating system.
 
+**flash memory:** Chips that keep their contents without power yet can be rewritten. The technology inside phones, memory cards, USB drives, and SSDs.
+
 ## G
 
 **game engine:** Software that supplies a game's physics, graphics, and logic so creators build the game instead of the plumbing.
@@ -101,6 +119,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **general-purpose application:** A program built for broad tasks nearly every job needs. The everyday four: word processors, spreadsheet programs, presentation software, and database managers.
 
 **generative AI:** The branch of artificial intelligence that creates new content, including text, images, and audio, in response to prompts.
+
+**GPU (graphics processing unit):** The processor built from thousands of simple cores doing the same small math at once. It draws screens, powers games, and fills the data centers behind modern AI.
 
 **graphical user interface (GUI):** The windows, icons, menus, and pointer (or touch targets) through which you work with an operating system.
 
@@ -172,6 +192,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **platform:** An operating system plus the hardware it runs on, taken together as the base that apps are built for. Developers build an app for a platform, not for "computers."
 
+**port:** A socket on the outside of a device where the world plugs in: USB-C, USB-A, HDMI, headphone, and Ethernet are the common kinds.
+
 **presentation:** A file of slides that support a talk, created with presentation software such as PowerPoint.
 
 **presentation software:** The general-purpose application that builds slide decks, pacing ideas for an audience one point at a time. PowerPoint is this course's presentation software.
@@ -184,9 +206,15 @@ This glossary is the single source of truth for all technical terms used in the 
 
 ## R
 
+**RAM (random access memory):** The machine's working memory: fast, temporary space holding every open app and the OS while they run. Cleared when power stops. The desk, where storage is the filing cabinet.
+
 **raster image:** An image stored as a grid of colored pixels, which is what cameras produce and photo editors edit. Blurs when scaled up.
 
+**refurbished:** A used device that has been tested, repaired where needed, wiped, and resold with a warranty, usually at a steep discount.
+
 **ribbon:** The strip of tabs and buttons across the top of the Word window (and other Microsoft 365 apps) that organizes the program's tools by task.
+
+**ROM (read-only memory):** A small permanent chip holding the firmware a machine needs before any drive is readable. Unchangeable by design, so the machine can always wake.
 
 ## S
 
@@ -206,6 +234,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **speaker notes:** The pane below each PowerPoint slide where the speaker's script lives. The audience never sees it, and Presenter View shows it to the speaker alone.
 
+**spec sheet:** A machine's standard self-description: processor, memory, storage, display, ports, battery, and price, line by line.
+
 **specialized application:** A program built deep for one kind of work, such as graphics, video, audio, accounting, CAD, or electronic health records.
 
 **spreadsheet program:** The general-purpose application that builds worksheets: numbers in a grid that recalculate themselves. Excel is this course's spreadsheet program.
@@ -215,6 +245,10 @@ This glossary is the single source of truth for all technical terms used in the 
 **style:** A named set of formatting (Heading 1, Title, Normal) applied to a paragraph in one click. Styles label a document's structure, which lets Word build tables of contents and update every heading at once.
 
 **subscription:** Software billed monthly or yearly instead of purchased once: continuous updates and cloud storage in exchange for an ongoing fee.
+
+**system board:** The large circuit board every other part plugs into, also called the motherboard. Its sockets, slots, and buses decide where everything lives and how data flows.
+
+**system on a chip (SoC):** A processor, graphics, AI hardware, memory controller, and more, manufactured together as one chip. The reason phones are small, efficient, and never upgradeable inside.
 
 **system software:** Software that runs the computer itself instead of doing user tasks. The operating system, utilities, and device drivers are system software.
 
@@ -228,9 +262,19 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **theme:** A coordinated set of fonts, colors, and backgrounds applied to a whole slide deck at once from PowerPoint's Design tab. One decision, enforced everywhere, changeable everywhere later.
 
+**thermal throttling:** A chip slowing itself down to avoid overheating. The reason blocked vents, soft surfaces, and thin cases cost speed.
+
+**Thunderbolt:** The high-speed data standard that rides the USB-C connector shape. A Thunderbolt label on a USB-C port promises the fast version.
+
+**TOPS:** Trillions of operations per second, the measure of NPU performance. Microsoft's Copilot+ PC label requires an NPU of 40 TOPS or more.
+
 ## U
 
+**unified memory:** One pool of fast memory shared by the CPU, GPU, and NPU, led by Apple's M-series chips. Fixed at purchase, because it is part of the chip package.
+
 **URL:** The complete address of one page on the web: the rules for the trip, the site's name, and the page within the site.
+
+**USB-C:** The small, oval, reversible connector that now carries charging, data, and displays on most devices. A shape, not a speed. Abilities vary port by port.
 
 **user account:** The operating system's record of one person on a machine: their files, settings, and permissions, unlocked by their sign-in.
 
