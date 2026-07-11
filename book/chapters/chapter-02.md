@@ -412,9 +412,9 @@ Add a page break at the end of your Word document, add the heading "Questions & 
 
 This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
-4 points each, 16 points total. The criteria are Code Accuracy and
-Efficiency, Output Quality, Documentation and Code Comments, and
-Analysis, Interpretation, and Response to QUESTION(s).
+4 points each, 16 points total. The criteria are Technical Accuracy
+and Efficiency, Output Quality, Documentation Quality, and Analysis,
+Interpretation, and Response to QUESTION(s).
 
 ---
 
