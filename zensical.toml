@@ -43,7 +43,7 @@ nav = [
   { "Part I: Your Digital Toolkit" = [
     { "Chapter 1: People, Data, and Intelligent Machines" = "chapters/chapter-01.md" },
     { "Chapter 2: The Web at Work: Search, Communication, and E-commerce" = "chapters/chapter-02.md" },
-    # { "Chapter 3: Apps and AI Copilots: Choosing the Right Tool" = "chapters/chapter-03.md" },
+    { "Chapter 3: Apps and AI Copilots: Choosing the Right Tool" = "chapters/chapter-03.md" },
   ] },
   # { "Part II: Under the Hood" = [
   #   { "Chapter 4: What Makes Your Device Run: Operating Systems and Utilities" = "chapters/chapter-04.md" },
