@@ -6,83 +6,80 @@
 **Task list:** CLAUDE_CODE_TASK_LIST_ID=cis105 (pinned in
 `/Users/vega/Documents/code/textbooks/cis105/.claude/settings.json`)
 
-## What Was Done (2026-07-11 retitle session, later the same day)
+## What Was Done (2026-07-11 Part I drafting session)
 
-* Executed Mr. Vega's directive: no title or heading may match the old
-  Computing Essentials build, and the book should teach the district
-  outline through a 2026 lens (AI reshaping every major's work).
-* Extracted every bold heading from the 13 old-notes docx files and
-  the old SIMnet assignment titles into
-  `docs/legacy-title-blocklist.md` (banned list + grep check).
-* Rewrote `docs/part-structure.md`: new part names (Your Digital
-  Toolkit, Under the Hood, Connected and Protected, Data, Decisions,
-  and Automation), 12 fresh chapter titles, refreshed content bullets
-  with 2026 threads (AI copilots, answer engines, NPUs and AI PCs,
-  passkeys, deepfakes, AI agents in business, AI coding assistants),
-  and a named Skills Lab title for each chapter. Chapter ORDER and
-  all coverage matrices are unchanged.
-* Updated `book/index.md`, `zensical.toml` (nav + description),
-  `README.md`, and `CLAUDE.md` (purpose, audience note, Tech in Your
-  Field admonition, Title Freshness Rule, AI terminology, checklist).
-* Added to `docs/style-guide.md`: a neighborhood health clinic example
-  domain and the AI-tool convention (no paid AI subscription in labs,
-  AI samples ship in the data pack).
-* Verified the site build (`zensical build --clean`).
+* Drafted, QA-gated, committed, and pushed all three Part I chapters,
+  one commit per chapter:
+    * Chapter 1: People, Data, and Intelligent Machines
+      (`book/chapters/chapter-01.md`, 515 lines)
+    * Chapter 2: The Web at Work: Search, Communication, and
+      E-commerce (`book/chapters/chapter-02.md`, 446 lines)
+    * Chapter 3: Apps and AI Copilots: Choosing the Right Tool
+      (`book/chapters/chapter-03.md`, 378 lines)
+* Built the three data packs with README data dictionaries:
+    * `assets/code/chapter-01/`: `letter-content.docx` (draft letter
+      with planted errors), `app-fact-sheet.docx` (12 facts)
+    * `assets/code/chapter-02/`: `ai-briefing.docx` (8-claim AI-style
+      briefing authored for the course)
+    * `assets/code/chapter-03/`: `bookstore-report.docx` (unstyled
+      report for the styles/TOC lab)
+* Populated `book/glossary.md`: 82 terms across Chapters 1-3.
+* Uncommented the Part I nav block in `zensical.toml` (all three
+  chapters live) and the Getting Started link in `book/index.md`.
+* Every chapter passed all QA gates before its commit: blocklist grep
+  (clean), zero em dashes, zero banned vocabulary, zero semicolons,
+  `check_sentence_length.py` (zero flagged), and
+  `zensical build --clean` (no issues).
 
-## What Was Done (2026-07-11 scaffold session)
+## Key Design Decisions (Part I session)
 
-* Instantiated this repo from
-  `/Users/vega/Documents/code/textbooks/template/` following
-  `NEW-TEXTBOOK-SETUP.md` (interview completed with Mr. Vega, all
-  placeholder tokens replaced, acceptance grep clean).
-* Ran `../shared/tools/sync-shared.sh .` (all synced files current)
-  and seeded `docs/blooms-taxonomy-reference.md`.
-* Built `docs/CIS105_CLOs.md` from
-  `/Users/vega/Documents/code/textbooks/cis105-old-reference-docs/cis105-course-outline.md`:
-  official description, 13 elevated CLOs with Bloom's tags, district
-  CLOs verbatim, CLO-to-chapter mapping, full district outline.
-* Authored `docs/part-structure.md` (authoritative 12-chapter plan),
-  `book/index.md` (home page with CLO listing and Part summaries),
-  `docs/style-guide.md` (course layer), and the course-configured
-  sections of `CLAUDE.md`.
-* Created the GitHub repo, enabled Pages (build_type=workflow),
-  verified the local build (`zensical build --clean`, no issues), and
-  confirmed the Actions deploy and live site (HTTP 200).
+* **Recurring cast (reuse in later chapters):** Desert Bloom Coffee,
+  the Phoenix-area coffee shop. Owner Maya Reyes. Mobile ordering app
+  "Bloom Ahead" (launched October 5, Petal Points loyalty, address
+  4210 N 7th Street). The campus bookstore is managed by Elena
+  Fuentes. Chapters 1-3 cross-reference these continuously.
+* **CLO alignment blocks** quote the elevated CLO wording with RBT
+  tags: Ch 1 = X, II, XIII. Ch 2 = IV, V, VI. Ch 3 = II, IX, XIII.
+* **Chapter length:** the ~600-line target was treated as a ceiling,
+  not a quota. Part I lands at 378-515 dense lines, inside the family
+  band (published CIS133 chapters run 425-543). No padding was added
+  to chase the number.
+* **Word lab thread progression:** Ch 1 letter from a blank page
+  (format, edit, deliver as PDF). Ch 2 memo (header block, findings
+  table, footer, bottom line up front). Ch 3 styles, self-updating
+  table of contents, Navigation Pane, and comments. Each lab reuses
+  the previous chapter's habits (pre-send inspection, Editor plus
+  read-aloud, descriptive file names).
+* **Submission convention (all labs):** two files,
+  `skills-lab-Na-lastname.docx` and `.pdf`. Questions & Analysis
+  answers go on a final page of the docx. The PDF is exported before
+  that page is added, so it stays a clean deliverable.
+* **AI-tool convention honored:** the Ch 2 briefing ships in the data
+  pack (authored for the course in AI-output style), no lab step
+  requires an AI account or paid tool, and Try It Yourself AI
+  exercises use free search-engine answer boxes.
+* **Ch 2 briefing answer key (instructor reference):** claims 2, 3,
+  5, and 7 are true. Claims 1, 4, 6, and 8 are false. Students verify
+  five of the eight.
+* **Ch 1 letter planted errors (instructor reference):** three
+  misspellings (recieve, convienience, apreciate), one wrong word
+  Editor may miss (exited for excited), and "Desert Bloom Cafe" twice
+  so Replace All reports 2 replacements.
+* **Word starter files are committed artifacts**, authored via pandoc
+  from markdown drafts. No generator scripts yet (the `_generators/`
+  convention starts when a lab needs seeded tabular data, likely
+  Chapter 6).
 
-## Key Design Decisions
+## Earlier Sessions (2026-07-11 scaffold and retitle)
 
-* **Title freshness rule (2026-07-11):** no part, chapter, section,
-  or assignment title reproduces a heading from the old build. Banned
-  list and grep check: `docs/legacy-title-blocklist.md`. Concepts
-  stay, names change.
-* **2026 reframe (2026-07-11):** every chapter carries an AI-era
-  thread, and every chapter includes one "Tech in Your Field"
-  admonition connecting the topic to the majors enrolled in the course
-  (about half Business and Entrepreneurship, a quarter BAS-IT, the
-  rest across health, science, arts, and public-service majors).
-  Through-line: roles are changing, not disappearing, and judgment
-  stays with the student.
-* **12 chapters in 4 Parts** (family standard). Old modules 6
-  (Input/Output) and 7 (Secondary Storage) merged into Chapter 6.
-  Every other module from the previous 13-module Computing Essentials
-  build keeps its taught order. Full rationale in
-  `docs/part-structure.md`.
-* **Airtable replaces Microsoft Access** (Mr. Vega's standing
-  decision, recorded twice in the source outline).
-* **Skills Lab app thread** covers CLO XIII: Word (Ch 1-3),
-  PowerPoint (Ch 4-5), Excel (Ch 6-9), Airtable (Ch 10-11), Excel
-  macros with VBA (Ch 12).
-* **VBA and macros live in Chapter 12** with programming concepts
-  (CLO VII, outline section V).
-* **Bloom's focus:** full RBT range, early chapters lean Remember
-  through Apply (recorded in CLAUDE.md and docs/part-structure.md).
-* **Flesch band:** 60-70, leaning toward the top.
-* **Task list ID is plain `cis105`** (no term suffix) per Mr. Vega's
-  setup answer: repo name, site subpath, folder, and task list all
-  match.
-* **Example domains:** recurring small businesses (Phoenix-area
-  coffee shop, campus bookstore, device repair shop, event venue).
-  See `docs/style-guide.md`.
+* Repo instantiated from the family template, shared files synced,
+  `docs/CIS105_CLOs.md` built from the district outline.
+* Title freshness rule executed: `docs/legacy-title-blocklist.md`
+  bans every heading from the old Computing Essentials build, with a
+  grep check run before every chapter commit.
+* `docs/part-structure.md` is authoritative for part names, chapter
+  titles, subtitles, content bullets, CLO alignment, and Skills Lab
+  titles.
 
 ## Pending Decisions
 
@@ -93,38 +90,47 @@
 * License for the published book (README has a TODO; siblings can
   guide, for example CC BY-NC-SA 4.0).
 
-## Next Steps
+## Next Steps (Part II: Under the Hood, Chapters 4-6)
 
-1. Draft Chapter 1 (People, Data, and Intelligent Machines) from
-   `templates/chapter-template.md` and the Chapter 1 block in
-   `docs/part-structure.md`. Old lecture notes are concept reference
-   only, never title reference:
-   `/Users/vega/Documents/code/textbooks/cis105-old-reference-docs/chapter-01-old-notes.docx`.
-   Before commit, run the heading check in
-   `docs/legacy-title-blocklist.md`.
-2. Build the Chapter 1 data pack folder (`assets/code/chapter-01/`)
-   with the Word starter file and a README data dictionary.
-3. Uncomment the Chapter 1 nav line in `zensical.toml` and the
-   Getting Started link in `book/index.md` when the chapter lands.
-4. Add Chapter 1 key terms to `book/glossary.md`.
-5. Repeat per chapter, following the lab thread order.
+1. Draft Chapter 4 (What Makes Your Device Run: Operating Systems and
+   Utilities) from the Chapter 4 block in `docs/part-structure.md`.
+   The lab thread moves to PowerPoint: Skills Lab 4 builds the event
+   venue's pitch deck from a provided outline, so the chapter-04 data
+   pack needs that outline file (the event venue business gets named
+   here; keep the recurring-cast pattern).
+2. Chapter 5 (Processors, Memory, and the AI PC) continues PowerPoint
+   with the device repair shop's spec-sheet visuals.
+3. Chapter 6 (From Touchscreens to the Cloud: Devices and Storage)
+   starts the Excel thread with `device-comparison.xlsx` and likely
+   the first `_generators/` script (seeded tabular data, 50+ rows).
+4. Per chapter, follow the Part I pattern: template structure, data
+   pack with README, glossary additions, nav uncomment, all QA gates,
+   one commit, push.
+5. Ch 1 Looking Ahead promises Ch 4 previews OS-level AI assistants
+   and privacy (part-structure lists it). Keep the cross-references
+   honest when drafting.
 
 ## How to Continue
 
 Start a session in `/Users/vega/Documents/code/textbooks/cis105/`.
-Read `CLAUDE.md`, this file, and `docs/part-structure.md`. The old
-lecture notes for every chapter live in
-`/Users/vega/Documents/code/textbooks/cis105-old-reference-docs/`
-(chapter-NN-old-notes.docx map to old module numbers: new Chapter 6
-merges old 6 and 7, and new Chapters 7-12 map to old 8-13).
+Read `CLAUDE.md`, this file, and `docs/part-structure.md`. The repo is
+self-contained: the blocklist and part-structure encode everything
+needed from the retired build. Old lecture notes in
+`../cis105-old-reference-docs/` are concept reference only, never
+title reference (new Chapter 6 merges old modules 6 and 7, and new
+Chapters 7-12 map to old 8-13).
 
 ## Data Pack Conventions
 
-* Generators live in `assets/code/_generators/` (none yet). Base seed:
-  not yet assigned. Document the seed and rebuild command here when
-  the first generator lands.
-* Mr. Vega uploads data pack zips to Canvas manually. Keep generator
-  sources committed and local zips current.
+* Word starter files: committed `.docx` artifacts in
+  `assets/code/chapter-NN/`, authored via pandoc. Every folder has a
+  README data dictionary (contents, types, source, license).
+* Generators live in `assets/code/_generators/` (none yet). Base
+  seed: not yet assigned. Document the seed and rebuild command here
+  when the first generator lands (expected with Chapter 6's Excel
+  data).
+* Mr. Vega uploads data pack zips to Canvas manually. Keep sources
+  committed and local zips current.
 
 ## Build
 
