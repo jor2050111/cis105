@@ -45,11 +45,11 @@ nav = [
     { "Chapter 2: The Web at Work: Search, Communication, and E-commerce" = "chapters/chapter-02.md" },
     { "Chapter 3: Apps and AI Copilots: Choosing the Right Tool" = "chapters/chapter-03.md" },
   ] },
-  # { "Part II: Under the Hood" = [
-  #   { "Chapter 4: What Makes Your Device Run: Operating Systems and Utilities" = "chapters/chapter-04.md" },
+  { "Part II: Under the Hood" = [
+    { "Chapter 4: What Makes Your Device Run: Operating Systems and Utilities" = "chapters/chapter-04.md" },
   #   { "Chapter 5: Processors, Memory, and the AI PC" = "chapters/chapter-05.md" },
   #   { "Chapter 6: From Touchscreens to the Cloud: Devices and Storage" = "chapters/chapter-06.md" },
-  # ] },
+  ] },
   # { "Part III: Connected and Protected" = [
   #   { "Chapter 7: Networks Everywhere: From Wi-Fi to Satellite Internet" = "chapters/chapter-07.md" },
   #   { "Chapter 8: Digital Self-Defense: Security, Privacy, and Ethics in the AI Era" = "chapters/chapter-08.md" },
