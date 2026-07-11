@@ -1,0 +1,61 @@
+Booking ID,Event Date,Space,Organization,Contact Email,Contact Phone,Event Type,Guest Count,Hours,Package,Add-Ons,Status,Quoted Price
+SH-1001,2026-01-18,Courtyard,City of Phoenix Parks and Rec,events@phoenixparks.gov,602-555-0110,Fundraiser,73,2,Silver,Decor,Completed,950
+SH-1002,2026-02-05,Main Hall,City of Phoenix Parks and Rec,events@phoenixparks.gov,602-555-0110,Community Meeting,72,6,Silver,Extra Staff,Completed,1750
+SH-1003,2026-02-18,Courtyard,City of Phoenix Parks and Rec,events@phoenixparks.gov,602-555-0110,Market,123,4,Silver,Parking,Cancelled,1050
+SH-1004,2026-03-07,Courtyard,City of Phoenix Parks and Rec,events@phoenixparks.gov,602-555-0110,Market,139,3,Silver,Extra Staff,Completed,1000
+SH-1005,2026-03-28,Meeting Room,City of Phoenix Parks and Rec,events@phoenixparks.gov,602-555-0117,Fundraiser,40,8,Gold,"Decor, Parking",Completed,1630
+SH-1006,2026-04-15,Meeting Room,City of Phoenix Parks and Rec,events@phoenixparks.gov,602-555-0110,Fundraiser,40,6,Silver,Decor,Completed,1010
+SH-1007,2026-05-06,Meeting Room,Phoenix Camera Club,hello@phxcameraclub.org,602-555-0121,Workshop,29,8,Gold,Parking,Completed,1330
+SH-1008,2026-05-27,Meeting Room,Phoenix Camera Club,hello@phxcameraclub.org,602-555-0121,Workshop,18,2,Gold,Decor,Completed,1170
+SH-1009,2026-06-10,Courtyard,Phoenix Camera Club,hello@phxcameraclub.org,602-555-0121,Workshop,175,2,Bronze,None,Cancelled,300
+SH-1010,2026-07-01,Meeting Room,Phoenix Camera Club,hello@phxcameraclub.org,602-555-0121,Networking,20,4,Silver,"AV Package, Decor",Confirmed,1040
+SH-1011,2026-07-13,Meeting Room,Phoenix Camera Club,hello@phxcameraclub.org,602-555-0121,Workshop,27,3,Gold,AV Package,Confirmed,1080
+SH-1012,2026-07-25,Courtyard,Valle Verde High School,activities@valleverde.edu,602-555-0132,Fundraiser,150,3,Silver,Parking,Confirmed,900
+SH-1013,2026-08-14,Courtyard,Valle Verde High School,activities@valleverde.edu,602-555-0132,Concert,150,8,Gold,"AV Package, Catering",Confirmed,2600
+SH-1014,2026-09-02,Main Hall,Valle Verde High School,activities@valleverde.edu,602-555-0132,Fundraiser,267,2,Gold,Catering,Confirmed,1650
+SH-1015,2026-09-14,Courtyard,Valle Verde High School,activities@valleverde.edu,602-555-0132,Concert,123,4,Silver,"AV Package, Decor",Confirmed,1400
+SH-1016,2026-10-03,Courtyard,Roosevelt Row Arts,book@rooseveltrow.org,602-555-0143,Market,115,3,Silver,None,Pending,800
+SH-1017,2026-10-22,Courtyard,Roosevelt Row Arts,book@rooseveltrow.org,602-555-0143,Market,124,3,Silver,"Extra Staff, Parking",Pending,1100
+SH-1018,2026-11-11,Courtyard,Roosevelt Row Arts,book@rooseveltrow.org,602-555-0143,Concert,80,2,Silver,Extra Staff,Pending,850
+SH-1019,2026-11-26,Courtyard,Roosevelt Row Arts,book@rooseveltrow.org,602-555-0143,Networking,111,3,Bronze,Catering,Pending,950
+SH-1020,2026-12-17,Meeting Room,Desert Bloom Coffee,maya@desertbloomcoffee.com,602-555-0154,Networking,33,3,Gold,"AV Package, Extra Staff",Pending,1280
+SH-1021,2026-01-11,Meeting Room,Desert Bloom Coffee,maya@desertbloomcoffee.com,602-555-0154,Workshop,39,8,Gold,None,Completed,1230
+SH-1022,2026-01-28,Meeting Room,Desert Bloom Coffee,maya@desertbloomcoffee.com,602-555-0154,Networking,23,3,Bronze,"Extra Staff, Parking",Cancelled,480
+SH-1023,2026-02-10,Courtyard,Sonoran Small Business Alliance,team@sonoranbiz.org,602-555-0165,Conference,90,3,Gold,Parking,Completed,1300
+SH-1024,2026-02-26,Courtyard,Sonoran Small Business Alliance,team@sonoranbiz.org,602-555-0165,Conference,87,5,Bronze,Catering,Completed,1250
+SH-1025,2026-03-08,Courtyard,Sonoran Small Business Alliance,team@sonoranbiz.org,602-555-0165,Conference,100,8,Gold,Decor,Completed,2250
+SH-1026,2026-03-29,Main Hall,Sonoran Small Business Alliance,team@sonoranbiz.org,602-555-0165,Networking,58,4,Gold,"Extra Staff, Parking",Completed,1850
+SH-1027,2026-04-07,Main Hall,Grand Canal Rotary,club@grandcanalrotary.org,602-555-0176,Community Meeting,184,5,Gold,Parking,Completed,1850
+SH-1028,2026-04-18,Main Hall,Grand Canal Rotary,club@grandcanalrotary.org,602-555-0176,Community Meeting,91,8,Gold,"Catering, Extra Staff",Cancelled,3050
+SH-1029,2026-05-01,Main Hall,Grand Canal Rotary,club@grandcanalrotary.org,602-555-0176,Community Meeting,114,3,Gold,Catering,Completed,1850
+SH-1030,2026-05-16,Main Hall,Grand Canal Rotary,club@grandcanalrotary.org,602-555-0176,Fundraiser,187,3,Gold,None,Completed,1350
+SH-1031,2026-05-29,Meeting Room,Phoenix College Bookstore,store@phoenixcollege.edu,602-555-0187,Market,26,2,Silver,"AV Package, Extra Staff",Completed,820
+SH-1032,2026-06-10,Meeting Room,Phoenix College Bookstore,store@phoenixcollege.edu,602-555-0187,Workshop,30,2,Gold,"Decor, Extra Staff",Completed,1370
+SH-1033,2026-06-24,Meeting Room,Cactus Wren Repair,hello@cactuswrenrepair.com,602-555-0173,Workshop,26,8,Silver,"Extra Staff, Parking",Completed,1130
+SH-1034,2026-07-13,Meeting Room,Cactus Wren Repair,hello@cactuswrenrepair.com,602-555-0173,Workshop,26,4,Bronze,"Decor, Extra Staff",Confirmed,740
+SH-1035,2026-07-27,Main Hall,Las Artes Folklórico,info@lasartesfolklorico.org,602-555-0198,Concert,197,3,Silver,Extra Staff,Confirmed,1150
+SH-1036,2026-08-08,Main Hall,Las Artes Folklórico,info@lasartesfolklorico.org,602-555-0198,Quinceañera,196,6,Gold,Extra Staff,Confirmed,2150
+SH-1037,2026-08-29,Meeting Room,Encanto Neighborhood Association,board@encantoneighbors.org,602-555-0209,Community Meeting,40,3,Silver,AV Package,Confirmed,680
+SH-1038,2026-09-08,Courtyard,Encanto Neighborhood Association,board@encantoneighbors.org,602-555-0209,Community Meeting,83,4,Silver,None,Confirmed,950
+SH-1039,2026-09-27,Main Hall,Desert Sky Robotics,coach@desertskyrobotics.org,602-555-0210,Conference,155,4,Silver,"AV Package, Catering",Pending,1800
+SH-1040,2026-10-08,Main Hall,Desert Sky Robotics,coach@desertskyrobotics.org,602-555-0210,Workshop,161,2,Gold,"Catering, Parking",Pending,1750
+SH-1041,2026-10-21,Main Hall,Desert Sky Robotics,coach@desertskyrobotics.org,602-555-0210,Workshop,90,4,Silver,Catering,Pending,1650
+SH-1042,2026-11-04,Main Hall,Maryvale Health Coalition,outreach@maryvalehealth.org,602-555-0221,Community Meeting,129,4,Gold,Catering,Pending,2050
+SH-1043,2026-11-20,Meeting Room,Maryvale Health Coalition,outreach@maryvalehealth.org,602-555-0221,Community Meeting,40,2,Bronze,"AV Package, Parking",Pending,370
+SH-1044,2026-11-30,Courtyard,Maryvale Health Coalition,outreach@maryvalehealth.org,602-555-0221,Fundraiser,138,3,Gold,AV Package,Pending,1350
+SH-1045,2026-12-16,Courtyard,South Mountain Hikers,trailhead@southmtnhikers.org,602-555-0232,Community Meeting,39,3,Gold,Parking,Pending,1300
+SH-1046,2026-01-09,Courtyard,South Mountain Hikers,trailhead@southmtnhikers.org,602-555-0232,Networking,40,4,Silver,AV Package,Completed,1100
+SH-1047,2026-01-30,Courtyard,South Mountain Hikers,trailhead@southmtnhikers.org,602-555-0232,Networking,53,8,Silver,Extra Staff,Completed,1750
+SH-1048,2026-02-13,Main Hall,Phoenix Youth Soccer League,league@phxyouthsoccer.org,602-555-0243,Fundraiser,230,4,Silver,AV Package,Completed,1300
+SH-1049,2026-02-22,Main Hall,Phoenix Youth Soccer League,league@phxyouthsoccer.org,602-555-0243,Fundraiser,232,8,Gold,Catering,Completed,2850
+SH-1050,2026-03-07,Meeting Room,Rio Salado Beekeepers,hive@riosaladobees.org,602-555-0254,Workshop,21,3,Silver,Decor,Completed,830
+SH-1051,2026-03-27,Courtyard,Rio Salado Beekeepers,hive@riosaladobees.org,602-555-0254,Workshop,35,3,Silver,Parking,Completed,900
+SH-1052,2026-04-17,Meeting Room,Central Library Friends,friends@centrallibrary.org,602-555-0265,Fundraiser,52,2,Gold,Catering,Completed,1370
+SH-1053,2026-05-02,Courtyard,Central Library Friends,friends@centrallibrary.org,602-555-0265,Fundraiser,150,4,Gold,None,Cancelled,1350
+SH-1054,2026-05-20,Main Hall,Ahwatukee Chamber Singers,sing@ahwatukeechamber.org,602-555-0276,Concert,267,4,Bronze,"Catering, Parking",Completed,1400
+SH-1055,2026-06-06,Courtyard,Tempe Tech Meetup,organizers@tempetech.dev,602-555-0287,Networking,40,8,Gold,Catering,Completed,2450
+SH-1056,2026-06-20,Courtyard,Nguyen Family,kimnguyen.family@example.com,602-555-0298,Wedding,110,4,Silver,Parking,Cancelled,1050
+SH-1057,2026-07-01,Main Hall,Okafor Family,okafor.celebration@example.com,602-555-0309,Wedding,253,6,Bronze,Decor,Confirmed,1500
+SH-1058,2026-07-18,Main Hall,Sacred Heart Parish,office@sacredheartphx.org,602-555-0310,Quinceañera,188,3,Gold,"AV Package, Decor",Confirmed,1800
+SH-1059,2026-08-07,Courtyard,Phoenix Pride Alliance,events@phxpride.org,602-555-0321,Networking,121,3,Bronze,AV Package,Confirmed,600
+SH-1060,2026-08-21,Main Hall,Downtown Farmers Market,market@downtownphxmarket.org,602-555-0332,Market,139,3,Silver,"Extra Staff, Parking",Confirmed,1250

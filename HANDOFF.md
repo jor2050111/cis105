@@ -1,10 +1,126 @@
 # CIS105 Textbook: Session Handoff
 
-**Last updated:** 2026-07-11 (Part III session: chapters 7-9)
+**Last updated:** 2026-07-11 (Part IV session: chapters 10-11)
 **Repo:** https://github.com/jor2050111/cis105
 **Live site:** https://jor2050111.github.io/cis105/
 **Task list:** CLAUDE_CODE_TASK_LIST_ID=cis105 (pinned in
 `/Users/vega/Documents/code/textbooks/cis105/.claude/settings.json`)
+
+## What Was Done (2026-07-11 Part IV drafting session: chapters 10-11)
+
+* Drafted, adversarially reviewed, QA-gated, and committed chapters 10-11
+  (Part IV's database and systems-planning chapters):
+    * Chapter 10: Where Data Lives: Tables, Records, and Relationships
+      (`book/chapters/chapter-10.md`, 6,338 words)
+    * Chapter 11: From Idea to Rollout: Planning Technology Solutions
+      (`book/chapters/chapter-11.md`, 6,210 words)
+* Lab thread turned to Airtable (free-plan features only, CLO XIII).
+  Ch 10 lab "From CSV to Connected Base" imports two CSVs, builds the
+  linked relationship, typed views, and a least-privilege form. Ch 11
+  lab "Track the Project" runs a systems tracker: group by phase,
+  Kanban by status, calendar, find the overdue and the at-risk task,
+  write a go/no-go readout.
+* Built two seeded CSV data packs (base seed 105, stdlib only, no
+  openpyxl), byte-identical on rerun, each with a README data
+  dictionary:
+    * `assets/code/chapter-10/`: `saguaro-bookings.csv` (60x13,
+      denormalized "before") and `saguaro-customers.csv` (24x6
+      dimension). Referential integrity for a clean Airtable link, 17
+      repeat organizations, one planted phone drift (SH-1005), a
+      reproducible pricing model, two capacity overflows.
+    * `assets/code/chapter-11/`: `project-tasks.csv` (54x11), Saguaro
+      Hall's rollout across the six life-cycle phases (9 each), one
+      at-risk task (T-140 In Progress ahead of the unstarted T-136),
+      11 overdue on the 2026-07-11 status date.
+* **Adversarial review protocol (per chapter):** a dedicated reviewer
+  agent instructed to REFUTE the chapter across five attacks (numbers
+  vs CSV, Airtable free-plan lab realism, domain accuracy, style law
+  plus pedagogy, continuity plus links). Ch 10: 4 REQUIRED + 6 JUDGMENT.
+  Ch 11: 2 REQUIRED + 7 JUDGMENT. All REQUIRED fixed and sound JUDGMENT
+  adopted before scoring (see the Part IV evaluation). The Ch 10 review
+  is the exemplar of why the protocol exists: it caught the chapter
+  teaching that an Airtable email field rejects a phone number (it does
+  not) and an opening scenario that contradicted the shipped drift row.
+* **Airtable accuracy guardrails (family-relevant, from the Ch 10
+  review):** Airtable does NOT strictly validate typed fields or enforce
+  primary-key uniqueness, and a linked field on a Form lets a submitter
+  search the linked table. Chapters now teach validation and keys as
+  database CONCEPTS and credit the DESIGN (normalization) as the real
+  safeguard, and the intake form uses a plain text field for the
+  organization. Sibling Airtable labs should inherit these caveats.
+* Glossary grew 255 to 299 terms (44 new across the two chapters), with
+  a new `## Q` section. Every Key Terms entry resolves (Ch 10 all 25,
+  Ch 11 all 16), verified by script.
+* Every chapter passed all QA gates: zero em dashes, zero prose
+  semicolons, zero banned vocabulary, asterisk bullets,
+  `check_sentence_length.py` zero flags, Flesch in band (66.7 / 65.8 on
+  the session estimator, which reads ~3.3 above the recorded house
+  estimator, so the band is ~62.0-67.1), title blocklist clean,
+  `zensical build --clean` clean, both chapters in nav and search.
+* Further Reading verified live in a browser at draft time (Airtable
+  getting-started, linking-records, and views; FTC; both BLS OOH pages;
+  Wikipedia SDLC). Two dead URLs were caught and replaced: Ch 10's
+  `creating-different-views` (404) became `getting-started-with-airtable-views`,
+  and Ch 11's GCF `beginning-a-project` (404 via the learnfree redirect)
+  became the Wikipedia SDLC overview.
+* Uncommented the Part IV nav block for chapters 10-11 in
+  `zensical.toml` (Chapter 12 stays commented until drafted).
+* Data-pack zip rebuilt (47 files) with chapters 10-11.
+* **Part IV evaluation:** `evaluations/cis105-2026-07-11-part4-scored-rubric.md`
+  (workspace-root repo) scores chapters 10-11 at **97.6/100,
+  Publication-ready**, every fixable axis at 5, C10 capped at 3 (no
+  images shipped anywhere in the book).
+* **Commit note:** chapters 10-11 were committed together in one Part IV
+  commit, because the glossary merge interleaved both chapters' terms
+  alphabetically and the shared nav references both files, so a clean
+  per-chapter split would leave an intermediate commit whose nav points
+  at a missing file. The Airtable lab thread spans both chapters.
+
+## Key Design Decisions (Part IV session)
+
+* **Airtable submission convention (Ch 10-11):** the base lives in the
+  cloud, so the deliverable is a read-only shared VIEW LINK plus a PDF
+  (`skills-lab-NNa-lastname.pdf`) holding the link, three screenshots,
+  the written plan or readout, and the two Q&A answers. This makes
+  Chapter 1's "cloud trades the file for a login" concrete.
+* **Recurring cast additions:** the Ch 11 project team is Renee Salazar
+  (Saguaro Hall's office manager) and Sam Ortiz (a hired IT consultant),
+  alongside Darnell Brooks (GM, the project sponsor). Ch 10's customer
+  list seeds cross-cast cameos: Desert Bloom Coffee, Cactus Wren Repair,
+  and the college bookstore all book the venue.
+* **CLO alignment blocks:** Ch 10 = XIII, VI, X. Ch 11 = VIII, IX, XIII.
+* **Bloom escalation across Part IV:** Ch 10 tops at Analyze (MLO-10.3),
+  Ch 11 reaches Evaluate (MLO-11.3), and Ch 12 will reach Create (the
+  macro work). This matches the part plan's Apply-through-Create arc.
+* **Data-quality-by-design thread:** Ch 10 plants a copied-then-drifted
+  phone (SH-1005) and pays it in the lab (link once, drift gone). Ch 11
+  plants an at-risk task (parallel run started before data is loaded)
+  that students find by comparing a task's status to its dependency's.
+
+## Instructor Answer Keys (Part IV)
+
+* **Ch 10 lab (saguaro bookings + customers):** 60 bookings, 24 orgs.
+  City of Phoenix Parks books most (6), then Phoenix Camera Club (5). 17
+  of 24 booked more than once. SH-1005 is the sole phone drift (booking
+  says 602-555-0117, the Customers table holds the correct
+  602-555-0110). Status: Completed 27, Confirmed 15, Pending 12,
+  Cancelled 6. Space: Courtyard 24, Main Hall 19, Meeting Room 17.
+  Quoted total $81,060, realized (non-cancelled) $73,780. Over-capacity:
+  SH-1009 (175 in the 150-seat Courtyard, Cancelled) and SH-1052 (52 in
+  the 40-seat Meeting Room, Completed). Pricing = space rate x hours +
+  package fee + add-on fees (rates: Main Hall $200, Courtyard $150,
+  Meeting Room $60 per hour; Bronze $0, Silver $350, Gold $750; add-ons
+  AV $150, Catering $500, Decor $300, Extra Staff $200, Parking $100).
+* **Ch 11 lab (project-tasks):** 54 tasks, 9 per phase across the six
+  phases. Status: Done 28, In Progress 5, Blocked 2, Not Started 19.
+  Priority: High 27, Medium 23, Low 4. Total 246 hours (by phase:
+  Investigation 43, Analysis 45, Design 42, Development 42,
+  Implementation 40, Maintenance 34). At-risk task: T-140 (Run the old
+  and new systems in parallel, In Progress) depends on T-136 (Load the
+  historical bookings, Not Started). Overdue on 2026-07-11: 11 tasks, 6
+  High priority. The plan chose parallel conversion (T-137 Done). The
+  Q&A go/no-go answer: not ready to cut over (finish Development, run
+  parallel), defended from the overdue and at-risk signals.
 
 ## What Was Done (2026-07-11 Part III drafting session)
 
@@ -287,30 +403,35 @@
   them). Nine mechanical edits, held for Mr. Vega's approval because
   MLO lines feed Canvas alignment.
 
-## Next Steps (Part IV remainder: Chapters 10-12)
+## Next Steps (Part IV finale: Chapter 12, the capstone)
 
-1. Draft Chapter 10 (Where Data Lives: Tables, Records, and
-   Relationships) from its block in `docs/part-structure.md`. Skills
-   Lab 10 (Airtable): From CSV to Connected Base. Needs pack CSVs
-   (customer orders and Saguaro Hall bookings). The lab thread turns
-   to Airtable (free plan features only).
-2. Cross-references Chapter 10 must pay: Ch 9's Looking Ahead (pivot
-   questions become queries, Saguaro Hall's bookings get a base,
-   Bloom Ahead sits on a database), Ch 1's Airtable cloud-login
-   difference ("Chapter 10 examines up close"), Ch 6's filter-view
-   line ("the first taste of the database questions Chapter 10 asks
-   properly"), and Ch 8's CLO VI support (data security in databases
-   per the coverage matrix).
-3. Chapter 11 (From Idea to Rollout) then Chapter 12 (Automate Your
-   Work: macros, VBA, AI coding assistants; requires desktop Excel,
-   noted since Ch 6). Chapter 12 is the capstone: check C9's
-   integrated-deliverable expectation when drafting its lab.
-4. Per chapter, keep the Part III pattern: plan (MLO bindings,
-   misconception inventory, continuity ledger), seeded data pack with
-   README, glossary additions, nav uncomment, dedicated adversarial
-   reviewer agent, all QA gates, one commit, push.
-5. Bloom's per part-structure: Part IV finishes Apply through Create
-   (Create belongs to Ch 12's macro work).
+1. Draft Chapter 12 (Automate Your Work: Macros, VBA, and AI Coding
+   Assistants) from its block in `docs/part-structure.md`. The lab
+   thread returns to Excel and requires desktop Excel (Excel for the
+   web cannot record or run macros, noted since Ch 3 and Ch 6). Skills
+   Lab 12: Record It, Read It, Rewrite It (record a macro, then edit
+   and explain it in the Visual Basic Editor).
+2. Cross-references Chapter 12 must pay: Ch 11's Looking Ahead (record
+   a macro, read the generated code, put an AI coding assistant to
+   work, verify code you did not write), Ch 2's HTML/web-scripting tie,
+   Ch 3's "Excel for the web cannot run the macros Chapter 12 teaches,"
+   and the Excel skills built across Ch 6-9. Grep chapters 1-11 for
+   every literal "Chapter 12" promise before drafting.
+3. Chapter 12 is the capstone: it must reach Create-level Bloom work
+   (the macro students write and defend) and carry an integrated
+   deliverable that ties the term together (check the C9
+   integrated-capstone expectation in the quality instrument).
+4. Keep the Part III/IV pattern: plan (MLO bindings, misconception
+   inventory, continuity ledger), seeded data pack with README (VBA
+   labs need desktop-Excel starter workbooks, not CSVs), glossary
+   additions, nav uncomment, a dedicated adversarial reviewer agent
+   instructed to refute, all QA gates, commit, push.
+5. After Chapter 12, run the whole-book stamp against the quality
+   instrument (the Part IV taper watch is clear through Ch 11; the
+   capstone's integrated deliverable is the remaining C9 risk), and
+   consider shipping the first annotated screenshots (Airtable and VBA
+   labs are the strongest candidates), which would lift the book-wide
+   C10 alt-text cap from 3.
 
 ## How to Continue
 

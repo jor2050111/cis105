@@ -1,0 +1,55 @@
+Task ID,Phase,Task Name,Owner,Status,Priority,Estimated Hours,Start Date,Due Date,Depends On,Notes
+T-101,Investigation,Document the current booking pain points,Renee Salazar,Done,High,6,2026-01-13,2026-01-18,,Double-bookings and drifted contact numbers
+T-102,Investigation,Interview front-desk staff on the current process,Renee Salazar,Done,Medium,5,2026-01-17,2026-01-21,T-101,
+T-103,Investigation,Estimate the cost of the manual process,Renee Salazar,Done,Medium,4,2026-01-21,2026-01-25,T-102,Staff hours per week
+T-104,Investigation,Define project scope and goals,Darnell Brooks,Done,High,5,2026-01-25,2026-01-29,T-101,"One connected base, no lost bookings"
+T-105,Investigation,Assess technical feasibility,Sam Ortiz,Done,High,6,2026-01-29,2026-02-03,T-104,Can staff run a browser tool?
+T-106,Investigation,Assess economic feasibility and budget,Darnell Brooks,Done,High,5,2026-02-02,2026-02-06,T-104,Free-plan target
+T-107,Investigation,Assess operational feasibility with staff,Renee Salazar,Done,Medium,4,2026-02-06,2026-02-10,T-105,
+T-108,Investigation,Write the preliminary findings report,Renee Salazar,Done,Medium,6,2026-02-10,2026-02-15,T-105,
+T-109,Investigation,Get sponsor approval to proceed,Darnell Brooks,Done,High,2,2026-02-14,2026-02-17,T-108,Go/no-go gate
+T-110,Analysis,Gather booking requirements from staff,Renee Salazar,Done,High,6,2026-02-17,2026-02-22,T-109,
+T-111,Analysis,Gather requirements from event clients,Renee Salazar,Done,Medium,5,2026-02-21,2026-02-25,T-109,
+T-112,Analysis,Analyze the current flat export,Sam Ortiz,Done,High,5,2026-02-25,2026-03-01,T-110,The denormalized booking CSV
+T-113,Analysis,List the fields a booking must capture,Sam Ortiz,Done,Medium,4,2026-03-01,2026-03-05,T-112,
+T-114,Analysis,Define the customer-to-booking relationship,Sam Ortiz,Done,High,5,2026-03-05,2026-03-09,T-113,"One customer, many bookings"
+T-115,Analysis,Evaluate build versus buy versus subscribe,Darnell Brooks,Done,High,6,2026-03-09,2026-03-14,T-112,Decision memo for the sponsor
+T-116,Analysis,"Compare Airtable, Access, and a custom build",Sam Ortiz,Done,Medium,5,2026-03-13,2026-03-17,T-115,
+T-117,Analysis,Write the requirements specification,Renee Salazar,Done,High,7,2026-03-17,2026-03-22,T-114,
+T-118,Analysis,Get sign-off on the requirements,Darnell Brooks,Done,High,2,2026-03-21,2026-03-24,T-117,Requirements gate
+T-119,Design,Design the Bookings and Customers tables,Sam Ortiz,Done,High,6,2026-03-24,2026-03-29,T-118,
+T-120,Design,Choose the primary keys,Sam Ortiz,Done,High,3,2026-03-28,2026-03-31,T-119,"Booking ID, Organization"
+T-121,Design,Define every field type,Sam Ortiz,Done,Medium,5,2026-04-01,2026-04-05,T-120,
+T-122,Design,Design the linked relationship,Sam Ortiz,Done,High,4,2026-04-05,2026-04-09,T-120,
+T-123,Design,Design the four working views,Sam Ortiz,Done,Medium,5,2026-04-09,2026-04-13,T-121,"Grid, Calendar, Kanban, Form"
+T-124,Design,Design the least-privilege access levels,Sam Ortiz,Blocked,High,4,2026-04-13,2026-04-17,T-122,Waiting on the sponsor's staff-role list
+T-125,Design,Design the client intake form,Renee Salazar,Done,Medium,4,2026-04-17,2026-04-21,T-123,
+T-126,Design,Build a clickable prototype base,Sam Ortiz,In Progress,High,8,2026-04-21,2026-04-27,T-124,
+T-127,Design,Review the prototype with front-desk staff,Renee Salazar,Not Started,Medium,3,2026-04-25,2026-04-28,T-126,
+T-128,Development,Create the Airtable base,Sam Ortiz,Done,High,3,2026-04-21,2026-04-24,T-125,
+T-129,Development,Import and clean the bookings data,Sam Ortiz,Done,High,5,2026-04-26,2026-04-30,T-128,
+T-130,Development,Build the Customers table,Sam Ortiz,Done,Medium,4,2026-05-01,2026-05-05,T-129,
+T-131,Development,Build the linked-record relationship,Sam Ortiz,In Progress,High,5,2026-05-06,2026-05-10,T-130,
+T-132,Development,Configure field types and validation,Sam Ortiz,In Progress,Medium,5,2026-05-11,2026-05-15,T-131,
+T-133,Development,Build the four views,Sam Ortiz,Not Started,Medium,6,2026-05-16,2026-05-21,T-131,
+T-134,Development,Set up the client intake form,Renee Salazar,Not Started,Medium,4,2026-05-21,2026-05-25,T-133,
+T-135,Development,Configure permissions and collaborators,Sam Ortiz,Blocked,High,4,2026-05-26,2026-05-30,T-124,Blocked by the access-level design
+T-136,Development,Load the historical bookings,Renee Salazar,Not Started,High,6,2026-05-31,2026-06-05,T-129,
+T-137,Implementation,Choose a conversion strategy,Darnell Brooks,Done,High,4,2026-06-23,2026-06-27,T-115,Parallel run chosen
+T-138,Implementation,Write the staff training guide,Renee Salazar,In Progress,Medium,6,2026-06-29,2026-07-04,T-132,
+T-139,Implementation,Train the front-desk staff,Renee Salazar,Not Started,High,5,2026-07-05,2026-07-09,T-138,
+T-140,Implementation,Run the old and new systems in parallel,Renee Salazar,In Progress,High,10,2026-07-11,2026-07-18,T-136,Two-week overlap with the old system
+T-141,Implementation,Test the intake form with a real client,Renee Salazar,Not Started,Medium,3,2026-07-17,2026-07-20,T-133,
+T-142,Implementation,Cut over to the new base,Darnell Brooks,Not Started,High,4,2026-07-23,2026-07-27,T-140,Go-live
+T-143,Implementation,Decommission the old spreadsheet,Sam Ortiz,Not Started,Low,2,2026-07-29,2026-08-01,T-142,
+T-144,Implementation,Hold a post-launch check-in,Darnell Brooks,Not Started,Medium,2,2026-08-04,2026-08-07,T-142,
+T-145,Implementation,Confirm no bookings were lost in the move,Renee Salazar,Not Started,High,4,2026-08-10,2026-08-14,T-142,
+T-146,Maintenance,Schedule monthly data audits,Renee Salazar,Not Started,Medium,3,2026-07-28,2026-07-31,T-142,
+T-147,Maintenance,Set up a weekly export backup,Sam Ortiz,Not Started,High,3,2026-08-06,2026-08-09,T-142,The 3-2-1 habit from Chapter 6
+T-148,Maintenance,Collect user feedback for one month,Renee Salazar,Not Started,Low,4,2026-08-15,2026-08-19,T-143,
+T-149,Maintenance,Fix issues reported after launch,Sam Ortiz,Not Started,Medium,6,2026-08-24,2026-08-29,T-144,
+T-150,Maintenance,Add a monthly revenue report view,Sam Ortiz,Not Started,Low,4,2026-09-02,2026-09-06,T-149,Requested enhancement
+T-151,Maintenance,Review access levels quarterly,Darnell Brooks,Not Started,Medium,2,2026-09-11,2026-09-14,T-142,
+T-152,Maintenance,Audit for duplicate customer records,Sam Ortiz,Not Started,Medium,3,2026-09-20,2026-09-23,T-146,
+T-153,Maintenance,Plan an automated reminder feature,Sam Ortiz,Not Started,Low,5,2026-09-29,2026-10-03,T-150,Possible Chapter 12 macro work
+T-154,Maintenance,Write the one-page user guide,Renee Salazar,Not Started,Medium,4,2026-10-08,2026-10-12,T-143,

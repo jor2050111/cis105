@@ -20,9 +20,13 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **absolute reference:** A cell reference locked with dollar signs, such as $Q$1, so filling a formula cannot move it. The pattern for shared assumptions such as budgets and rates.
 
+**access control:** Rules in a database or system that decide who may see or change which data. Airtable sets it per person, from creator down to a read-only viewer.
+
 **administrator account:** A user account with the power to install software, change system settings, and create other accounts. Professionals save it for deliberate changes and do daily work in standard accounts.
 
 **Activity Monitor:** macOS's built-in gauge for running programs, found in Applications > Utilities. It shows every running program and what each one costs in processor time and memory.
+
+**agile:** A way of running the systems life cycle in small, fast loops: ship a working slice, watch people use it, and adjust, instead of building everything before revealing it. It runs the same phases, faster.
 
 **AI agent:** Software built on a large language model, connected to an organization's data and tools, that answers questions and carries out multi-step tasks in plain language. Its answers are drafts to verify.
 
@@ -50,6 +54,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **artificial intelligence (AI):** The broad family of software techniques that let computers perform tasks that normally require human judgment, such as recognizing a face or drafting a paragraph.
 
+**audit:** A scheduled check that a live system still matches its own rules, such as who has access and whether the data is clean and the backups restore.
+
 **augmented reality (AR):** Output that layers digital information onto the world you still see, from repair diagrams floating on machinery to directions painted onto the street ahead.
 
 ## B
@@ -62,6 +68,10 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **barcode:** Machine-readable stripes or squares that identify an item at a glance. The square version, the QR code, carries a whole web address. A scan cannot mistype.
 
+**base:** Airtable's name for a database, an organized collection of related tables. A base lives in the cloud behind a login, with no file on your computer.
+
+**batch processing:** Handling events in a group, later, on a schedule instead of the instant each one happens. Payroll and month-end billing are batch jobs.
+
 **Bluetooth:** Short-range, low-power radio for the bubble around one person: earbuds, watches, keyboards, and car dashboards, within about 30 feet.
 
 **boot:** The startup relay that brings a computer to life. Firmware wakes and checks the hardware, finds the operating system on storage, and hands over control.
@@ -71,6 +81,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **broadband label:** The standardized fact sheet United States providers must publish for every Internet plan: price, fees, typical speeds, and typical latency, modeled on nutrition labels.
 
 **browser:** The program that requests web pages from servers and displays them: Chrome, Edge, Safari, and Firefox are the big four.
+
+**build versus buy versus subscribe:** The three ways to get a technology solution: build it custom, buy a finished product to run yourself, or subscribe to software a vendor hosts and updates. In 2026 subscribing is often the smart default.
 
 **bus:** The shared wiring on the system board that carries data between the processor, memory, and every connected device.
 
@@ -83,6 +95,10 @@ This glossary is the single source of truth for all technical terms used in the 
 **cell:** One box in a spreadsheet's grid, addressed by its column letter and row number, such as A1 or H55.
 
 **cellular network:** The tower-based radio network that carries phone and data service across cities and highways, sold by carriers in generations such as 5G.
+
+**change management:** The work of bringing people through a system change: training, communication, and support, so the staff adopt the new tool instead of resisting it.
+
+**character:** One letter, digit, or symbol, the smallest unit in the data hierarchy.
 
 **chart:** A picture built from numbers so a pattern becomes visible at a glance. Charts argue by length and position, which is why their axes carry the honesty rules.
 
@@ -103,6 +119,10 @@ This glossary is the single source of truth for all technical terms used in the 
 **column chart:** The chart that compares amounts across categories with vertical bars. Its value axis starts at zero, because the bars argue by length.
 
 **connectivity:** The communication links that move data between devices, from home Wi-Fi to the Internet itself. One of the six parts of an information system.
+
+**continuous improvement:** Keeping a system healthy with many small, tested changes over time instead of one giant rewrite every few years.
+
+**conversion:** The move from an old system to a new one. The four strategies are direct (switch all at once), parallel (run both for a while), phased (switch one piece at a time), and pilot (one group first).
 
 **COPPA:** The United States law restricting collection of personal data from children under 13, and the reason platforms ask for a birthday.
 
@@ -132,7 +152,13 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **data cap:** A monthly limit on how much data a plan can move before the provider slows or charges you. Most common on satellite and 5G home plans.
 
+**data hierarchy:** The fixed order in which data stacks up: character, field, record, table, and database (or base). Every database tool is built on it.
+
+**data validation:** Rules that check a value as it is entered, so bad data never gets in. Fixed-choice fields, required fields, and typed fields are common examples.
+
 **database:** An organized collection of related data, built for searching and connecting records. This course builds databases in Airtable.
+
+**database management system (DBMS):** The software that stores a database, enforces its field types and keys, controls who may see it, and answers questions about it. Airtable and Microsoft Access are DBMS tools.
 
 **database manager:** The general-purpose application that builds and queries databases. Airtable is this course's database manager.
 
@@ -140,7 +166,11 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **deepfake:** AI-fabricated audio, video, or imagery of a real person, convincing enough to defeat inspection. The defense is verifying through a channel you already trusted.
 
+**design (systems):** The phase that turns requirements into a blueprint, including the data model, the workflow, and the security model, before anything is built.
+
 **desktop:** A personal computer that gives up portability for power, more ports, and easy upgrades and repairs.
+
+**development (systems):** The phase that produces the working system by building, buying, or configuring it to the design. When a team subscribes, development is mostly configuration.
 
 **device driver:** A small system program that teaches the operating system to communicate with a specific hardware device, such as a printer, camera, or mouse.
 
@@ -190,9 +220,15 @@ This glossary is the single source of truth for all technical terms used in the 
 
 ## F
 
+**feasibility:** A check of whether a project can succeed, across four kinds: technical, economic, operational, and schedule. A project that fails any one is not ready.
+
 **FERPA:** The United States law protecting education records. In college, those rights belong to the student.
 
 **fiber-optic cable:** Hair-thin strands of glass that carry data as pulses of light. The fastest common channel, and usually symmetric.
+
+**field:** A single named piece of data about one thing, such as a booking's date or guest count. In a database a field has a type that limits what it can hold.
+
+**field type:** The kind of data a field is allowed to hold, such as date, number, email, or a single-select choice. The type is what makes a database field stricter than a spreadsheet cell.
 
 **file extension:** The short code after the dot in a file name, such as `.docx` or `.xlsx`, that tells the computer (and you) what kind of file it is.
 
@@ -209,6 +245,10 @@ This glossary is the single source of truth for all technical terms used in the 
 **fixed wireless access:** Home Internet delivered by radio from a cellular tower to a receiver in your window, sold as 5G home Internet. Speeds breathe with the tower's load.
 
 **flash memory:** Chips that keep their contents without power yet can be rewritten. The technology inside phones, memory cards, USB drives, and SSDs.
+
+**foreign key:** A field in one table that holds the key of a record in another table, creating a link. It lets a booking point to a customer instead of copying the customer's details.
+
+**form (Airtable):** An Airtable view that lets an outsider submit one record through a screen, exposing only the fields you choose and none of the table behind it.
 
 **formula:** An instruction typed into a spreadsheet cell, starting with =, that computes its answer from other cells and recalculates when they change.
 
@@ -296,15 +336,23 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **line chart:** The chart that shows change over time: points in time order, connected so the trend reads as a shape.
 
+**linked record:** Airtable's field type that connects a record in one table to a record in another, building the relationship a foreign key describes.
+
 **Linux:** The free, open-source operating system that runs most of the Internet's servers, most supercomputers, and (under a layer users never see) every Android phone. A small but devoted world on the desktop.
 
 **logical test:** The comparison inside an IF function, such as F2>=20, that comes out true or false for each row.
 
+**logical view:** Data organized the way a person thinks about it, the friendly grid of records and fields you work in. The database shows you this and hides the physical storage.
+
 **low Earth orbit (LEO):** The satellite orbit a few hundred miles up, used by modern constellations. Close enough that satellite Internet finally feels like ground service.
+
+**low-code and no-code:** Tools that let you assemble working software by configuring instead of programming. Airtable is a no-code database.
 
 ## M
 
 **macOS:** Apple's desktop operating system, which runs only on Apple computers. A new version ships every fall, named by year (the 2025 release is macOS Tahoe, version 26).
+
+**maintenance:** The longest phase of a system's life: fixing what breaks, running audits, and adding improvements. New requests here start the life cycle over.
 
 **malware:** Any software built to harm: to steal, spy, encrypt, or hijack. Viruses, trojans, spyware, and ransomware are its major families.
 
@@ -334,11 +382,17 @@ This glossary is the single source of truth for all technical terms used in the 
 
 ## N
 
+**needs analysis:** The work of digging past the solution someone requested to the real problem underneath, so the project solves what actually goes wrong.
+
 **network:** Two or more devices connected so they can share data and resources.
+
+**normalization:** Organizing tables so each fact is stored in exactly one place, then linking to it, instead of copying it. It is what stops data from drifting out of sync.
 
 **NPU (neural processing unit):** A chip built specifically for running AI features directly on a device. The defining component of an AI PC.
 
 ## O
+
+**one-to-many relationship:** A link where one record on the "one" side connects to many records on the "many" side, such as one customer with many bookings. It is the most common shape of business data.
 
 **online marketplace:** A platform that hosts many sellers, such as Amazon, Etsy, or eBay: instant reach and built-in payments in exchange for fees and the platform's rules.
 
@@ -368,6 +422,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **phishing:** A fraudulent message dressed as a trusted one, fishing for credentials, payments, or an install. Named variants ride other roads: smishing (texts) and vishing (calls).
 
+**physical view:** How a database actually stores its records as bytes on a disk or server. You never manage it, because the database hides it behind the logical view.
+
 **pie chart:** The chart that shows parts of one whole. Honest only with a few slices, because readers compare angles poorly.
 
 **pitch deck:** A short presentation built to sell an idea: a business, a project, or a budget request.
@@ -386,6 +442,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **presentation software:** The general-purpose application that builds slide decks, pacing ideas for an audience one point at a time. PowerPoint is this course's presentation software.
 
+**primary key:** A field whose value is unique for every record and never changes, so it can stand in for the whole record. A booking ID is a primary key. A name is not.
+
 **primary source:** The original document, dataset, or firsthand account a claim is built on, as opposed to summaries and retellings of it.
 
 **procedures:** The rules and steps people follow when they work with a system. One of the six parts of an information system.
@@ -393,6 +451,12 @@ This glossary is the single source of truth for all technical terms used in the 
 **prompt:** The plain-language request you type or speak to an AI assistant.
 
 **protocol:** A shared rulebook that lets devices from different makers communicate. The Internet's core protocols are known together as TCP/IP.
+
+**prototype:** A rough draft of a system built to be shown and thrown away, so a team learns what is wrong while fixing it is still cheap.
+
+## Q
+
+**query:** A question you ask your data, such as "which organizations booked more than once?" In a database you answer it with filters, sorts, and groups, not code.
 
 ## R
 
@@ -404,11 +468,21 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **raster image:** An image stored as a grid of colored pixels, which is what cameras produce and photo editors edit. Blurs when scaled up.
 
+**real-time processing:** Handling each event the instant it happens, so the answer is current immediately. Reserving an event date must be real-time, or two clients could claim it.
+
+**record:** Everything a database knows about one thing, all its fields together. One booking is one record.
+
 **refresh rate:** How many times per second a display redraws, measured in hertz (Hz). Higher rates make motion smoother.
 
 **refurbished:** A used device that has been tested, repaired where needed, wiped, and resold with a warranty, usually at a steep discount.
 
+**relational database:** A database that stores data in linked tables of rows and fields. It is the workhorse behind most business apps.
+
+**relationship:** A connection between two tables in a database, so records in one can point to records in the other. Airtable builds it with a linked-record field.
+
 **relative reference:** The default cell reference, such as H2, which means "the cell in this position relative to me" and adjusts when a formula is filled or copied.
+
+**requirements:** Specific statements of what a solution must do, produced during analysis. They are the contract a design and the finished system are judged against.
 
 **resolution:** A display's pixel count, written as width by height, such as 1920 x 1080. More pixels mean a sharper picture at the same size.
 
@@ -444,6 +518,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **software:** The instructions that tell a computer what to do. Programs. One of the six parts of an information system.
 
+**software as a service (SaaS):** Software you rent and reach over the Internet, hosted and updated by the vendor. Airtable on its free plan is an example.
+
 **software suite:** A set of applications sold together and built to work together, with shared formats and one sign-in. Microsoft 365 is this course's suite.
 
 **solid-state drive (SSD):** Flash memory in drive form: no moving parts, fast, silent, and shock-resistant. The standard drive in current laptops and phones.
@@ -464,6 +540,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **storefront:** A business's own e-commerce site or app, with full control of brand, prices, and customer data in exchange for building and marketing it yourself.
 
+**structured query language (SQL):** The written language many databases share for asking precise questions of their data. This course answers queries in Airtable instead of writing SQL.
+
 **style:** A named set of formatting (Heading 1, Title, Normal) applied to a paragraph in one click. Styles label a document's structure, which lets Word build tables of contents and update every heading at once.
 
 **stylus:** A pen-shaped pointer that gives artists and note-takers pixel-level precision plus pressure on a touchscreen or drawing tablet.
@@ -474,13 +552,19 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **sync:** Keeping a folder on your device and a folder in the cloud identical automatically. Availability, not safety: deletions and mistakes sync too.
 
+**system:** A set of parts working together toward a goal. An information system's six parts are people, procedures, software, hardware, data, and connectivity.
+
 **system board:** The large circuit board every other part plugs into, also called the motherboard. Its sockets, slots, and buses decide where everything lives and how data flows.
 
 **system on a chip (SoC):** A processor, graphics, AI hardware, memory controller, and more, manufactured together as one chip. The reason phones are small, efficient, and never upgradeable inside.
 
 **system software:** Software that runs the computer itself instead of doing user tasks. The operating system, utilities, and device drivers are system software.
 
+**systems life cycle:** The ordered set of six phases that carries a technology project from a problem to a running system: investigation, analysis, design, development, implementation, and maintenance. Also called the systems development life cycle.
+
 ## T
+
+**table:** A stack of records of the same kind, every row the same shape. A Bookings table holds one record per booking.
 
 **tablet:** A personal computer built around a large touchscreen, lighter than a laptop and larger than a phone.
 
@@ -489,6 +573,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **TCP/IP:** The Internet's core rulebook: the protocol family that chops data into packets, addresses them, and gets them reassembled at the destination.
 
 **template:** A prebuilt design you fill with your own content: a letter layout in Word, a site design in a web builder, a deck theme in PowerPoint.
+
+**testing:** Checking a system against its requirements and against messy real-world cases, not just confirming that it opens without crashing.
 
 **theme:** A coordinated set of fonts, colors, and backgrounds applied to a whole slide deck at once from PowerPoint's Design tab. One decision, enforced everywhere, changeable everywhere later.
 
@@ -514,6 +600,8 @@ This glossary is the single source of truth for all technical terms used in the 
 
 **USB-C:** The small, oval, reversible connector that now carries charging, data, and displays on most devices. A shape, not a speed. Abilities vary port by port.
 
+**user acceptance testing:** Testing that puts the actual users in front of a system to see whether they can succeed with it, not whether the builder can.
+
 **user account:** The operating system's record of one person on a machine: their files, settings, and permissions, unlocked by their sign-in.
 
 **utility:** A system program that does computer housekeeping, such as backing up files, cleaning storage, or guarding against malware.
@@ -523,6 +611,8 @@ This glossary is the single source of truth for all technical terms used in the 
 **vector image:** An image built from shapes and math, so it scales to any size without blurring. The right format for logos and icons.
 
 **video call:** A live meeting held over the Internet with camera and microphone, used when people cannot share a room.
+
+**view:** A saved lens on a table: a chosen filter, sort, grouping, and set of visible fields. The records underneath never change, and many people can hold different views at once.
 
 **virtual machine:** A complete pretend computer created by virtualization software, inside which a second operating system boots and runs, windowed like any app.
 
