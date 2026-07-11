@@ -1,10 +1,115 @@
 # CIS105 Textbook: Session Handoff
 
-**Last updated:** 2026-07-11 (Part II session)
+**Last updated:** 2026-07-11 (Part III session: chapters 7-9)
 **Repo:** https://github.com/jor2050111/cis105
 **Live site:** https://jor2050111.github.io/cis105/
 **Task list:** CLAUDE_CODE_TASK_LIST_ID=cis105 (pinned in
 `/Users/vega/Documents/code/textbooks/cis105/.claude/settings.json`)
+
+## What Was Done (2026-07-11 Part III drafting session)
+
+* Drafted, adversarially reviewed, QA-gated, committed, and pushed
+  chapters 7-9 (all of Part III plus Part IV's opener), one commit per
+  chapter:
+    * Chapter 7: Networks Everywhere: From Wi-Fi to Satellite Internet
+      (`book/chapters/chapter-07.md`, 379 lines, 7,166 words)
+    * Chapter 8: Digital Self-Defense: Security, Privacy, and Ethics
+      in the AI Era (`book/chapters/chapter-08.md`, 360 lines, 7,452
+      words)
+    * Chapter 9: How Organizations Turn Data into Decisions
+      (`book/chapters/chapter-09.md`, 322 lines, 6,365 words)
+* Built three seeded data packs with README data dictionaries, all
+  byte-identical on rerun (base seed 105):
+    * `assets/code/chapter-07/internet-plans.xlsx`: 54 hand-designed
+      plans, 9 fictional providers, 6 technologies
+    * `assets/code/chapter-08/security-audit.xlsx`: 25-item audit
+      checklist plus 54 anonymized class results
+    * `assets/code/chapter-09/coffee-sales.xlsx`: 571 June line items,
+      3 locations, 4 weeks, 2 channels
+* **Adversarial review protocol (new this session):** each chapter got
+  a dedicated reviewer agent instructed to refute its claims: re-run
+  the generator, independently recompute every cited number, walk each
+  lab step in real Excel semantics, check every law and continuity
+  debt. All findings fixed before each commit. Every number in prose
+  now traces to an executed value.
+* **Generator determinism fix (family-relevant):** openpyxl restamps
+  `dcterms:modified` at save time, so the pinned workbook property
+  never survived and rebuilds were NOT byte-identical (the Chapter 6
+  claim was false as shipped). All generators (6-9) now pin
+  `docProps/core.xml` inside the zip-normalization pass. Chapter 6's
+  workbook restamped: md5 df9cd5be75e7e7c8d03462cb8aa9e932. Sibling
+  books using this pattern should adopt the same fix.
+* Glossary grew from 162 to 256 terms (42 in Ch 7, 40 in Ch 8, 12 in
+  Ch 9). All Key Terms resolve, verified by script.
+* Every chapter passed all QA gates before its commit: blocklist grep,
+  zero em dashes, zero banned vocabulary, zero prose semicolons,
+  `check_sentence_length.py` zero flags, Flesch in the family band
+  (63.2 / 60.6 / 58.1 on the session estimator, which reads 2-4 points
+  below the tool used for the Part I/II numbers: shipped chapters
+  measure 58.7-63.8 on the same estimator), `zensical build --clean`,
+  and a green Pages deploy.
+* Uncommented the Part III nav block and the Chapter 9 line of Part IV.
+* Further Reading links verified live at draft time (fcc.gov, cisa.gov,
+  consumer.ftc.gov, and bls.gov block fetch tools and were verified in
+  a browser). Watch item: GCFGlobal now 308-redirects to learnfree.org
+  and some paths 404; all five links shipped in chapters 1-6 still
+  resolve.
+
+## Key Design Decisions (Part III session)
+
+* **Excel thread progression:** Ch 7 adds relative/absolute references,
+  the fill handle, IF, AND, COUNTIF, and the shared-assumption-cell
+  pattern. Ch 8 adds charts (column/bar/line/pie, honest axes) and
+  cross-sheet references. Ch 9 adds multi-level sort and pivot tables
+  (rows/columns/values/filters, Show Values As % of Row Total,
+  drill-down double-click, Refresh). Ready for Ch 12's macros.
+* **Recurring cast additions:** Rosa (Desert Bloom's roastery contact,
+  voice-clone scam target in Ch 8's opening). Desert Bloom is now
+  three locations (7th Street original, Roosevelt Row opened spring
+  2026, Campus by the college): established in Ch 9.
+* **CLO alignment blocks:** Ch 7 = III, VI, XIII. Ch 8 = VI, XI, XIII.
+  Ch 9 = XII, IX, XIII.
+* **Excel lab submission convention (from Ch 6):** one `.xlsx` with a
+  `Questions & Analysis` worksheet, `skills-lab-Na-lastname.xlsx`.
+* **Honest-denominators thread:** planted in Ch 7 (cost per Mbps),
+  paid again in Ch 9 (weekday/weekend daily averages). The truncated
+  axis is taught in Ch 8 by building the lie and labeling it.
+
+## Instructor Answer Keys (Part III)
+
+* **Ch 7 lab (internet-plans):** venue requirements are download 300+,
+  upload 30+, latency <= 100 ms, Unlimited. Exactly 13 qualifiers,
+  winner IP-103 Sonoran Fiber Home 300 at $65 true cost (runner-up
+  Office 500, $75). Sticker minimum IP-138 Basic 25 ($30 advertised,
+  $45 true) versus true minimum IP-131 Essential 100 ($40): the flip.
+  Essential 100 fails the venue test on download, upload, and cap.
+  IP-135 Surge 500 fails on the cap alone. Venue's current plan is
+  IP-120 Grand Canal Basic 100 (100/10, $54 true). Cost per Mbps:
+  best Pro 2000 ($0.055), worst Rural 10 ($4.70). IF counts: 28 of 54
+  uploads >= 20, 44 of 54 in budget at $100 (22 at $60). Q&A 2's
+  headroom judgment: either answer defensible with reasoning.
+* **Ch 8 lab (security-audit):** class category averages Accounts
+  6.39, Devices 7.04 (strongest), Network 5.67, Backups 3.46
+  (weakest), Privacy 4.43. Class average total 26.98 of 50. Eight
+  students scored 0 in Backups. Honest chart ratio Devices:Backups is
+  about 2x, distorted (axis floor 3) about 9x. Student scores vary:
+  the rubric grades formulas, charts, and analysis, never the audit
+  score itself.
+* **Ch 9 lab (coffee-sales):** June total $4,994.75 (7th Street
+  $2,088.25, Roosevelt Row $1,515.75, Campus $1,390.75). Campus daily
+  averages: $60.17 weekday versus $23.41 weekend (the dip). The other
+  two hold or grow their weekends (7th Street $79.94 versus $72.44,
+  Roosevelt Row $62.59 versus $50.75), so Q&A 1's "which locations did
+  the concealing" has two correct answers. Chain-wide daily averages
+  ($183.36 versus $165.94) hide the Campus story. The iced-latte TPS
+  example is order DB-1041. The refresh demo edits a Line Total (the
+  column ships as static values, not formulas, so a Qty or price edit
+  would not reach the pivot). App (Bloom Ahead) revenue share by week: 26.4%,
+  41.7%, 51.5%, 60.4%. App average line $11.36 versus counter $7.34.
+  Category revenue: Cold Drinks $1,765.75 > Hot Coffee $1,451.75 >
+  Bakery $995.75 > Tea $525.50 > Merch $256.00. TIY 9.4 pivot on the
+  Ch 6 device file: Laptop 22 (avg $608.09), Desktop 7 ($813.29),
+  Tablet 13 ($319.00), Phone 12 ($320.67).
 
 ## What Was Done (2026-07-11 Part II drafting session)
 
@@ -182,30 +287,30 @@
   them). Nine mechanical edits, held for Mr. Vega's approval because
   MLO lines feed Canvas alignment.
 
-## Next Steps (Part III: Connected and Protected, Chapters 7-8)
+## Next Steps (Part IV remainder: Chapters 10-12)
 
-1. Draft Chapter 7 (Networks Everywhere: From Wi-Fi to Satellite
-   Internet) from the Chapter 7 block in `docs/part-structure.md`.
-   Skills Lab 7 (Excel): Let Formulas Do the Math: Choosing an
-   Internet Plan. Needs a provider-plan dataset in the pack (likely
-   the second seeded generator) and deeper formulas/functions
-   (references, IF) beyond Ch 6's basics.
-2. Chapter 8 (Digital Self-Defense) collects the seeds already
-   planted: Ch 4's least privilege, permissions, scareware, and
-   update-source rule, Ch 5's device lifecycle/e-waste thread, Ch 6's
-   ransomware mention, sync-deletion trap, and delete-versus-wipe.
-   Skills Lab 8 (Excel): Score Your Own Security (first chart lab).
-3. Bloom's shifts per part-structure: Part III adds Analyze and
-   Evaluate MLOs.
-4. Per chapter, follow the Part II pattern: plan (MLO bindings,
-   misconception inventory, continuity map), data pack with README,
-   glossary additions, nav uncomment, adversarial self-review, all QA
-   gates, one commit, push.
-5. Cross-references to keep honest: Ch 6 promises Ch 7 "choose an
-   Internet plan with formulas instead of vibes" and continues the
-   Excel thread. Ch 4 promises Ch 8 the privacy conversation (the two
-   assistant questions travel there). Ch 2 promised Ch 8 "why hidden
-   copies of workplace mail age badly."
+1. Draft Chapter 10 (Where Data Lives: Tables, Records, and
+   Relationships) from its block in `docs/part-structure.md`. Skills
+   Lab 10 (Airtable): From CSV to Connected Base. Needs pack CSVs
+   (customer orders and Saguaro Hall bookings). The lab thread turns
+   to Airtable (free plan features only).
+2. Cross-references Chapter 10 must pay: Ch 9's Looking Ahead (pivot
+   questions become queries, Saguaro Hall's bookings get a base,
+   Bloom Ahead sits on a database), Ch 1's Airtable cloud-login
+   difference ("Chapter 10 examines up close"), Ch 6's filter-view
+   line ("the first taste of the database questions Chapter 10 asks
+   properly"), and Ch 8's CLO VI support (data security in databases
+   per the coverage matrix).
+3. Chapter 11 (From Idea to Rollout) then Chapter 12 (Automate Your
+   Work: macros, VBA, AI coding assistants; requires desktop Excel,
+   noted since Ch 6). Chapter 12 is the capstone: check C9's
+   integrated-deliverable expectation when drafting its lab.
+4. Per chapter, keep the Part III pattern: plan (MLO bindings,
+   misconception inventory, continuity ledger), seeded data pack with
+   README, glossary additions, nav uncomment, dedicated adversarial
+   reviewer agent, all QA gates, one commit, push.
+5. Bloom's per part-structure: Part IV finishes Apply through Create
+   (Create belongs to Ch 12's macro work).
 
 ## How to Continue
 

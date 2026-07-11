@@ -12,6 +12,7 @@ One script, one generated file. Base seed for this course: 105.
 | `generate_chapter06_data.py` | `assets/code/chapter-06/device-comparison.xlsx` | 54 rows x 8 columns, 7 engineered blank battery cells, unique MIN/MAX prices, Chapter 5 cast devices included, byte-identical on rerun |
 | `generate_chapter07_data.py` | `assets/code/chapter-07/internet-plans.xlsx` | 54 rows x 10 columns, hand-designed plan market: sticker-versus-true-cost flip, 13 venue qualifiers with a unique winner, cap-only failure plan, GEO/LEO latency contrast, byte-identical on rerun |
 | `generate_chapter08_data.py` | `assets/code/chapter-08/security-audit.xlsx` | Two sheets: 25-item audit checklist plus 54 x 7 anonymized class results with engineered category ordering (Devices strongest, Backups weakest), byte-identical on rerun |
+| `generate_chapter09_data.py` | `assets/code/chapter-09/coffee-sales.xlsx` | 571 rows x 12 columns of June line items: Campus weekend dip hidden by the chain average, app revenue share rising every week, app orders outspending counter orders, Cold Drinks leading, byte-identical on rerun |
 
 The Word and RTF starter files in chapters 1-5 are committed artifacts
 authored via pandoc, not generated. Each chapter folder's README is the
