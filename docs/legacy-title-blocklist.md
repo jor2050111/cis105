@@ -4,10 +4,12 @@
 Skills Lab title, or assignment title in this textbook may exactly
 reproduce a title or heading from the previous Computing Essentials
 build. This file lists every banned string, extracted from the bold
-headings in
-`/Users/vega/Documents/code/textbooks/cis105-old-reference-docs/chapter-NN-old-notes.docx`
-(2026-07-11) and the old SIMnet assignment titles in
-`cis105-old-assignment-calendar.md`.
+headings in `chapter-NN-old-notes.docx` (2026-07-11) and the old SIMnet
+assignment titles in `cis105-old-assignment-calendar.md`. Both source
+files were archived off-repo on 2026-07-11 to the co-professor Drive at
+`/Users/vega/Library/CloudStorage/GoogleDrive-jor2050111@phoenixcollege.edu/My Drive/co-professor/01-teaching/03-cis105-survey-cis/cis105-old-reference-docs/`.
+The banned strings below are already fully materialized here, so this
+check does not need those files.
 
 **Rule (from Mr. Vega, 2026-07-11):** cover the district outline
 concepts, but never under the old names. New titles MAY share common

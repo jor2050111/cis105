@@ -13,7 +13,9 @@ docs/style-guide.md, docs/CIS105_CLOs.md, every file in templates/,
 book/glossary.md, and the three published chapters in book/chapters/ (they
 carry the recurring cast and conventions you must continue). Those files
 are the law and they outrank anything in this prompt. The repo is
-self-contained: do NOT open ../cis105-old-reference-docs/.
+self-contained and needs no outside notes. The old-reference-docs
+folder was archived off-repo on 2026-07-11 to the co-professor Drive at
+`/Users/vega/Library/CloudStorage/GoogleDrive-jor2050111@phoenixcollege.edu/My Drive/co-professor/01-teaching/03-cis105-survey-cis/cis105-old-reference-docs/`.
 
 Then calibrate before writing a word:
 

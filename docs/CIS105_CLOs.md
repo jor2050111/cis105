@@ -2,8 +2,10 @@
 
 **Course:** CIS105: Survey of Computer Information Systems (MCCCD CIS105)
 **Sources:** District course outline and CLO listing provided by Mr. Vega
-(`../cis105-old-reference-docs/cis105-course-outline.md`, July 2026), plus
-the Spring 2026 syllabus and module calendar from the previous build.
+(`cis105-course-outline.md`, July 2026, archived off-repo on 2026-07-11
+to the co-professor Drive at
+`/Users/vega/Library/CloudStorage/GoogleDrive-jor2050111@phoenixcollege.edu/My Drive/co-professor/01-teaching/03-cis105-survey-cis/cis105-old-reference-docs/`),
+plus the Spring 2026 syllabus and module calendar from the previous build.
 **Last revised:** 2026-07-11
 
 This document is the single authoritative reference for what the

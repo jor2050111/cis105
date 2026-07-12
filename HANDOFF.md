@@ -599,10 +599,11 @@
 Start a session in `/Users/vega/Documents/code/textbooks/cis105/`.
 Read `CLAUDE.md`, this file, and `docs/part-structure.md`. The repo is
 self-contained: the blocklist and part-structure encode everything
-needed from the retired build. Old lecture notes in
-`../cis105-old-reference-docs/` are concept reference only, never
-title reference (new Chapter 6 merges old modules 6 and 7, and new
-Chapters 7-12 map to old 8-13).
+needed from the retired build. The old lecture notes were archived
+off-repo on 2026-07-11 to the co-professor Drive at
+`/Users/vega/Library/CloudStorage/GoogleDrive-jor2050111@phoenixcollege.edu/My Drive/co-professor/01-teaching/03-cis105-survey-cis/cis105-old-reference-docs/`.
+They were concept reference only, never title reference (new Chapter 6
+merges old modules 6 and 7, and new Chapters 7-12 map to old 8-13).
 
 ## Data Pack Conventions
 
