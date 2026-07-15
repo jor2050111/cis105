@@ -16,9 +16,9 @@ Here is the route. First, the roads themselves: the wired and wireless channels 
 
 By the end of this chapter, you will be able to:
 
-* **MLO-7.1 (Understand):** Explain how data travels the wired and wireless channels that connect people, devices, and the cloud (Section 7.1)
-* **MLO-7.2 (Analyze):** Compare Internet connections and network types using the numbers that describe them: download, upload, latency, and true cost (Sections 7.2 and 7.3)
-* **MLO-7.3 (Apply):** Build Excel formulas that combine cell references, the fill handle, and the IF function to test options against requirements (Section 7.4)
+* **7.1 (Understand):** Explain how data travels the wired and wireless channels that connect people, devices, and the cloud (Section 7.1)
+* **7.2 (Analyze):** Compare Internet connections and network types using the numbers that describe them: download, upload, latency, and true cost (Sections 7.2 and 7.3)
+* **7.3 (Apply):** Build Excel formulas that combine cell references, the fill handle, and the IF function to test options against requirements (Section 7.4)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -309,7 +309,7 @@ Answer from memory before checking back through the chapter.
 !!! note
     Excel for the web can complete this lab (open the file from OneDrive). The fill handle, absolute references, and IF all work in the browser. Desktop Excel remains smoother, and Chapter 12's macro work will require it.
 
-### Part 1: Foundation (Aligns with MLO-7.3)
+### Part 1: Foundation (Aligns with Objective 7.3)
 
 1. Open `internet-plans.xlsx` and immediately save your working copy as `skills-lab-7a-lastname.xlsx` (File > Save As), so the pack original stays clean.
 2. Look before you compute. Scroll all 54 rows once and read the six technologies in column C. Find the venue's current plan, IP-120, and note its download, upload, and equipment fee for later.
@@ -317,7 +317,7 @@ Answer from memory before checking back through the chapter.
 4. Format columns H and I as currency (select their data, Home tab, currency format). Widen any column that shows `###`.
 5. Add the first computed column. In K1 type the header `True Monthly Cost ($)`. In K2 write the formula that adds row 2's advertised price and equipment fee, then fill it down through row 55 with the fill handle. Format the column as currency. Spot-check one row by mental math before moving on.
 
-### Part 2: Application (Aligns with MLO-7.2, MLO-7.3)
+### Part 2: Application (Aligns with Objectives 7.2 and 7.3)
 
 1. Build the assumptions block. In P1 type `Planning horizon (months)` and in Q1 type `12`. In P2 type `Monthly budget ($)` and in Q2 type `100`. Labeled assumption cells are the shared-value pattern from Section 7.4.
 2. In L1 type `Cost Over Horizon ($)`. In L2 write the horizon formula with the reference to Q1 locked absolute, fill it down, and format as currency. If any row shows a wildly oversized number or a zero, you have relived Try It Yourself 7.7: fix the lock and refill.
@@ -325,7 +325,7 @@ Answer from memory before checking back through the chapter.
 4. In N1 type `In Budget?`. In N2 write an IF that shows `Yes` when the true monthly cost is at or under the budget in Q2 (locked absolute) and `No` otherwise, then fill down. Count the Yes verdicts with `=COUNTIF(N2:N55,"Yes")` in N57 (COUNTIF counts the cells that match a value, Chapter 6's counting family with a test attached).
 5. Prove the assumption cells earn their keep: change Q1 to 24 and watch column L double, then set it back to 12. Change Q2 to 60 and watch the Yes count fall, then set it back to 100. Those two moments are the proof that one labeled assumption cell beats fifty-four edits.
 
-### Part 3: Extension (Aligns with MLO-7.1, MLO-7.2)
+### Part 3: Extension (Aligns with Objectives 7.1 and 7.2)
 
 1. Format the data plus your new columns as an Excel table named `Plans`. Click any cell inside the plan rows (B2 works), then Home > Format as Table, confirm headers, and set the name on the Table Design tab. Sort by Advertised Price, smallest first, and record the top plan's ID and true cost. Then sort by True Monthly Cost, smallest first, and record the new top plan. You have caught the sticker trap: keep both plan IDs for Questions & Analysis.
 2. Add the venue verdict. In O1 type `Meets Venue Needs`. In O2 write the IF with AND from Section 7.4: download at least 300, upload at least 30, latency at most 100, and a Data Cap equal to `Unlimited`. Confirm the table filled the whole column for you. Filter it to Yes and count the qualifiers (the status bar or a COUNTIF both work).
@@ -349,7 +349,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

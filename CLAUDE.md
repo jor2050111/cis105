@@ -192,7 +192,7 @@ Every chapter MUST follow this structure:
 7. **Skills Lab** - Single multi-part project with the shared 16-point rubric
 8. **Review Questions** - 4 questions at varying cognitive levels
 9. **Further Reading** - 3-6 external resources
-10. **Looking Ahead** - 2-3 sentences previewing next chapter
+10. **Looking Ahead** - 2-3 sentences previewing next chapter (the final chapter instead ends with "Course Conclusion: Where You Go from Here", no icon)
 
 **CRITICAL PEDAGOGICAL COMPONENTS:**
 
@@ -243,7 +243,7 @@ titles come from `docs/part-structure.md` and are already cleared.
   measurable action verb. Never write "understand," "know," or "learn"
   as the verb, even when the RBT tag is (Remember) or (Understand).
   The same rule is recorded in docs/part-structure.md.
-- Format: `**MLO-N.Y (Bloom's Level):** [Verb] [measurable outcome]`
+- Format: `**N.Y (Bloom's Level):** [Verb] [measurable outcome]`
 - N = chapter number, Y = sequential MLO number (1, 2, 3)
 - Start with: "By the end of this chapter, you will be able to:"
 
@@ -254,15 +254,15 @@ titles come from `docs/part-structure.md` and are already cleared.
 
 By the end of this chapter, you will be able to:
 
-* **MLO-1.1 (Apply):** [Verb] [measurable outcome]
-* **MLO-1.2 (Analyze):** [Verb] [measurable outcome]
-* **MLO-1.3 (Evaluate):** [Verb] [measurable outcome]
+* **1.1 (Apply):** [Verb] [measurable outcome]
+* **1.2 (Analyze):** [Verb] [measurable outcome]
+* **1.3 (Evaluate):** [Verb] [measurable outcome]
 ```
 
 **Alignment Requirements:**
 
 - Each MLO must map to a specific section number (N.1, N.2, etc.)
-- Skills Lab parts must explicitly align with MLOs (e.g., "Aligns with MLO-1.1, MLO-1.3")
+- Skills Lab parts must explicitly align with MLOs (e.g., "Aligns with Objectives 1.1 and 1.3")
 - MLO numbers enable assessment traceability
 - After the MLO list, add `### This chapter aligns with the following Course Learning Outcomes` with this chapter's aligned CLOs (usually 1-3), quoted verbatim from the mapping table in docs/CIS105_CLOs.md. No heading icon.
 
@@ -328,13 +328,13 @@ Every chapter must include a Module Overview section immediately after the narra
 **Goal:** [One sentence describing an authentic task]
 **Dataset:** [Provided file(s) in assets/code/chapter-NN/. Name the file and its source. Students load it, never hand-type it.]
 
-### Part 1: Foundation (Aligns with MLO-N.1)
+### Part 1: Foundation (Aligns with Objective N.1)
 [Tasks all students complete - builds on prerequisite skills]
 
-### Part 2: Application (Aligns with MLO-N.1, MLO-N.3)
+### Part 2: Application (Aligns with Objectives N.1 and N.3)
 [Intermediate synthesis requiring judgment]
 
-### Part 3: Extension (Aligns with MLO-N.2, MLO-N.3)
+### Part 3: Extension (Aligns with Objectives N.2 and N.3)
 [Advanced/creative problem-solving - may involve presentation or stakeholder communication]
 
 ### Questions & Analysis 🤔
@@ -374,7 +374,8 @@ The four criteria, in order:
 Levels are Mastery (4), Proficiency (3), Developing (2), Emerging (1),
 Not Evident (0), and the table ends with the line
 `**Scoring:** 16 points total, 4 points per criterion (8 points
-technical execution, 8 points transferable skills)`.
+technical execution, 8 points transferable skills)` followed by a
+short note that instructors may rescale point weights per course.
 
 **Key principles:**
 
@@ -515,6 +516,7 @@ versions.
 ## N.7 Review Questions 🔄️
 ## Further Reading 📖
 ## Looking Ahead ⏩
+## Course Conclusion: Where You Go from Here  (final chapter, NO ICON)
 ```
 
 **Lists:**
@@ -668,13 +670,13 @@ Before considering a chapter complete, verify:
 - [ ] Section order: N.5 Summary, N.6 Skills Lab, N.7 Review Questions
 - [ ] Module Overview includes time/prerequisites/deliverables
 - [ ] Narrative introduction (2-3 paragraphs) sets context
-- [ ] "Looking Ahead" preview of next chapter included
+- [ ] "Looking Ahead" preview included ("Course Conclusion: Where You Go from Here" in the final chapter)
 - [ ] Heading hierarchy correct (no skipped levels)
 
 **Learning Objectives:**
 
-- [ ] Exactly 3 MLOs with MLO-N.Y numbering and RBT tags
-- [ ] Format: **MLO-N.Y (Bloom's Level):** [Verb] [outcome]
+- [ ] Exactly 3 MLOs with N.Y numbering and RBT tags
+- [ ] Format: **N.Y (Bloom's Level):** [Verb] [outcome]
 - [ ] Each MLO maps to specific section number
 - [ ] Bloom's verbs at the course's target levels
 - [ ] CLO alignment block after the MLO list (verbatim outcome text)

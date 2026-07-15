@@ -16,9 +16,9 @@ Three moves this chapter, then a payoff. First, you will sort the everyday appli
 
 By the end of this chapter, you will be able to:
 
-* **MLO-3.1 (Analyze):** Classify general-purpose and specialized applications by the tasks each serves
-* **MLO-3.2 (Evaluate):** Select the application, delivery form, and AI involvement that fit a task, and justify the choice
-* **MLO-3.3 (Apply):** Produce a styled Word report with heading styles and a self-updating table of contents
+* **3.1 (Analyze):** Classify general-purpose and specialized applications by the tasks each serves
+* **3.2 (Evaluate):** Select the application, delivery form, and AI involvement that fit a task, and justify the choice
+* **3.3 (Apply):** Produce a styled Word report with heading styles and a self-updating table of contents
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -308,7 +308,7 @@ Answer from memory before checking back through the chapter.
 
 **Why styles first:** A **style** is a named set of formatting (Heading 1, Heading 2, Title, Normal) that you apply to a paragraph in one click. Styles do more than format. They label structure, the way Chapter 2's HTML tags label a page, and Word can read those labels. The table of contents builds itself from your headings. Changing a style's look updates every heading that wears it. Direct formatting (selecting a line and making it big and bold by hand) looks identical and labels nothing. This lab is the difference, felt.
 
-### Part 1: Foundation (Aligns with MLO-3.3)
+### Part 1: Foundation (Aligns with Objective 3.3)
 
 1. Open `bookstore-report.docx` from the data pack. Before touching anything, save your own working copy with File > Save As (or Save a Copy), named `skills-lab-3a-lastname.docx`, so the original stays clean in the pack.
 2. Apply the Title style (Home > Styles gallery) to the report's first line, and the Subtitle style to the second line (the semester and author line).
@@ -316,14 +316,14 @@ Answer from memory before checking back through the chapter.
 4. Find the three lines marked with `>>` inside the Sales by Category section. Delete the `>>` markers and apply Heading 2 to each.
 5. Scroll the document once. Structure should now be visible at a glance. Then open View > Navigation Pane (View > Sidebar > Navigation on a Mac) and watch your headings double as a clickable outline.
 
-### Part 2: Application (Aligns with MLO-3.3)
+### Part 2: Application (Aligns with Objective 3.3)
 
 1. Put your cursor at the start of the first section heading and insert a page break (Insert > Page Break), so the report body starts on its own page below the title block.
 2. On the title page, below the subtitle, insert a table of contents: References > Table of Contents, any automatic style. Watch it assemble itself from your headings, page numbers included.
 3. Add page numbers in the footer (Insert > Page Number) and run Editor once, the Chapter 1 habit.
 4. Now collect the payoff. Modify the Heading 1 style once (right-click Heading 1 in the Styles gallery > Modify, change the color to a professional dark blue): every section heading updates together. Direct formatting would have made you do that five times, and miss one.
 
-### Part 3: Extension (Aligns with MLO-3.1, MLO-3.2)
+### Part 3: Extension (Aligns with Objectives 3.1 and 3.2)
 
 1. Elena wants Recommendations for Spring where the business office will see it early. Move that entire section (heading and body) to sit right after Overview. Select it in one sweep, cut, and paste, or drag its heading in the Navigation Pane, which moves the whole section in one motion.
 2. The table of contents is now wrong, and this is the moment the lab exists for. Click the table and choose Update Table > Update entire table. One click, correct again. Write one sentence, as a comment attached to the table of contents (Review > New Comment), telling Elena how to update it next semester.
@@ -345,7 +345,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

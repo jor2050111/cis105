@@ -16,9 +16,9 @@ Here is the route. First the inputs, which have quietly become cameras, voices, 
 
 By the end of this chapter, you will be able to:
 
-* **MLO-6.1 (Understand):** Explain how today's input and output devices carry data between people and machines (Section 6.1)
-* **MLO-6.2 (Analyze):** Select storage, sync, and backup arrangements that fit a task by weighing speed, capacity, portability, and risk (Section 6.3)
-* **MLO-6.3 (Apply):** Build an Excel worksheet that organizes, calculates, and summarizes device data with formulas and functions (Section 6.4)
+* **6.1 (Understand):** Explain how today's input and output devices carry data between people and machines (Section 6.1)
+* **6.2 (Analyze):** Select storage, sync, and backup arrangements that fit a task by weighing speed, capacity, portability, and risk (Section 6.3)
+* **6.3 (Apply):** Build an Excel worksheet that organizes, calculates, and summarizes device data with formulas and functions (Section 6.4)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -370,7 +370,7 @@ Answer from memory before checking back through the chapter.
 !!! note
     Excel for the web can complete this lab (open the file from OneDrive), though the desktop app is smoother with tables and freezing. Chapter 12's macros will require desktop Excel, so consider installing it now if you have not.
 
-### Part 1: Foundation (Aligns with MLO-6.3)
+### Part 1: Foundation (Aligns with Objective 6.3)
 
 1. Open `device-comparison.xlsx` and immediately save your working copy as `skills-lab-6a-lastname.xlsx` (File > Save As), the Chapter 1 habit, so the pack original stays clean.
 2. Look before you compute. Scroll all 54 rows once and note the columns and their units. Then find the three Chapter 5 devices (Desert Falcon 15, Stone Tower, Bloom Pad 11) and confirm the file matches the specs you presented in Skills Lab 5A.
@@ -378,7 +378,7 @@ Answer from memory before checking back through the chapter.
 4. Format the data as an Excel table: click any data cell, Home > Format as Table, pick a style, confirm "My table has headers." Then name the table `Devices` (Table Design tab on Windows, Table tab on a Mac, Table Name box).
 5. Make money read as money: select the price column's data and apply the currency format from the Home tab. Widen any column that shows `###`.
 
-### Part 2: Application (Aligns with MLO-6.3)
+### Part 2: Application (Aligns with Objective 6.3)
 
 1. Build a summary block beside the data. In J2 through J7, type these labels: Devices in stock, Total inventory value, Average price, Cheapest device, Most expensive device, Battery readings counted.
 2. In K2 through K7, write the formulas: `=COUNTA(A2:A55)`, `=SUM(H2:H55)`, `=AVERAGE(H2:H55)`, `=MIN(H2:H55)`, `=MAX(H2:H55)`, `=COUNT(G2:G55)`. Format the three money results as currency. Record all six results for Questions & Analysis.
@@ -386,7 +386,7 @@ Answer from memory before checking back through the chapter.
 4. Add one more summary row: label J8 as Average battery health and write `=AVERAGE(G2:G55)` in K8. Compare the count it used (your K7 result) against the count in K2, and note the gap for Questions & Analysis.
 5. Prove the grid is alive: note the total in K3, then change one price (pick any device, raise it by $10), watch K3 move, and undo the change (++ctrl+z++ or ++cmd+z++). The whiteboard never did that.
 
-### Part 3: Extension (Aligns with MLO-6.1, MLO-6.2)
+### Part 3: Extension (Aligns with Objectives 6.1 and 6.2)
 
 1. Answer Maya's question with filters. Desert Bloom needs a counter tablet customers will tap all day: category Tablet, price under $400, battery health 85 or better. Use the header arrows (filter Category to Tablet, then Number Filters for price and battery) and record the Device IDs that survive.
 2. Recommend one. In cell J11, type a two-sentence recommendation to Maya. Name the winning device by name and ID, and give the reasoning in customer terms (touch input for the counter, battery health for the full shift). Wrap the text (Home > Wrap Text) and widen the cell so it reads cleanly.
@@ -409,7 +409,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

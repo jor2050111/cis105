@@ -78,7 +78,7 @@ Per chapter, run this workflow:
 
 Quality bars the instrument rewards, honored from the first draft:
 
-* MLOs carry inline section bindings: **MLO-N.Y (Level):** verb, outcome,
+* MLOs carry inline section bindings: **N.Y (Level):** verb, outcome,
   (Section N.X). C4 anchors on this.
 * At least four Try It Yourself exercises and four Quick Checks per
   chapter. Every Predict step forces a specific committed choice (a

@@ -16,9 +16,9 @@ Here is the route. First you will see how the Internet grew into a utility and w
 
 By the end of this chapter, you will be able to:
 
-* **MLO-2.1 (Understand):** Explain how browsers, web servers, and HTML work together to deliver a web page when you type an address
-* **MLO-2.2 (Apply):** Verify claims from search results and AI answer engines using lateral reading and credible sources
-* **MLO-2.3 (Apply):** Produce a professionally formatted research memo in Word that reports verification findings with evidence
+* **2.1 (Understand):** Explain how browsers, web servers, and HTML work together to deliver a web page when you type an address
+* **2.2 (Apply):** Verify claims from search results and AI answer engines using lateral reading and credible sources
+* **2.3 (Apply):** Produce a professionally formatted research memo in Word that reports verification findings with evidence
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -377,21 +377,21 @@ Answer from memory before checking back through the chapter.
 
 **Scenario:** Before Maya spends money putting Desert Bloom's beans online, she wants to know how much of her AI briefing she can trust. Your job is not to embarrass the machine or to defend it. Your job is verdicts with evidence, on the record.
 
-### Part 1: Foundation (Aligns with MLO-2.3)
+### Part 1: Foundation (Aligns with Objective 2.3)
 
 1. Create a new blank Word document and save it as `skills-lab-2a-lastname.docx`.
 2. Build the memo header exactly as Section 2.3 shows: MEMORANDUM title, then TO (Maya Reyes, Owner), FROM (your name and role), DATE (today), and RE (one line stating the memo's purpose). Bold the four labels.
 3. Add three section headings below the header: Summary, Findings, and Recommendation. Style them consistently (bold or a slightly larger size, your call, applied identically to all three). Leave Summary empty for now. You will write it last, the way professionals do.
 4. Open `ai-briefing.docx` from the data pack and read all eight claims before choosing any. Notice your own gut reactions as you read. Part 2 tests them.
 
-### Part 2: Application (Aligns with MLO-2.2)
+### Part 2: Application (Aligns with Objective 2.2)
 
 1. Choose five of the eight claims. Your five must include at least one claim you suspect is true and at least one you suspect is false.
 2. In the Findings section, insert a table (Insert > Table) with three columns and six rows. Type the header row: Claim, Verdict, Evidence and source. Bold the header row.
 3. Run the five-step lateral reading method from Section 2.2 on each chosen claim. For each, record: the claim (shortened to its testable core), your verdict (Confirmed, Refuted, or Unverified), and the evidence with its source. Name the source and include enough detail that Maya could find it: the organization, the page title, and the address.
 4. Verdict discipline: at least two unrelated, credible sources for every Confirmed or Refuted verdict. If ninety seconds of honest searching per source leaves a claim unsettled, Unverified is the correct verdict. Say so plainly.
 
-### Part 3: Extension (Aligns with MLO-2.1, MLO-2.3)
+### Part 3: Extension (Aligns with Objectives 2.1 and 2.3)
 
 1. Write the Recommendation section: 3-5 sentences advising Maya how to use AI briefings in the future, grounded in your table. Base every general statement on a specific row.
 2. Maya will soon choose a platform for the bean store, and she should know what she is buying. Add one short paragraph to the Recommendation explaining what happens between a customer typing her future site's address and the order page appearing. Use the round trip from Section 2.1 without technical jargon: name what the browser, the server, and HTML each contribute in words Maya would use.
@@ -414,7 +414,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

@@ -16,9 +16,9 @@ The chapter runs in four moves, and they follow the arc of Part III. First, the 
 
 By the end of this chapter, you will be able to:
 
-* **MLO-8.1 (Analyze):** Break down how personal data is collected, traded, and attacked, from data brokers to AI-written scams (Sections 8.1 and 8.2)
-* **MLO-8.2 (Evaluate):** Judge which safeguards close which risks, and prioritize the fixes a security audit reveals (Section 8.3)
-* **MLO-8.3 (Apply):** Chart audit results in Excel so comparisons read accurately, applying Section 8.4's honesty and disclosure standards to your own work (Section 8.4)
+* **8.1 (Analyze):** Break down how personal data is collected, traded, and attacked, from data brokers to AI-written scams (Sections 8.1 and 8.2)
+* **8.2 (Evaluate):** Judge which safeguards close which risks, and prioritize the fixes a security audit reveals (Section 8.3)
+* **8.3 (Apply):** Chart audit results in Excel so comparisons read accurately, applying Section 8.4's honesty and disclosure standards to your own work (Section 8.4)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -290,14 +290,14 @@ Answer from memory before checking back through the chapter.
 !!! note
     Excel for the web can complete this lab: charts, cross-sheet formulas, and axis settings all work in the browser, though menus sit in slightly different places. Desktop Excel remains smoother for chart formatting.
 
-### Part 1: Foundation (Aligns with MLO-8.2)
+### Part 1: Foundation (Aligns with Objective 8.2)
 
 1. Open `security-audit.xlsx` and immediately save your working copy as `skills-lab-8a-lastname.xlsx` (File > Save As), so the pack original stays clean.
 2. Read the `AuditChecklist` sheet once, top to bottom: 25 items, five categories, and for each item the anchors that define a 0 and a 2 (1 means partly true). Freeze the top row (View > Freeze Panes > Freeze Top Row).
 3. Score yourself. In G2 through G26, enter 0, 1, or 2 for each item, checking the honest answer where the Where to look column points. Two rules: no blanks (unsure means 0, because unverified security is unproven security), and no aspirational scoring (the audit measures today, not your plans).
 4. Total it. In F28 type `My total`, and in G28 write the SUM of your 25 scores. In F29 type `Out of`, and in G29 type 50. Sanity-check the total against your sense of the week you just read about.
 
-### Part 2: Application (Aligns with MLO-8.2, MLO-8.3)
+### Part 2: Application (Aligns with Objectives 8.2 and 8.3)
 
 1. Build the comparison table. In I1, J1, and K1 type the headers `Category`, `My Score`, `Class Average`. In I2 through I6 type the five category names in checklist order: Accounts, Devices, Network, Backups, Privacy.
 2. Fill My Score with SUMs of your five-row category blocks: J2 is `=SUM(G2:G6)` for Accounts, J3 is `=SUM(G7:G11)` for Devices, and so on down to J6 for Privacy (rows 22-26).
@@ -305,7 +305,7 @@ Answer from memory before checking back through the chapter.
 4. Count your zeros: in I8 type `My zero items`, and in J8 use COUNTIF (Chapter 7's counting-with-a-test) across G2:G26 to count the 0 scores. Those items are your to-do list, and Questions & Analysis will ask about them by ID.
 5. Format the table's numbers to one decimal place (Home tab, number group) so your scores and the class averages read cleanly side by side.
 
-### Part 3: Extension (Aligns with MLO-8.3, MLO-8.1)
+### Part 3: Extension (Aligns with Objectives 8.3 and 8.1)
 
 1. Build the honest chart. Select the comparison table (I1 through K6) and Insert > Recommended Charts > clustered column. Title it with a finding, not a label: name the category where you trail the class most (or lead it, if you do). Confirm the value axis starts at 0, and add data labels.
 2. Build the confession chart. Copy the chart (Ctrl+C, Ctrl+V on Windows, Cmd+C, Cmd+V on a Mac), and on the copy set the vertical axis Minimum to 3 (double-click the axis, Axis Options). Retitle the copy `Distorted: axis starts at 3. Do not trust`. Note that any bar whose value sits under 3 vanishes from the copy entirely, which is part of the lie. You have now built the truncated-axis trick on your own data and labeled it as one.
@@ -328,7 +328,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

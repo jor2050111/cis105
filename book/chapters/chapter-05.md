@@ -16,9 +16,9 @@ Here is the route. First you will open the case and meet the board that connects
 
 By the end of this chapter, you will be able to:
 
-* **MLO-5.1 (Understand):** Explain how the system board connects processors, memory, and ports into one working machine (Section 5.1)
-* **MLO-5.2 (Analyze):** Differentiate the CPU, GPU, and NPU and match each processor and memory type to the work it serves (Section 5.2)
-* **MLO-5.3 (Apply):** Translate a device spec sheet into accurate, audience-ready visuals in PowerPoint (Section 5.4)
+* **5.1 (Understand):** Explain how the system board connects processors, memory, and ports into one working machine (Section 5.1)
+* **5.2 (Analyze):** Differentiate the CPU, GPU, and NPU and match each processor and memory type to the work it serves (Section 5.2)
+* **5.3 (Apply):** Translate a device spec sheet into accurate, audience-ready visuals in PowerPoint (Section 5.4)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -419,14 +419,14 @@ Answer from memory before checking back through the chapter.
 !!! note
     This lab requires desktop PowerPoint (the outline import is not available in PowerPoint for the web). The icon library and Designer need a Microsoft 365 sign-in and an Internet connection.
 
-### Part 1: Foundation (Aligns with MLO-5.3)
+### Part 1: Foundation (Aligns with Objective 5.3)
 
 1. Read `spec-sheets.docx` first, end to end: three device tables, three customer profiles, the shop notes. This is the source of truth your slides must trace back to. Close it before importing.
 2. Create a blank presentation, save it as `skills-lab-5a-lastname.pptx`, and import the outline exactly as in Chapter 4 (Windows: Home > New Slide arrow > Slides from Outline, `spec-outline.docx`. Mac: Home > New Slide arrow > Outline, `spec-outline.rtf`). Delete the leftover blank slide.
 3. Re-assign the first slide to the Title Slide layout, apply one theme suited to a shop's counter screen, and confirm your slide count against the outline's section count. Record the count for Questions & Analysis.
 4. Audit pass, on paper: compare each imported device slide against its table in `spec-sheets.docx` and note every bullet that disagrees with the table or would mean nothing to a walk-in customer. Part 2 starts from your notes.
 
-### Part 2: Application (Aligns with MLO-5.2, MLO-5.3)
+### Part 2: Application (Aligns with Objectives 5.2 and 5.3)
 
 1. Fix the wrong name. Your Part 1 audit should have flagged one spec bullet wearing the wrong name (check every memory and storage line against `spec-sheets.docx` and Section 5.3's desk-versus-cabinet distinction). Correct the label on the slide, and record the device, the wrong wording, and your fix for Questions & Analysis.
 2. Cut what no customer needs. One bullet among the device slides is true, technical, and useless to a walk-in shopper. Delete it from the slide and paste it into that slide's notes pane instead, so the fine print survives where a professional can find it.
@@ -434,7 +434,7 @@ Answer from memory before checking back through the chapter.
 4. Rebuild the "Side by Side" slide, which arrived as a wall of numbers. Choose one of two visuals. Either build a small comparison table with a header row: price, memory, storage, and one more row you select. Or insert a bar chart of the three prices via Insert > Chart, with bars starting at zero. Delete whatever the visual now makes redundant.
 5. Add alt text to every icon, image, and chart in the deck (right-click > Edit Alt Text): what it shows and the value it carries, written for a listener who cannot see the slide.
 
-### Part 3: Extension (Aligns with MLO-5.1, MLO-5.2)
+### Part 3: Extension (Aligns with Objectives 5.1 and 5.2)
 
 1. Finish the "Which One Fits You" slide: match each of the three customer profiles to one device. Then write speaker notes in Amir's voice for that slide, justifying each match with exactly two specs per customer. Use Section 5.2's shape-of-work rule instead of "it is more powerful."
 2. One profile mentions wanting to "add more memory next year." In the notes of the device you matched to that customer, add two sentences a professional would say across the counter. State whether that plan works on this device's packaging, and what to buy instead if it does not (Sections 5.1 and 5.3).
@@ -456,7 +456,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

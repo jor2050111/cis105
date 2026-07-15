@@ -16,9 +16,9 @@ That work has a shape professionals have used for decades, and it did not disapp
 
 By the end of this chapter, you will be able to:
 
-* **MLO-11.1 (Understand):** Outline the six phases of the systems life cycle and the purpose of each (Section 11.1)
-* **MLO-11.2 (Analyze):** Differentiate build, buy, and subscribe options against a project's feasibility and requirements (Sections 11.2 and 11.3)
-* **MLO-11.3 (Evaluate):** Recommend a conversion strategy and defend it against a project's readiness, risks, and people (Sections 11.3 and 11.4 and Skills Lab 11A)
+* **11.1 (Understand):** Outline the six phases of the systems life cycle and the purpose of each (Section 11.1)
+* **11.2 (Analyze):** Differentiate build, buy, and subscribe options against a project's feasibility and requirements (Sections 11.2 and 11.3)
+* **11.3 (Evaluate):** Recommend a conversion strategy and defend it against a project's readiness, risks, and people (Sections 11.3 and 11.4 and Skills Lab 11A)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -281,7 +281,7 @@ Answer from memory before checking back through the chapter.
 !!! note
     This lab uses Airtable, this course's database tool, in any modern browser, on the free plan. Creating an Airtable account is free and needs no credit card. Nothing here requires a paid feature or an AI subscription. This lab reuses the Airtable skills from Chapter 10, so the import and field-typing steps will feel familiar.
 
-### Part 1: Foundation (Aligns with MLO-11.1, MLO-11.2)
+### Part 1: Foundation (Aligns with Objectives 11.1 and 11.2)
 
 1. Create a new base named `Saguaro Hall Rollout`. Import `project-tasks.csv` into it, and rename the table `Tasks`.
 2. Make Task ID the primary field, and confirm the values run `T-101` through `T-154`, unique.
@@ -289,7 +289,7 @@ Answer from memory before checking back through the chapter.
 4. Build a Grid view grouped by Phase. Confirm you see all six phases (Investigation, Analysis, Design, Development, Implementation, Maintenance) with nine tasks each. Read how the Status column shifts from Done in the early phases to Not Started in the late ones.
 5. Record which phase holds most of the active (In Progress) work right now, and cite two task statuses as evidence.
 
-### Part 2: Application (Aligns with MLO-11.2, MLO-11.3)
+### Part 2: Application (Aligns with Objectives 11.2 and 11.3)
 
 1. Build a Kanban view with Status as the stacking field, so tasks sit in columns by status. Airtable orders the stacks by how the values first appear in the data, so drag them into workflow order (Not Started, In Progress, Blocked, Done). This is the board a team runs its week on.
 2. Build a filtered Grid view showing only High-priority tasks that are not Done. This is the attention list. Record how many tasks it holds.
@@ -297,7 +297,7 @@ Answer from memory before checking back through the chapter.
 4. Find the overdue work. Filter for tasks whose Due Date is before the status date of July 11, 2026, and whose Status is not Done. Record the count (you are looking for 11) and how many are High priority.
 5. Add a Calendar view on Due Date, so the deadlines spread across the year. Note how many crowd into the months the project is behind on.
 
-### Part 3: Extension (Aligns with MLO-11.3)
+### Part 3: Extension (Aligns with Objective 11.3)
 
 1. Hunt the impossible task. Somewhere in the tracker, one task is marked In Progress while the task it depends on is still Not Started. Use the Depends On column to find it (compare each In Progress task to the status of the task in its Depends On field). Record the two Task IDs and explain in one line why that pairing cannot be true.
 2. Total the remaining effort. Group by Phase and sum Estimated Hours, then note which phases still hold the most unfinished work.
@@ -320,7 +320,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

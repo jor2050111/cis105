@@ -16,9 +16,9 @@ Part IV opens here, and it runs on a single idea: data becomes a decision only w
 
 By the end of this chapter, you will be able to:
 
-* **MLO-9.1 (Understand):** Describe how information needs change across a business's departments and management levels (Section 9.1)
-* **MLO-9.2 (Analyze):** Differentiate the systems that carry data from transactions to decisions, including the dashboards and AI agents now in front of them (Sections 9.2 and 9.3)
-* **MLO-9.3 (Apply):** Use sort, filter, and pivot tables to turn a sales table into answers to business questions (Section 9.4)
+* **9.1 (Understand):** Describe how information needs change across a business's departments and management levels (Section 9.1)
+* **9.2 (Analyze):** Differentiate the systems that carry data from transactions to decisions, including the dashboards and AI agents now in front of them (Sections 9.2 and 9.3)
+* **9.3 (Apply):** Use sort, filter, and pivot tables to turn a sales table into answers to business questions (Section 9.4)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -252,7 +252,7 @@ Answer from memory before checking back through the chapter.
 !!! note
     Excel for the web can complete this lab: tables, multi-level sorts, and pivot tables (Insert > PivotTable) all work in the browser. The pivot field list is arranged slightly differently, and Refresh lives on the right-click menu in both versions.
 
-### Part 1: Foundation (Aligns with MLO-9.3)
+### Part 1: Foundation (Aligns with Objective 9.3)
 
 1. Open `coffee-sales.xlsx` and immediately save your working copy as `skills-lab-9a-lastname.xlsx` (File > Save As), so the pack original stays clean.
 2. Look before you compute. Scroll the data once and read the 12 column headers against the README's data dictionary. Then confirm the row count: select column A, and the status bar's count reads 572, the header plus 571 data rows. Freeze the top row.
@@ -260,7 +260,7 @@ Answer from memory before checking back through the chapter.
 4. Run a multi-level sort (Data > Sort): by Location A to Z, then by Line Total largest to smallest. Record the single biggest line item at Campus (ID, item, and amount) for your own bearings. Then re-sort by Order ID, A to Z (a text column sorts alphabetically), which restores chronological order.
 5. Stack two filters: Location to Campus, Category to Merch. Read the status bar's sum of the visible Line Total cells and record it. Clear all filters and confirm all 571 rows return. You have just done rung-two work by hand, once, so the pivot's value is about to be obvious.
 
-### Part 2: Application (Aligns with MLO-9.3, MLO-9.2)
+### Part 2: Application (Aligns with Objectives 9.3 and 9.2)
 
 1. Build your first pivot. Click in the `Sales` table, Insert > PivotTable, New Worksheet. Rename the new sheet `RevenuePivots` (semantic names, always). Drag Location to Rows and Line Total to Values, then set the value's number format to currency (Value Field Settings > Number Format). Record the three location totals and the grand total: this is Maya's first question, answered.
 2. Pivot the same data a second way: drag Location out of Rows and Category in. Sort the rows largest-first by revenue (the Row Labels arrow > More Sort Options, or right-click a value > Sort). Record the top category and its total, and notice what a Phoenix June does to the hot-versus-cold contest.
@@ -268,7 +268,7 @@ Answer from memory before checking back through the chapter.
 4. Prove the view rule: double-click the Campus revenue number in your first pivot layout (rebuild it with Location in Rows if needed). Excel opens a sheet of exactly the Campus rows behind that number. That is drill down as a double-click. Delete the drill-down sheet after you look.
 5. Prove the refresh rule: in the `Sales` table, find any Merch line and raise its Line Total by $10, typing over the value (call it a corrected transaction). Watch the pivot hold its old totals, right-click the pivot and choose Refresh, and watch Merch move. Then undo your change (++ctrl+z++ or ++cmd+z++) and Refresh again.
 
-### Part 3: Extension (Aligns with MLO-9.2, MLO-9.1)
+### Part 3: Extension (Aligns with Objectives 9.2 and 9.1)
 
 1. Answer the Campus question honestly. Build a new pivot on a sheet named `CampusQuestion`: Location to Rows, Day Type to Columns, Line Total to Values (currency format). The weekday column will dwarf the weekend column everywhere, and Section 9.4 told you why that comparison is not yet honest.
 2. Make the denominators honest. Beside the pivot, build a small block of daily averages: each location's weekday total divided by 20, and its weekend total divided by 8. Type the cell references by keyboard instead of clicking (clicking a pivot cell inserts a GETPIVOTDATA formula that will not fill), or retype the totals. Label the block clearly. Now read the story: two locations hold or even grow their weekends, and Campus falls off a cliff.
@@ -292,7 +292,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

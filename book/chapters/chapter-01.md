@@ -16,9 +16,9 @@ Here is the plan. You will learn the six parts and watch them work together in o
 
 By the end of this chapter, you will be able to:
 
-* **MLO-1.1 (Remember):** Identify the six parts of an information system and the job each part does in an everyday app
-* **MLO-1.2 (Understand):** Describe the major types of computers and software this course covers, using the correct term for each
-* **MLO-1.3 (Apply):** Produce a formatted business letter in Word from provided content, edited and exported for a professional audience
+* **1.1 (Remember):** Identify the six parts of an information system and the job each part does in an everyday app
+* **1.2 (Understand):** Describe the major types of computers and software this course covers, using the correct term for each
+* **1.3 (Apply):** Produce a formatted business letter in Word from provided content, edited and exported for a professional audience
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -445,7 +445,7 @@ Answer from memory before checking back through the chapter.
 
 **Scenario:** Maya Reyes owns Desert Bloom Coffee, the Phoenix shop from this chapter. Her new mobile ordering app, Bloom Ahead, launches October 5, and she has drafted a letter to her regular customers. The draft has the right heart and the wrong everything else. She has asked you to make it professional.
 
-### Part 1: Foundation (Aligns with MLO-1.3)
+### Part 1: Foundation (Aligns with Objective 1.3)
 
 1. Open `letter-content.docx` from the data pack. Select all of its text (++ctrl+a++ on Windows, ++cmd+a++ on Mac) and copy it.
 2. Create a new blank Word document and paste the text in. This blank document becomes your letter. Save it now as `skills-lab-1a-lastname.docx`, using your own last name.
@@ -453,14 +453,14 @@ Answer from memory before checking back through the chapter.
 4. Replace the `[Today's Date]` placeholder with the date you are working. Insert > Date & Time places it for you, or type it in a formal format.
 5. Set the whole letter in one clean, professional font (Aptos and Calibri both work) at 11 or 12 point, flush left in block style, with a blank line between elements. Compare your structure against the skeleton in Section 1.4.
 
-### Part 2: Application (Aligns with MLO-1.3)
+### Part 2: Application (Aligns with Objective 1.3)
 
 1. The shop's registered name is "Desert Bloom Coffee," but the draft slips into an older name in places. Use Find and Replace to change every "Desert Bloom Cafe" to "Desert Bloom Coffee." Use Replace All, and record how many replacements Word reports (you will need the number for your Questions & Analysis answers).
 2. Run Editor from the Review tab and fix every spelling error it finds. The draft ships with three.
 3. Now read the letter aloud once, slowly. One word in the draft is spelled correctly but wrong for its sentence. Find it and fix it, and note whether Editor had flagged it for you.
 4. Make two deliberate emphasis choices: bold the app name and the launch date (and nothing else). Then set line spacing so the letter breathes: 1.15 spacing with space after paragraphs reads well on screen and paper.
 
-### Part 3: Extension (Aligns with MLO-1.1, MLO-1.2)
+### Part 3: Extension (Aligns with Objectives 1.1 and 1.2)
 
 1. Open `app-fact-sheet.docx` and read all twelve facts. The fact sheet was written for staff, not customers.
 2. The draft contains a placeholder paragraph marked `[HOW IT WORKS...]`. Replace it with a short section of your own: 3-4 sentences in plain customer language explaining how Bloom Ahead works, built from at least three facts you select from the sheet. Translate, do not copy: "iOS 16 or later" is a staff fact, "works on most phones" is customer language.

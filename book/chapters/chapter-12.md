@@ -16,9 +16,9 @@ There is one more reason this chapter closes the book. Renee also asked an AI as
 
 By the end of this chapter, you will be able to:
 
-* **MLO-12.1 (Understand):** Outline the path a program takes from a named need to tested, documented code, using pseudocode and the three logic structures (Section 12.1)
-* **MLO-12.2 (Analyze):** Differentiate syntax errors from logic errors in code you did not write (Sections 12.1 and 12.4)
-* **MLO-12.3 (Create):** Create working Excel macros by recording, reading, editing, and repairing VBA in the Visual Basic Editor (Sections 12.3 and 12.4, Skills Lab 12A)
+* **12.1 (Understand):** Outline the path a program takes from a named need to tested, documented code, using pseudocode and the three logic structures (Section 12.1)
+* **12.2 (Analyze):** Differentiate syntax errors from logic errors in code you did not write (Sections 12.1 and 12.4)
+* **12.3 (Create):** Create working Excel macros by recording, reading, editing, and repairing VBA in the Visual Basic Editor (Sections 12.3 and 12.4, Skills Lab 12A)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -331,7 +331,7 @@ Answer from memory before checking back through the chapter.
 !!! note
     This lab requires desktop Excel on Windows or macOS (Microsoft 365 is free through Phoenix College). Excel for the web can open the export, but it cannot record or run macros, the requirement Chapters 3, 6, and 7 flagged. No AI account or subscription is needed: the AI draft ships in the data pack as plain text, so every student verifies the same artifact.
 
-### Part 1: Foundation (Aligns with MLO-12.1, MLO-12.3)
+### Part 1: Foundation (Aligns with Objectives 12.1 and 12.3)
 
 1. Open `booking-export.xlsx` in desktop Excel. If Excel opens it in Protected View, click Enable Editing: the pack traveled from the Internet, and Excel says so. Then use File > Save As to save your working copy as `skills-lab-12a-lastname.xlsm`, picking **Excel Macro-Enabled Workbook** in the file-type list (Windows calls the list "Save as type," Mac calls it "File Format"). The `.xlsx` format cannot hold the macros you are about to create.
 2. Show the Developer tab if it is hidden. On Windows: File > Options > Customize Ribbon, and check Developer. On Mac: Excel > Settings (older versions say Preferences) > Ribbon & Toolbar, and check Developer.
@@ -342,7 +342,7 @@ Answer from memory before checking back through the chapter.
 7. Perform your five steps exactly once, in your planned order. Click the row 1 heading to select the whole header row, apply bold, then a fill from the Standard Colors row of the fill menu (theme colors record differently, so use the standard row). Drag across the column headings A through J and autofit their width (Home > Format > AutoFit Column Width). Click the column J heading to select the whole column, open Format Cells (++ctrl+1++ or ++cmd+1++), and choose Currency. Selecting the whole column, not a row range, keeps your macro honest when November runs longer. Finish with View > Freeze Panes > Freeze Top Row. Click Stop Recording on the Developer tab.
 8. Prove the macro. Duplicate `RawBackup` the same way you made it and name the copy `SecondRun`. With `SecondRun` active, run your macro (Developer > Macros > `FormatExport` > Run) and watch the ritual happen in about a second. Twenty minutes a month just became one click.
 
-### Part 2: Application (Aligns with MLO-12.2, MLO-12.3)
+### Part 2: Application (Aligns with Objectives 12.2 and 12.3)
 
 1. Open the Visual Basic Editor (Developer > Visual Basic) and find your code: in the Project pane, expand Modules and open `Module1`. Read `FormatExport` top to bottom next to your pseudocode plan, and match each planned step to the block of code it produced. Check your Try It Yourself 12.3 line-count prediction against the real thing.
 2. Document it like a professional. Add a comment header inside the procedure (your name, the date, and one line saying WHY this macro exists), plus one WHY comment above each of your five step blocks. Comments start with an apostrophe. Your standard is the course's: a colleague could read and build on this.
@@ -351,7 +351,7 @@ Answer from memory before checking back through the chapter.
 5. Make the macro yours. Design one improvement Renee never asked for, your call: a sixth formatting step, a smarter target, a cleanup the readout needs. Add it by re-recording or by editing the code, put a WHY comment above it with the word `IMPROVEMENT`, and run the macro on `SecondRun` to prove it works. This step is graded on your design choice, not its size.
 6. Break it on purpose, safely. Delete the closing quotation mark from `"A1:J1"` (or your recording's equivalent range). Excel may complain the moment you leave the line, or when you run the macro: either way, read the loud message, and note that nothing ran at all. Restore the quotation mark, run the macro on `SecondRun` again, and confirm it works end to end. That was a syntax error: the cheap, honest kind. Write one sentence in your note about how it announced itself.
 
-### Part 3: Extension (Aligns with MLO-12.2, MLO-12.3)
+### Part 3: Extension (Aligns with Objectives 12.2 and 12.3)
 
 1. Read before you run: open `ai-macro-draft.txt`, read Renee's prompt and the assistant's draft, and write a one-line prediction in your note of what the draft will report on October's export.
 2. Establish ground truth with tools you trust, before the draft runs. The booking count is your Part 1 status-bar count minus the header: 63. For the money, click an empty cell beside the data on `OctoberExport`, in column L (try `L10`), and enter `=SUM(J2:J64)`, using the last data row you confirmed. Keep column A clean: the repair you will make later measures the data by column A, and a stray value there would poison it. Write both numbers in your note (you are looking for 63 bookings and $83,910).
@@ -401,7 +401,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 
@@ -427,6 +429,6 @@ Interpretation, and Response to QUESTION(s).
 
 ---
 
-## Looking Ahead ⏩
+## Course Conclusion: Where You Go from Here
 
 This is the end of the book, and the loop it opened in Chapter 1 is closed. You started by naming the six parts of an information system and polishing a machine-drafted letter. You end having produced documents, decks, workbooks, a database, and a rollout plan, and having repaired code a machine wrote, with the judgment calls yours at every step. The tools will keep getting faster at drafting, building, and automating. Every one of them will still need what you now have: someone who checks the output against a known answer before it reaches a decision. Your field is full of twenty-minute rituals nobody has questioned yet, and you know what to do with the next one.

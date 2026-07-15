@@ -16,9 +16,9 @@ This chapter is about the place data lives when it is built to stay honest. Chap
 
 By the end of this chapter, you will be able to:
 
-* **MLO-10.1 (Understand):** Explain how a database organizes data into fields, records, tables, and relationships, and how a key links tables without duplication (Sections 10.1 and 10.2)
-* **MLO-10.2 (Apply):** Build a connected Airtable base with typed fields, linked tables, and filtered views that answer business questions (Sections 10.1 through 10.3 and Skills Lab 10A)
-* **MLO-10.3 (Analyze):** Examine the security, privacy, and data-quality risks a shared database carries and the safeguards that reduce them (Section 10.4)
+* **10.1 (Understand):** Explain how a database organizes data into fields, records, tables, and relationships, and how a key links tables without duplication (Sections 10.1 and 10.2)
+* **10.2 (Apply):** Build a connected Airtable base with typed fields, linked tables, and filtered views that answer business questions (Sections 10.1 through 10.3 and Skills Lab 10A)
+* **10.3 (Analyze):** Examine the security, privacy, and data-quality risks a shared database carries and the safeguards that reduce them (Section 10.4)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -228,7 +228,7 @@ Answer from memory before checking back through the chapter.
 !!! note
     This lab uses Airtable, this course's database tool, in any modern browser. Creating an Airtable account is free and needs no credit card, the same way your Microsoft 365 account is free through the college. Everything below stays inside Airtable's free plan. Nothing here requires a paid feature or an AI subscription.
 
-### Part 1: Foundation (Aligns with MLO-10.1, MLO-10.2)
+### Part 1: Foundation (Aligns with Objectives 10.1 and 10.2)
 
 1. Create a new base named `Saguaro Hall Bookings` (semantic names, always). In the first table, use Add or import and choose CSV file to import `saguaro-bookings.csv`. Rename the table `Bookings`.
 2. Set the primary field. Make Booking ID the first field, and confirm every value is unique (`SH-1001` through `SH-1060`). This is your primary key. Airtable does not enforce uniqueness for you, so that check is yours to make.
@@ -236,7 +236,7 @@ Answer from memory before checking back through the chapter.
 4. Feel the duplication before you fix it. Sort the table by Organization (A to Z), and look at the six City of Phoenix Parks and Rec rows. Their email and phone are copied down every row. Find booking `SH-1005` and confirm its Contact Phone disagrees with the client's other bookings. Record the two different numbers for your write-up.
 5. Build a clean Grid view showing Booking ID, Event Date, Space, Organization, Status, and Quoted Price. This is your working view.
 
-### Part 2: Application (Aligns with MLO-10.1, MLO-10.2)
+### Part 2: Application (Aligns with Objectives 10.1 and 10.2)
 
 1. Add a second table to the base by importing `saguaro-customers.csv`. Rename it `Customers`, and make Organization its primary field. This is the one place each customer's details will live.
 2. Build the relationship. In the Bookings table, change the Organization field's type to Link to another record, and point it at the Customers table. Airtable matches each booking's organization name to a customer and links them. Because the names match exactly, no duplicate customer records are created. Spot-check that the links resolved cleanly.
@@ -244,7 +244,7 @@ Answer from memory before checking back through the chapter.
 4. Retire the copies. In the Bookings table, delete the Contact Email and Contact Phone fields. Those facts now live once, in Customers, reached through the link. Confirm that `SH-1005`'s drifted phone is gone, because the number now exists in exactly one place.
 5. Answer a repeat-customer query. Group or scan the Customers table to list the organizations with more than one linked booking, and record how many there are (you are looking for 17 of the 24).
 
-### Part 3: Extension (Aligns with MLO-10.2, MLO-10.3)
+### Part 3: Extension (Aligns with Objectives 10.2 and 10.3)
 
 1. Build the views Darnell runs his week on. Create a Grid view filtered to Status is Pending (record the count), a second Grid view grouped by Space, and a Calendar view on Event Date so the month's bookings show on a calendar.
 2. Add a Kanban view with Status as the stacking field, so bookings move through Confirmed, Pending, Completed, and Cancelled columns like cards. Note how a view rearranges the same records without changing them.
@@ -268,7 +268,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 

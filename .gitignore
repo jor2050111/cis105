@@ -30,6 +30,9 @@ wheels/
 # Local docs toolchain venv
 .venv/
 
+# Local browser QA dependencies
+node_modules/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
@@ -73,9 +76,10 @@ build/google-docs/
 # exempt from the build-output docx rule above
 !assets/code/**/*.docx
 
-
 # Temporary files
 nul
+test.csv
+.playwright-cli/
 *.tmp
 *.bak
 *~

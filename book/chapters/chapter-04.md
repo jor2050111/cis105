@@ -16,9 +16,9 @@ Here is the route. First you will watch the OS do its three jobs: wake the machi
 
 By the end of this chapter, you will be able to:
 
-* **MLO-4.1 (Understand):** Explain how the operating system starts the machine, manages its resources, and runs your applications (Section 4.1)
-* **MLO-4.2 (Analyze):** Compare desktop, mobile, virtual, and cloud platforms and select the one that fits a task and its apps (Section 4.2)
-* **MLO-4.3 (Apply):** Produce a themed, structured pitch presentation in PowerPoint from a provided Word outline (Section 4.4)
+* **4.1 (Understand):** Explain how the operating system starts the machine, manages its resources, and runs your applications (Section 4.1)
+* **4.2 (Analyze):** Compare desktop, mobile, virtual, and cloud platforms and select the one that fits a task and its apps (Section 4.2)
+* **4.3 (Apply):** Produce a themed, structured pitch presentation in PowerPoint from a provided Word outline (Section 4.4)
 
 ### This chapter aligns with the following Course Learning Outcomes
 
@@ -467,7 +467,7 @@ Answer from memory before checking back through the chapter.
 !!! note
     This lab requires desktop PowerPoint (free through your college's Microsoft 365). PowerPoint for the web cannot import an outline, and one Part 3 step uses Presenter View, which also works best installed.
 
-### Part 1: Foundation (Aligns with MLO-4.3)
+### Part 1: Foundation (Aligns with Objective 4.3)
 
 1. Read the outline first. Open `pitch-outline.docx` in Word, skim all nine sections, and predict which of the four pitch beats (problem, offer, proof, ask) each one serves. Then close the file: an open file blocks the import.
 2. Open PowerPoint and create a blank presentation. Save it now as `skills-lab-4a-lastname.pptx`, using your own last name (the Chapter 1 habit: save before you work). Then import the outline. On Windows: Home tab > the arrow under New Slide > Slides from Outline, and choose `pitch-outline.docx`. On a Mac: Home tab > the arrow next to New Slide > Outline, and choose `pitch-outline.rtf`.
@@ -475,7 +475,7 @@ Answer from memory before checking back through the chapter.
 4. The first slide arrived on the workhorse layout, like every imported slide. Re-assign it: Home > Layout > Title Slide. The venue's name is a title, not a bullet list.
 5. Apply one theme to the whole deck from the Design tab. Pick for the room (a business showcase), not for your own taste, and make no per-slide decoration in this part. Structure first.
 
-### Part 2: Application (Aligns with MLO-4.3)
+### Part 2: Application (Aligns with Objective 4.3)
 
 1. Fix the order. The outline presents pricing before it presents what a booking includes, which asks the audience to judge a number before they know what it buys. Drag "The Numbers" (in the slide thumbnail pane, or View > Slide Sorter) so it follows "What a Booking Includes."
 2. Fix the overloaded slide. "Why Saguaro Hall Works" carries nine bullets, which is a document pretending to be a slide. Split it into two slides with titles you write yourself, grouping the bullets by a logic you can defend. Record your two new titles and your grouping rule for Questions & Analysis.
@@ -483,11 +483,11 @@ Answer from memory before checking back through the chapter.
 4. Run one Designer pass (Design tab > Designer) on any two slides, if your setup offers it. Accept a suggestion only if it serves the pitch, and reject freely: Chapter 3's rule (the tool drafts, you decide) applies to layout suggestions too.
 5. Proof the deck with the Chapter 1 inspection, adapted to slides. Check every name (Saguaro Hall, Darnell Brooks, the partner businesses), consistent capitalization in titles, and one theme throughout. Finish with a read-aloud pass of every slide.
 
-### Part 3: Extension (Aligns with MLO-4.1, MLO-4.2)
+### Part 3: Extension (Aligns with Objectives 4.1 and 4.2)
 
 1. Write speaker notes for three content slides of your choice: 2-3 sentences each, in Darnell's voice, saying what the slide does not. (The partners slide is a strong pick: the names on it are the story of a venue rooted in its neighborhood.)
 2. Choose one audience in the showcase room: a nonprofit director, a business owner planning a launch, or a wedding planner. Add ONE new slide aimed at that audience, placed where it lands hardest in the pitch spine, built from facts already in the outline. Give it the layout its job needs.
-3. Rehearse once with Presenter View (Slide Show tab > From Beginning, with Presenter View on). Confirm your notes appear on your screen only. This is MLO-4.1's lesson made visible: one machine is driving two displays with two different views, and the OS is juggling both.
+3. Rehearse once with Presenter View (Slide Show tab > From Beginning, with Presenter View on). Confirm your notes appear on your screen only. This is Objective 4.1's lesson made visible: one machine is driving two displays with two different views, and the OS is juggling both.
 4. Plan the deck's travels. The showcase's house machine could be Windows or a Mac, and a partner may ask for a copy afterward. In the notes pane of the "Book Your Date" slide, state in two sentences which files Darnell should carry (the `.pptx`, the PDF, or both) and why. Use Section 4.2's app-decides logic, plus one limitation this lab already taught you about PowerPoint for the web.
 5. Export the finished deck as `skills-lab-4a-lastname.pdf` (File > Save As or File > Export, choose PDF). Do this before the next step so the PDF stays a clean leave-behind: PDF export captures slides, not notes.
 6. Add a final slide titled "Questions & Analysis" using the Section Header layout. Type your answers to the two questions below into that slide's NOTES pane, not onto the slide itself. You are practicing the split you just learned, and your instructor reads the notes pane.
@@ -507,7 +507,9 @@ This lab is graded with the standard
 [Skills Lab Rubric](../skills-lab-rubric.md): four criteria at
 4 points each, 16 points total. The criteria are Technical Accuracy
 and Efficiency, Output Quality, Documentation Quality, and Analysis,
-Interpretation, and Response to QUESTION(s).
+Interpretation, and Response to QUESTION(s). Your instructor sets
+the point weights in your course. The criteria and levels are the
+same everywhere.
 
 ---
 
