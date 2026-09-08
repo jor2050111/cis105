@@ -1,10 +1,63 @@
 # CIS105 Textbook: Session Handoff
 
-**Last updated:** 2026-07-15 (family template alignment)
+**Last updated:** 2026-09-08 (rubric point-scale sweep)
 **Repo:** https://github.com/jor2050111/cis105
 **Live site:** https://jor2050111.github.io/cis105/
 **Task list:** CLAUDE_CODE_TASK_LIST_ID=cis105 (pinned in
 `/Users/vega/Documents/code/textbooks/cis105/.claude/settings.json`)
+
+## What was done (2026-09-08): rubric point-scale sweep
+
+Students read "16 points" in the book and "40 points" in Canvas and
+asked which was right. Mr. Vega ruled on 2026-09-08 that no chapter or
+rubric page states a point total. The four criteria and five levels
+stay, the 4 to 0 numbers stay as a reference scale, and the syllabus
+plus the Canvas rubric carry the values for each course section.
+Sweep ran as one scripted pass with per-file asserts across cis105,
+cis111, cis133, cis215, and cis360 (HQ task recDLw2lWgyihbzLZ).
+
+* `book/skills-lab-rubric.md` (synced from `../shared/`): the intro
+  drops "4 points each, 16 points total" and the Scoring line is gone.
+  "A note on points", rewritten without example totals, now sits
+  inside the snippet block BEFORE the table. Chapter 1 shows the note
+  first.
+* `book/chapters/chapter-01.md`: "the same 16-point rubric" is now
+  "the same rubric".
+* `book/chapters/chapter-02.md` through `chapter-12.md`: the link
+  block names no scale and points students to the syllabus and the
+  Canvas rubric attached to the lab. Still byte-identical across all
+  five books.
+* Law and templates match the new rule: `CLAUDE.md`, `README.md`,
+  `templates/skills-lab-rubric-template.md`, and the one-phrase
+  "locked 16-point rubric" mentions elsewhere.
+* Side effect of the sync: `tools/check_sentence_length.py` picked up
+  the shared copy's 2026-07-28 fence-handling fix (cis215 already had
+  it).
+* Checkers green after the sweep: sentence length on every changed
+  chapter and the rubric page, readability unchanged at the book
+  level, CIS215 structure contract (rubric hash matches the master).
+
+Files touched in this repo:
+
+* `CLAUDE.md`
+* `README.md`
+* `book/chapters/chapter-01.md`
+* `book/chapters/chapter-02.md`
+* `book/chapters/chapter-03.md`
+* `book/chapters/chapter-04.md`
+* `book/chapters/chapter-05.md`
+* `book/chapters/chapter-06.md`
+* `book/chapters/chapter-07.md`
+* `book/chapters/chapter-08.md`
+* `book/chapters/chapter-09.md`
+* `book/chapters/chapter-10.md`
+* `book/chapters/chapter-11.md`
+* `book/chapters/chapter-12.md`
+* `book/skills-lab-rubric.md`
+* `templates/chapter-template.md`
+* `templates/exercise-template.md`
+* `templates/skills-lab-rubric-template.md`
+* `tools/check_sentence_length.py`
 
 ## What was done (2026-07-15): family template alignment
 

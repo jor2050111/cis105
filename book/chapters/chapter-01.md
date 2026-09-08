@@ -479,7 +479,7 @@ Add a page break at the end of your Word document (Insert > Page Break), add the
 
 ### Rubric: Skills Lab 1A
 
-Every Skills Lab in this book is graded with the same 16-point rubric.
+Every Skills Lab in this book is graded with the same rubric.
 Bookmark the [Skills Lab Rubric](../skills-lab-rubric.md) page for
 quick reference in later chapters.
 
